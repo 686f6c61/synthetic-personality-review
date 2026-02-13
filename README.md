@@ -1,138 +1,113 @@
-# Synthetic Personality Review: Corpus Canónico Verificado sobre Personalidad en LLMs
+# Synthetic Personality Review
 
-Repositorio científico curado sobre «personalidad sintética» en modelos de lenguaje, reconstruido como un pipeline reproducible de verificación, canonicalización y publicación web.
+Repositorio científico curado sobre «personalidad sintética» en modelos de lenguaje (LLMs), construido como una bitácora pública con verificación de fuentes, canonicalización y publicación web reproducible.
+
+- Sitio objetivo: https://synthetic-personality-review.onrender.com
+- Repositorio: https://github.com/686f6c61/synthetic-personality-review
 
 ## Estado actual del corpus
 
-- Entrada original procesada: **150 artículos** (fuente histórica).
-- Corpus canónico verificado publicado: **119 artículos**.
-- Entradas excluidas: **31** (no verificables, inconsistentes o duplicadas).
-- Pendientes de verificación manual adicional: **17** (no duplicados).
-- Fecha de auditoría automatizada: **2026-02-12**.
+- Corpus fuente procesado: **165 artículos**
+- Corpus canónico publicado: **165 artículos**
+- Entradas excluidas: **0**
+- Fecha de auditoría automatizada más reciente: **2026-02-13**
 
-### Distribución del corpus canónico (actual)
+### Distribución por línea de investigación
 
-| Categoría | Artículos |
+| Línea | Artículos |
 |---|---:|
-| Evaluación y validación psicométrica | 40 |
-| Inducción y control de personalidad | 39 |
-| Aplicaciones, sesgos y consecuencias sociales | 40 |
-| **Total** | **119** |
+| Evaluación y validación psicométrica | 80 |
+| Inducción y control de personalidad | 42 |
+| Aplicaciones, sesgos y consecuencias sociales | 43 |
+| **Total** | **165** |
+
+### Distribución por año
 
 | Año | Artículos |
 |---|---:|
 | 2022 | 7 |
 | 2023 | 11 |
-| 2024 | 61 |
-| 2025 | 40 |
-| **Total** | **119** |
+| 2024 | 62 |
+| 2025 | 62 |
+| 2026 | 23 |
+| **Total** | **165** |
 
-## Qué se implementó en esta versión
+## Qué incluye el proyecto
 
-1. **Pipeline reproducible de datos** desde markdown fuente a JSON canónico.
-2. **Verificación de fuentes 150/150** con evidencia por artículo.
-3. **Política canónica**: una versión principal por paper.
-4. **Ledger de exclusiones** con razones explícitas (`data/articles.removed.json`).
-5. **Abstracts extendidos EN/ES obligatorios**:
-   - mínimo 3 párrafos por idioma,
-   - mínimo 150 palabras por párrafo,
-   - validación automática en build.
-6. **Sitio Astro estático** con:
+1. Pipeline reproducible `markdown -> JSON canónico`.
+2. Verificación automática de fuentes con evidencia por artículo.
+3. Política canónica de una sola versión principal por paper.
+4. Abstracts extendidos EN/ES validados automáticamente (regla 3 x 150).
+5. Sitio Astro estático en español:
    - listado filtrable,
-   - detalle por artículo,
-   - metodología,
-   - panel de calidad de datos.
-7. **Reportes de auditoría** en `reports/verification/`.
-8. **Configuración de CI + Netlify** para build reproducible.
+   - ficha por artículo,
+   - SEO técnico (canonical, Open Graph, robots, llms).
+6. Reportes de auditoría en `reports/verification/`.
 
 ## Estructura del repositorio
 
 ```text
 .
 ├── archive/
-│   ├── README.original.md
-│   └── state-of-the-art-synthetic-personality-llms.original.md
 ├── data/
 │   ├── articles.intermediate.json
 │   ├── articles.canonical.json
-│   └── articles.removed.json
+│   ├── articles.removed.json
 │   └── manual-verification-overrides.json
 ├── reports/verification/
-│   └── YYYY-MM-DD-full-audit.md
-│   └── manual-assisted-YYYY-MM-DD.md
 ├── scripts/
 │   ├── build-dataset.mjs
 │   └── validate-dataset.mjs
 ├── src/
+│   ├── components/
 │   ├── layouts/
 │   ├── lib/
 │   ├── pages/
 │   └── styles/
-├── netlify.toml
+├── public/
 ├── astro.config.mjs
-└── package.json
+├── package.json
+└── render.yaml
 ```
 
-## Contrato de datos público
+## Contrato de datos
 
-Cada entrada canónica en `data/articles.canonical.json` incluye:
+Cada artículo canónico en `data/articles.canonical.json` incluye, entre otros:
 
-- `id`
-- `legacy_article_number`
-- `title_original`
-- `title_canonical`
-- `category`
-- `year`
-- `language`
-- `authors`
-- `keywords`
-- `source_url`
-- `source_type`
-- `verification_status`
-- `verification_date`
-- `evidence`
-- `abstract_en_original`
-- `abstract_en_extended`
-- `resumen_es_extendido`
+- `id`, `legacy_article_number`
+- `title_original`, `title_canonical`
+- `category`, `year`, `language`
+- `authors`, `keywords`
+- `source_url`, `source_type`
+- `verification_status`, `verification_date`, `evidence`
+- `abstract_en_original`, `abstract_en_extended`, `resumen_es_extendido`
 - `structured_blocks`
 
-Cada entrada excluida en `data/articles.removed.json` conserva:
+## Reglas editoriales
 
-- identificador,
-- metadatos base,
-- razón de exclusión,
-- evidencia de verificación fallida.
+### Verificación
 
-## Reglas editoriales y de calidad
+- `verified`: fuente recuperable y metadatos consistentes.
+- `removed`: inconsistencia o duplicidad (actualmente sin removidos en el corpus activo).
 
-### 1) Política de verificación
-
-- `verified`: fuente recuperable y metadatos/título consistentes.
-- `removed`: error HTTP, inconsistencia de metadatos, o descarte por duplicado canónico.
-
-### 2) Política de versiones
-
-- Se conserva **una sola versión principal** por paper.
-- Preprints y variantes quedan en ledger de exclusión cuando procede.
-
-### 3) Política de abstracts extendidos
+### Abstracts extendidos obligatorios
 
 Para cada artículo canónico:
 
-- Inglés extendido (`abstract_en_extended`):
-  - >= 3 párrafos,
-  - cada párrafo >= 150 palabras.
-- Español extendido (`resumen_es_extendido`):
-  - >= 3 párrafos,
-  - cada párrafo >= 150 palabras.
+- Inglés (`abstract_en_extended`):
+  - minimo 3 parrafos,
+  - minimo 150 palabras por parrafo.
+- Español (`resumen_es_extendido`):
+  - minimo 3 parrafos,
+  - minimo 150 palabras por parrafo.
 
-Estas reglas se validan automáticamente y fallan el pipeline si no se cumplen.
+Si falla una regla, el pipeline falla.
 
-## Flujo reproducible local
+## Flujo local
 
 ### Requisitos
 
-- Node.js 20+ (probado con Node 25)
+- Node.js 20+
 - npm 10+
 
 ### Comandos
@@ -141,56 +116,48 @@ Estas reglas se validan automáticamente y fallan el pipeline si no se cumplen.
 npm install
 npm run build:data
 npm run validate:data
+npm run build:site
 npm run build
 npm run dev
 ```
 
 ### Qué hace cada comando
 
-- `npm run build:data`
-  - parsea el markdown fuente,
-  - ejecuta verificación de fuentes,
-  - canonicaliza,
-  - genera abstracts extendidos,
-  - produce datasets y reporte.
-- `npm run validate:data`
-  - valida contrato de datos,
-  - valida reglas de longitud de abstracts,
-  - valida ausencia de duplicados canónicos.
-- `npm run build`
-  - reconstruye datos,
-  - ejecuta validaciones,
-  - compila sitio Astro.
+- `npm run build:data`: parsea fuente, verifica, canonicaliza y genera datasets.
+- `npm run validate:data`: valida contrato, integridad y reglas editoriales.
+- `npm run build:site`: compila solo el sitio Astro.
+- `npm run build`: ejecuta pipeline completo + compilación final.
 
-## Sitio web (Astro)
+## Sitio web
 
-Rutas publicadas:
+Rutas públicas actuales:
 
-- `/` resumen general y métricas
-- `/articles` explorador con filtros y buscador
-- `/articles/[id]` ficha de artículo con abstracts largos EN/ES
-- `/methodology` documentación metodológica
+- `/`
+- `/articles`
+- `/articles/[id]`
 
-## CI y despliegue
+## Deploy en Render
 
-- CI (GitHub Actions): instala dependencias y ejecuta build completo.
-- Netlify: configuración en `netlify.toml` (`npm run build`, publish `dist`).
+El proyecto está preparado con `render.yaml` para despliegue como static site.
 
-Ver detalles operativos en `DEPLOY.md`.
+- Servicio: `synthetic-personality-review`
+- Runtime: `static`
+- Build: `npm ci && npm run build:site`
+- Publish: `dist`
+
+### Pasos de despliegue
+
+1. Asegurar que `main` está en GitHub.
+2. Abrir Blueprint en Render:
+   - https://dashboard.render.com/blueprint/new?repo=https://github.com/686f6c61/synthetic-personality-review
+3. Revisar configuración y aplicar despliegue.
 
 ## Trazabilidad histórica
 
-Los documentos originales se conservaron sin alterar en:
-
-- `archive/README.original.md`
-- `archive/state-of-the-art-synthetic-personality-llms.original.md`
+Los documentos originales se mantienen en `archive/` para comparación y auditoría.
 
 ## Limitaciones conocidas
 
-1. Parte de los dominios académicos aplica anti-bot o acceso restringido, lo que puede generar exclusiones automatizadas aun cuando el paper exista.
-2. La validación es fuerte en accesibilidad y consistencia de metadatos, pero no sustituye lectura manual completa del PDF para síntesis crítica.
-3. Los abstracts extendidos son análisis editoriales derivados de metadatos + abstract original, no una reproducción textual del paper completo.
-
-## Licencia y uso
-
-Este repositorio organiza y normaliza metadatos académicos con fines de revisión científica. Asegura revisar licencias y términos de uso de cada fuente antes de redistribución amplia.
+1. Algunas fuentes académicas pueden restringir acceso automatizado.
+2. La verificación automática no sustituye lectura crítica completa de PDFs.
+3. Los abstracts extendidos son síntesis editoriales derivadas de metadatos y abstract original.
