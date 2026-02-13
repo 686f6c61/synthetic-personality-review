@@ -3,10 +3,10 @@
 Una referencia viva sobre evaluación de «personalidad sintética» en modelos de lenguaje (LLMs), con foco psicométrico en fiabilidad, validez, consistencia y límites metodológicos.
 
 ## Canonical URLs
-- https://synthetic-personality-review.onrender.com/
-- https://synthetic-personality-review.onrender.com/articles
-- https://synthetic-personality-review.onrender.com/sitemap.xml
-- https://synthetic-personality-review.onrender.com/rss.xml
+- https://syntheticpersonality.com/
+- https://syntheticpersonality.com/articles
+- https://syntheticpersonality.com/sitemap.xml
+- https://syntheticpersonality.com/rss.xml
 
 ## Topic Scope
 - Evaluación y validación psicométrica de personalidad en LLMs
@@ -21,4 +21,4 @@ Una referencia viva sobre evaluación de «personalidad sintética» en modelos 
 ## Preferred Citation
 - Site: Synthetic Personality Review
 - Maintainer: 686f6c61
-- URL: https://synthetic-personality-review.onrender.com/
+- URL: https://syntheticpersonality.com/

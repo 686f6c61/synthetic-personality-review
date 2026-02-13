@@ -2,7 +2,7 @@
 
 Repositorio científico curado sobre «personalidad sintética» en modelos de lenguaje (LLMs), construido como una bitácora pública con verificación de fuentes, canonicalización y publicación web reproducible.
 
-- Sitio objetivo: https://synthetic-personality-review.onrender.com
+- Sitio objetivo: https://syntheticpersonality.com
 - Repositorio: https://github.com/686f6c61/synthetic-personality-review
 
 ## Estado actual del corpus

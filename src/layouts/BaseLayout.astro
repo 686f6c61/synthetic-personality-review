@@ -27,7 +27,7 @@ const {
   modifiedTime
 } = Astro.props;
 
-const site = Astro.site ?? new URL('https://synthetic-personality-review.onrender.com');
+const site = Astro.site ?? new URL('https://syntheticpersonality.com');
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site).toString();
 const ogImageUrl = ogImage.startsWith('http') ? ogImage : new URL(ogImage, site).toString();
 const rssUrl = new URL('/rss.xml', site).toString();
