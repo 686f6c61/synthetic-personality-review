@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { loadCanonicalArticles } from '../../lib/data';
+import { getSourceLabel, loadCanonicalArticles } from '../../lib/data';
 
 const articles = loadCanonicalArticles();
 const sortedArticles = [...articles].sort((a, b) => {
@@ -11,13 +11,9 @@ const sortedArticles = [...articles].sort((a, b) => {
 });
 const categories = [...new Set(sortedArticles.map((article) => article.category))].sort();
 const years = [...new Set(sortedArticles.map((article) => article.year))].sort((a, b) => b - a);
-const sourceTypes = [...new Set(sortedArticles.map((article) => article.source_type))].sort();
-const sourceTypeLabels: Record<string, string> = {
-  arxiv: 'arXiv',
-  proceedings: 'Actas de conferencia',
-  publisher: 'Editorial / revista',
-  preprint_other: 'Preprint / otro'
-};
+const sourceLabels = [...new Set(sortedArticles.map((article) => getSourceLabel(article.source_url, article.source_type)))].sort(
+  (a, b) => a.localeCompare(b, 'es')
+);
 
 const compactText = (value: string) => value.replace(/\s+/g, ' ').trim();
 
@@ -99,7 +95,7 @@ const buildAbstractPreview = (article: {
       </span>
       <select id="sourceType">
         <option value="">Todos</option>
-        {sourceTypes.map((sourceType) => <option value={sourceType}>{sourceTypeLabels[sourceType] || sourceType}</option>)}
+        {sourceLabels.map((sourceLabel) => <option value={sourceLabel}>{sourceLabel}</option>)}
       </select>
     </label>
   </section>
@@ -118,12 +114,13 @@ const buildAbstractPreview = (article: {
     {sortedArticles.map((article, index) => {
       const displayNumber = sortedArticles.length - index;
       const abstractPreview = buildAbstractPreview(article);
+      const sourceLabel = getSourceLabel(article.source_url, article.source_type);
       return (
         <article
           class="article-card"
           data-category={article.category}
           data-year={String(article.year)}
-          data-source-type={article.source_type}
+          data-source-label={sourceLabel}
           data-search={`${article.title_canonical} ${article.title_original} ${article.authors.join(' ')} ${article.keywords.join(' ')} ${abstractPreview}`.toLowerCase()}
         >
           <div class="article-card-head">
@@ -138,7 +135,7 @@ const buildAbstractPreview = (article: {
             </h3>
           </div>
           <div class="meta">
-            <span class="badge warn">{sourceTypeLabels[article.source_type] || article.source_type}</span>
+            <span class="badge warn">{sourceLabel}</span>
             <span class="badge warn">{article.year}</span>
           </div>
           <div class="article-details">
@@ -197,7 +194,7 @@ const buildAbstractPreview = (article: {
         const matchesSearch = !search || card.dataset.search.includes(search);
         const matchesCategory = !category || card.dataset.category === category;
         const matchesYear = !year || card.dataset.year === year;
-        const matchesSource = !sourceType || card.dataset.sourceType === sourceType;
+        const matchesSource = !sourceType || card.dataset.sourceLabel === sourceType;
 
         const show = matchesSearch && matchesCategory && matchesYear && matchesSource;
         card.style.display = show ? '' : 'none';

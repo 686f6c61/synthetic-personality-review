@@ -2,25 +2,25 @@
 
 ## Global Summary
 
-- Source entries processed: 165
-- Verified before canonical deduplication: 165
-- Canonical verified corpus: 165
-- Removed entries: 0
-- Verification timestamp (UTC): 2026-02-13T11:07:24.535Z
+- Source entries processed: 181
+- Verified before canonical deduplication: 181
+- Canonical verified corpus: 180
+- Removed entries: 1
+- Verification timestamp (UTC): 2026-02-13T18:59:35.601Z
 
 ## Removed Entries by Reason
 
 | Reason | Count |
 |---|---:|
-| none | 0 |
+| duplicate_of_article-021 | 1 |
 
 ## Canonical Corpus by Category
 
 | Category | Count |
 |---|---:|
-| Aplicaciones, sesgos y consecuencias sociales | 43 |
-| Evaluación y validación psicométrica | 80 |
-| Inducción y control de personalidad | 42 |
+| Aplicaciones, sesgos y consecuencias sociales | 47 |
+| Evaluación y validación psicométrica | 87 |
+| Inducción y control de personalidad | 46 |
 
 ## Canonical Corpus by Year
 
@@ -28,9 +28,9 @@
 |---|---:|
 | 2022 | 7 |
 | 2023 | 11 |
-| 2024 | 62 |
-| 2025 | 62 |
-| 2026 | 23 |
+| 2024 | 66 |
+| 2025 | 70 |
+| 2026 | 26 |
 
 ## Notes
 

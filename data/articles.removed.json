@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "article-206",
+    "legacy_article_number": 206,
+    "title_original": "On the emergent capabilities of ChatGPT 4 to estimate personality traits",
+    "year": 2025,
+    "category": "Evaluación y validación psicométrica",
+    "source_url": "https://doi.org/10.3389/frai.2025.1484260",
+    "source_type": "publisher",
+    "verification_status": "removed",
+    "verification_date": "2026-02-13T18:58:02.740Z",
+    "evidence": {
+      "checked_at": "2026-02-13T18:58:02.740Z",
+      "checks": [
+        "page_title_checked",
+        "verified",
+        "duplicate_removed"
+      ],
+      "reason": "duplicate_of_article-021",
+      "http_status": 200,
+      "final_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1484260/full",
+      "fetched_title": "Frontiers | On the emergent capabilities of ChatGPT 4 to estimate personality traits",
+      "title_similarity": 0.9091,
+      "author_overlap": 0,
+      "year_match": true
+    }
+  }
+]

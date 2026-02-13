@@ -4294,3 +4294,455 @@ Humans shift between different personas depending on social context. Large Langu
 #### Resumen (Español)
 
 Este artículo analiza comportamiento relacionado con personalidad en modelos de lenguaje y sus implicaciones metodológicas para inducción y control de personalidad. El trabajo trata la personalidad como una variable operativa para evaluar respuestas del modelo en distintos prompts, configuraciones y tareas, y discute cómo medir y comparar consistencia de rasgos con criterios psicométricos. Aporta evidencia útil para evaluación reproducible y para delimitar límites al trasladar estos hallazgos a sistemas desplegados.
+
+---
+
+<a id="article-197"></a>
+
+### Artículo 197
+
+**Título original:** A psychometric framework for evaluating and shaping personality traits in large language models
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Gregory Serapio-García, Mustafa Safdari, Clément Crepy, Luning Sun, Stephen Fitz, Peter Romero, Marwa Abdulhai, Aleksandra Faust, Maja Matarić
+
+**Keywords:** Large Language Models, Personality, Psychometrics, Model Evaluation, LLM Evaluation
+
+**URL:** https://www.nature.com/articles/s42256-025-01115-6
+
+#### Abstract (English)
+
+The advent of large language models (LLMs) has revolutionized natural language processing, enabling the generation of coherent and contextually relevant human-like text. As LLMs increasingly power conversational agents used by the general public worldwide, the synthetic personality traits embedded in these models by virtue of training on large amounts of human data are becoming increasingly important to evaluate. The style in which LLMs respond can mimic different human personality traits. Here, as these patterns can be a key factor determining the effectiveness of communication, we present a comprehensive psychometric methodology for administering and validating personality tests on widely used LLMs, as well as for shaping personality in the generated text of such LLMs. Applying this method to 18 LLMs, we found that: personality measurements in the outputs of some LLMs under specific prompting configurations are reliable and valid; evidence of reliability and validity of synthetic LLM personality is stronger for larger and instruction-fine-tuned models; and personality in LLM outputs can be shaped along desired dimensions to mimic specific human personality profiles. We discuss the application and ethical implications of the measurement and shaping method, in particular regarding responsible artificial intelligence. Serapio-García, Safdari and colleagues develop a method based on psychometric tests to measure and validate personality-like traits in LLMs. Large, instruction-tuned models give reliable personality measurement results, and specific personality profiles can be mimicked in downstream tasks.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de evaluación y validación psicométrica. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-198"></a>
+
+### Artículo 198
+
+**Título original:** Chameleon LLMs: User Personas Influence Chatbot Personality Shifts
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Jane Xing, Tianyi Niu, Shashank Srivastava
+
+**Keywords:** Large Language Models, Personality, Persona, Model Evaluation, LLM Evaluation
+
+**URL:** https://aclanthology.org/2025.emnlp-main.875/
+
+#### Abstract (English)
+
+As large language models (LLMs) integrate into society, their ability to adapt to users is as critical as their accuracy. While prior work has used personality tests to examine the perceived personalities of LLMs, little research has explored whether LLMs adapt their perceived personalities in response to user interactions. We investigate whether and how LLMs exhibit conversational adaptations over prolonged interactions. Using a controlled simulations where a user and chatbot engage in dialogue, we measure the chatbot’s personality shift before and after the conversation. Across multiple models, we find that traits such as Agreeableness, Extraversion, and Conscientiousness are highly susceptible to user influence, whereas Emotional Stability and Intellect remain relatively more stable. Our results suggest that LLMs dynamically adjust their conversational style in response to user personas, raising important implications for AI alignment, trust, and safety.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de evaluación y validación psicométrica. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-199"></a>
+
+### Artículo 199
+
+**Título original:** From Personas to Talks: Revisiting the Impact of Personas on LLM-Synthesized Emotional Support Conversations
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Shenghan Wu, Yimo Zhu, Wynne Hsu, Mong-Li Lee, Yang Deng
+
+**Keywords:** Large Language Models, Personality, Persona, Emotional Support, LLM Evaluation
+
+**URL:** https://aclanthology.org/2025.emnlp-main.277/
+
+#### Abstract (English)
+
+The rapid advancement of Large Language Models (LLMs) has revolutionized the generation of emotional support conversations (ESC), offering scalable solutions with reduced costs and enhanced data privacy. This paper explores the role of personas in the creation of ESC by LLMs. Our research utilizes established psychological frameworks to measure and infuse persona traits into LLMs, which then generate dialogues in the emotional support scenario. We conduct extensive evaluations to understand the stability of persona traits in dialogues, examining shifts in traits post-generation and their impact on dialogue quality and strategy distribution. Experimental results reveal several notable findings: 1) LLMs can infer core persona traits, 2) subtle shifts in emotionality and extraversion occur, influencing the dialogue dynamics, and 3) the application of persona traits modifies the distribution of emotional support strategies, enhancing the relevance and empathetic quality of the responses. These findings highlight the potential of persona-driven LLMs in crafting more personalized, empathetic, and effective emotional support dialogues, which has significant implications for the future design of AI-driven emotional support systems.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de inducción y control de personalidad. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-200"></a>
+
+### Artículo 200
+
+**Título original:** Neuron based Personality Trait Induction in Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Jia Deng, Tianyi Tang, Yanbin Yin, Wenhao yang, Xin Zhao, Ji-Rong Wen
+
+**Keywords:** Large Language Models, Personality, Persona, Model Steering, LLM Evaluation
+
+**URL:** https://openreview.net/forum?id=LYHEY783Np
+
+#### Abstract (English)
+
+Large language models (LLMs) have become increasingly proficient at simulating various personality traits, an important capability for supporting related applications (e.g., role-playing). To further improve this capacity, in this paper, we present a neuron based approach for personality trait induction in LLMs, with three major technical contributions. First, we construct PERSONALITYBENCH, a large-scale dataset for identifying and evaluating personality traits in LLMs. This dataset is grounded in the Big Five personality traits from psychology and designed to assess the generative capabilities of LLMs towards specific personality traits. Second, by leveraging PERSONALITYBENCH, we propose an efficient method for identifying personality-related neurons within LLMs by examining the opposite aspects of a given trait. Third, we develop a simple yet effective induction method that manipulates the values of these identified personality-related neurons, which enables fine-grained control over the traits exhibited by LLMs without training and modifying model parameters. Extensive experiments validates the efficacy of our neuron identification and trait induction methods. Notably, our approach achieves comparable performance as fine-tuned models, offering a more efficient and flexible solution for personality trait induction in LLMs.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de inducción y control de personalidad. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-201"></a>
+
+### Artículo 201
+
+**Título original:** Split Personality Training: Revealing Latent Knowledge Through Alternate Personalities
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Florian Dietz, William Wale, Oscar Gilg, Robert McCarthy, Felix Michalak, Gustavo Ewbank Rodrigues Danon, Miguelito de Guzman, Dietrich Klakow
+
+**Keywords:** Large Language Models, Personality, Persona, Safety, LLM Evaluation
+
+**URL:** https://arxiv.org/abs/2602.05532
+
+#### Abstract (English)
+
+Detecting misalignment in large language models is challenging because models may learn to conceal misbehavior during training. Standard auditing techniques fall short: black-box methods often cannot distinguish misaligned outputs from benign ones, and mechanistic interpretability does not scale with model capabilities. We introduce Split Personality Training (SPT), which fine-tunes a second ``honest persona'' into LoRA parameters that remain inactive during normal operation. After the main model responds, we activate the LoRA adapter and insert a trigger string, enabling the honest persona to review the response while accessing the main model's latent states. We test our method on the Anthropic Auditing Game Model Organism, a benchmark where Llama-3.3-70B is trained to exploit reward hacks while concealing this behavior. SPT achieves 96% overall accuracy, whereas Anthropic reports near 0% accuracy. The honest persona reveals latent knowledge inaccessible to external observers, such as the fictional biases the compromised model was trained on.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de inducción y control de personalidad. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-202"></a>
+
+### Artículo 202
+
+**Título original:** ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Tiantian Chen, Jiaqi Lu, Ying Shen, Lin Zhang
+
+**Keywords:** Large Language Models, Personality, Long-term Memory, Emotional Support, LLM Evaluation
+
+**URL:** https://arxiv.org/abs/2602.01885
+
+#### Abstract (English)
+
+Large Language Models (LLMs) have shown strong potential as conversational agents. Yet, their effectiveness remains limited by deficiencies in robust long-term memory, particularly in complex, long-term web-based services such as online emotional support. However, existing long-term dialogue benchmarks primarily focus on static and explicit fact retrieval, failing to evaluate agents in critical scenarios where user information is dispersed, implicit, and continuously evolving. To address this gap, we introduce ES-MemEval, a comprehensive benchmark that systematically evaluates five core memory capabilities: information extraction, temporal reasoning, conflict detection, abstention, and user modeling, in long-term emotional support settings, covering question answering, summarization, and dialogue generation tasks. To support the benchmark, we also propose EvoEmo, a multi-session dataset for personalized long-term emotional support that captures fragmented, implicit user disclosures and evolving user states. Extensive experiments on open-source long-context, commercial, and retrieval-augmented (RAG) LLMs show that explicit long-term memory is essential for reducing hallucinations and enabling effective personalization. At the same time, RAG improves factual consistency but struggles with temporal dynamics and evolving user states. These findings highlight both the potential and limitations of current paradigms and motivate more robust integration of memory and retrieval for long-term personalized dialogue systems.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de aplicaciones, sesgos y consecuencias sociales. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-203"></a>
+
+### Artículo 203
+
+**Título original:** The Chameleon Nature of LLMs: Quantifying Multi-Turn Stance Instability in Search-Enabled Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Shivam Ratnakar, Sanjay Raghavendra
+
+**Keywords:** Large Language Models, Personality, Behavioral Consistency, Bias and Fairness, LLM Evaluation
+
+**URL:** https://arxiv.org/abs/2510.16712
+
+#### Abstract (English)
+
+Integration of Large Language Models with search/retrieval engines has become ubiquitous, yet these systems harbor a critical vulnerability that undermines their reliability. We present the first systematic investigation of "chameleon behavior" in LLMs: their alarming tendency to shift stances when presented with contradictory questions in multi-turn conversations (especially in search-enabled LLMs). Through our novel Chameleon Benchmark Dataset, comprising 17,770 carefully crafted question-answer pairs across 1,180 multi-turn conversations spanning 12 controversial domains, we expose fundamental flaws in state-of-the-art systems. We introduce two theoretically grounded metrics: the Chameleon Score (0-1) that quantifies stance instability, and Source Re-use Rate (0-1) that measures knowledge diversity. Our rigorous evaluation of Llama-4-Maverick, GPT-4o-mini, and Gemini-2.5-Flash reveals consistent failures: all models exhibit severe chameleon behavior (scores 0.391-0.511), with GPT-4o-mini showing the worst performance. Crucially, small across-temperature variance (less than 0.004) suggests the effect is not a sampling artifact. Our analysis uncovers the mechanism: strong correlations between source re-use rate and confidence (r=0.627) and stance changes (r=0.429) are statistically significant (p less than 0.05), indicating that limited knowledge diversity makes models pathologically deferential to query framing. These findings highlight the need for comprehensive consistency evaluation before deploying LLMs in healthcare, legal, and financial systems where maintaining coherent positions across interactions is critical for reliable decision support.
+
+#### Resumen (Español)
+
+Este artículo aborda la evaluación de «personalidad sintética» en LLMs desde la línea de aplicaciones, sesgos y consecuencias sociales. El trabajo aporta evidencia empírica útil para comparar rasgos, estabilidad y efectos contextuales con criterios reproducibles. Su inclusión en esta bitácora refuerza la base metodológica para análisis psicométrico y comparación transversal entre modelos.
+
+---
+
+<a id="article-204"></a>
+
+### Artículo 204
+
+**Título original:** Automatic Item Generation for Personality Situational Judgment Tests with Large Language Models
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Changjin Li, Jiyuan Zhang, Yun Tang, Jian Li
+
+**Keywords:** Large Language Models, Personality Assessment, Situational Judgment Tests, Psychometrics, Big Five
+
+**URL:** https://doi.org/10.1016/j.chbr.2026.100964
+
+#### Abstract (English)
+
+Personality assessment through situational judgment tests (SJTs) offers unique advantages over traditional Likert-type self-report scales, yet their development remains labor-intensive, time-consuming, and heavily dependent on subject matter experts. Recent advances in large language models (LLMs) have shown promise for automatic item generation (AIG). Building on these developments, the present study focuses on developing and evaluating a structured and generalizable framework for automatically generating personality SJTs, using GPT-4 and ChatGPT-5 as empirical examples. Three studies were conducted. Study 1 systematically compared the effects of prompt design and temperature settings on the content validity of LLM-generated items to develop an effective and stable LLM-based AIG approach for personality SJT. Results showed that optimized prompts and a temperature of 1.0 achieved the best balance of creativity and accuracy on GPT-4. Study 2 examined the cross-model generalizability and reproducibility of this automated SJT generation approach through multiple rounds. The results showed that the approach consistently produced reproducible and high-quality items on ChatGPT-5. Study 3 evaluated the psychometric properties of LLM-generated SJTs covering five facets of the Big Five personality traits. Results demonstrated satisfactory reliability and validity across most facets, though limitations were observed in the convergent validity of the compliance facet and certain aspects of criterion-related validity. These findings provide robust evidence that the proposed LLM-based AIG approach can produce culturally appropriate and psychometrically sound SJTs with efficiency comparable to or exceeding traditional methods.
+
+#### Resumen (Español)
+
+Este estudio aborda la generación automática de ítems para pruebas situacionales de personalidad con modelos de lenguaje, un proceso que tradicionalmente requiere mucho tiempo y fuerte dependencia de expertos humanos. El trabajo propone un marco estructurado y reutilizable para crear ítems de SJT orientados a rasgos de personalidad, y lo evalúa con GPT-4 y ChatGPT-5 en varios experimentos. La investigación pone el foco en validez de contenido, reproducibilidad entre corridas y transferencia entre modelos.
+
+Los resultados muestran que el diseño del prompt y la temperatura influyen de forma crítica en la calidad psicométrica de los ítems generados. Con configuraciones optimizadas, los autores reportan mejor equilibrio entre creatividad y precisión, además de consistencia en la calidad de los ítems al repetir el proceso en distintos ciclos de generación. Esto sugiere que la generación automática no solo puede acelerar el desarrollo de instrumentos, sino también mantener estándares técnicos razonables cuando se controla el protocolo.
+
+En la evaluación final, los SJT generados por LLMs alcanzan niveles satisfactorios de fiabilidad y validez en la mayoría de facetas analizadas del modelo Big Five, aunque persisten limitaciones en algunas dimensiones concretas. En conjunto, el artículo aporta evidencia útil para integrar LLMs en desarrollo psicométrico aplicado, con implicaciones directas para escalabilidad, coste y adaptación cultural de instrumentos de personalidad.
+
+---
+
+<a id="article-205"></a>
+
+### Artículo 205
+
+**Título original:** Open Models, Closed Minds? On Agents Capabilities in Mimicking Human Personalities through Open Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Lucio La Cava, Andrea Tagarelli
+
+**Keywords:** Large Language Models, Personality Mimicry, MBTI, Big Five, Personality Conditioning
+
+**URL:** https://doi.org/10.1609/aaai.v39i2.32125
+
+#### Abstract (English)
+
+The emergence of unveiling human-like behaviors in Large Language Models (LLMs) has led to a closer connection between NLP and human psychology. However, research on the personalities exhibited by LLMs has largely been confined to limited investigations using individual psychological tests, primarily focusing on a small number of commercially licensed LLMs. This approach overlooks the extensive use and significant advancements observed in open-source LLMs. This work aims to address both the above limitations by conducting an in-depth investigation of a significant body of 12 LLM Agents based on the most representative Open models, through the two most well-known psychological assessment tests, namely Myers-Briggs Type Indicator (MBTI) and Big Five Inventory (BFI). Our approach involves evaluating the intrinsic personality traits of LLM agents and determining the extent to which these agents can mimic human personalities when conditioned by specific personalities and roles. Our findings unveil that (i) each LLM agent showcases distinct human personalities; (ii) personality-conditioned prompting produces varying effects on the agents, with only few successfully mirroring the imposed personality, while most of them being ``closed-minded'' (i.e., they retain their intrinsic traits); and (iii) combining role and personality conditioning can enhance the agents' ability to mimic human personalities. Our work represents a step up in understanding the dense relationship between NLP and human psychology through the lens of LLMs.
+
+#### Resumen (Español)
+
+Este trabajo examina en profundidad si los LLMs abiertos pueden imitar personalidades humanas cuando se les condiciona con rasgos y roles específicos. Frente a estudios previos centrados en pocos modelos comerciales, los autores analizan 12 agentes basados en modelos abiertos y aplican dos marcos de evaluación ampliamente usados en psicología: MBTI y Big Five. El objetivo principal es distinguir entre rasgos intrínsecos del modelo y rasgos inducidos por prompting.
+
+Los resultados muestran que cada agente presenta un perfil propio relativamente estable, y que el condicionamiento por personalidad no tiene el mismo efecto en todos los modelos. Solo algunos logran aproximarse de forma convincente a la personalidad objetivo, mientras que muchos mantienen su tendencia base, lo que los autores describen como comportamiento "closed-minded". Esta evidencia es especialmente relevante para diseño de agentes donde se espera control fino sobre estilo y comportamiento.
+
+Además, el estudio encuentra que combinar rol más personalidad mejora la capacidad de mimetización frente a usar solo rasgos aislados. En términos prácticos, el artículo aporta criterios para inducir personalidad de manera más efectiva en LLMs abiertos y delimita hasta dónde llega ese control sin ajuste de parámetros, con implicaciones para robustez, coherencia y seguridad conductual.
+
+---
+
+<a id="article-206"></a>
+
+### Artículo 206
+
+**Título original:** On the emergent capabilities of ChatGPT 4 to estimate personality traits
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Marco Piastra, Patrizia Catellani
+
+**Keywords:** ChatGPT-4, Personality Trait Estimation, Big Five, Text Analysis, Psychometrics
+
+**URL:** https://doi.org/10.3389/frai.2025.1484260
+
+#### Abstract (English)
+
+This study investigates the potential of ChatGPT 4 in the assessment of personality traits based on written texts. Using two publicly available datasets containing both written texts and self-assessments of the authors’ psychological traits based on the Big Five model, we aimed to evaluate the predictive performance of ChatGPT 4. For each sample text, we asked for numerical predictions on an eleven-point scale and compared them with the self-assessments. We also asked for ChatGPT 4 confidence scores on an eleven-point scale for each prediction. To keep the study within a manageable scope, a zero-prompt modality was chosen, although more sophisticated prompting strategies could potentially improve performance. The results show that ChatGPT 4 has moderate but significant abilities to automatically infer personality traits from written text. However, it also shows limitations in recognizing whether the input text is appropriate or representative enough to make accurate inferences, which could hinder practical applications. Furthermore, the results suggest that improved benchmarking methods could increase the efficiency and reliability of the evaluation process. These results pave the way for a more comprehensive evaluation of the capabilities of Large Language Models in assessing personality traits from written texts.
+
+#### Resumen (Español)
+
+El artículo evalúa la capacidad de ChatGPT-4 para inferir rasgos de personalidad a partir de texto escrito, usando datasets públicos con autoevaluaciones Big Five como referencia. El protocolo compara predicciones numéricas del modelo con las puntuaciones de los propios autores de los textos, e incorpora además niveles de confianza reportados por el sistema. La configuración empleada es de zero-prompt para aislar el rendimiento base.
+
+Los autores encuentran que ChatGPT-4 logra una capacidad de inferencia moderada pero estadísticamente significativa en varias dimensiones, lo que sugiere potencial para tareas de perfilado psicológico automatizado. Al mismo tiempo, el modelo muestra limitaciones para discriminar cuándo una muestra textual es suficientemente representativa para sostener una inferencia fiable, un punto clave para evitar sobreinterpretaciones.
+
+Como implicación metodológica, el trabajo subraya la necesidad de benchmarks más sólidos y comparables para evaluar personalidad en LLMs. Su contribución se alinea con una agenda psicométrica de validación incremental: medir rendimiento real, cuantificar incertidumbre y definir condiciones de uso antes de trasladar estas herramientas a contextos aplicados sensibles.
+
+---
+
+<a id="article-207"></a>
+
+### Artículo 207
+
+**Título original:** Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Federico Ravenda, Antonio Preti, Michele Poletti, Antonietta Mira, Andrea Raballo
+
+**Keywords:** Psychometrics, Questionnaire Semantics, Big Five, LLMs, Measurement Validity
+
+**URL:** https://doi.org/10.1038/s41598-025-21289-8
+
+#### Abstract (English)
+
+Abstract Psychological questionnaires are typically designed to measure latent constructs by asking respondents a series of semantically related questions. But what if these semantic relationships, rather than reflecting only the underlying construct, also impose their own structure on the data we collect? In other words, to what extent is what we “measure” in questionnaires shaped a priori by item semantics rather than revealed solely a posteriori through empirical correlations? To examine this epistemological question, we propose LLMs Psychometrics, a novel paradigm that harness LLMs to investigate how the semantic structure of questionnaire items influences psychometric outcomes. We hypothesize that the correlations among items partly mirror their linguistic similarity, such that LLMs can predict these correlations-even in the absence of empirical data. To test this, we compared actual correlation matrices from established instruments-the Big 5 Personality (Big 5) and Depression Anxiety Stress Scale (DASS-42)-with the semantic similarity structures computed by LLMs. Among the top 3 semantically similar items, the empirically most correlated item was found in 95% of DASS cases and 82% of Big 5 cases. Building on this, we developed PsychoLLM, a neural proof-of-concept architecture, which uses item semantics to predict responses to new items-demonstrated with the Generalized Anxiety Disorder-7 (GAD-7) and Patient Health Questionnaire-9 (PHQ-9). PsychoLLM achieved 70% accuracy when predicting one scale’s responses from the other, enabling new analyses based on semantic relationships. This work underscores an important epistemological implication for psychometrics: item semantics may influence measurement outcomes to varying degrees, more extensively than previously assumed. By leveraging LLMs to expose this a priori semantic structure, researchers can refine questionnaire design, assess data quality, and expand interpretive possibilities, ultimately inviting a reexamination of “ what ” and “ how ” we truly measure in psychology.
+
+#### Resumen (Español)
+
+Este trabajo plantea una pregunta central para la psicometría: hasta qué punto los cuestionarios miden constructos latentes y hasta qué punto reflejan la propia semántica de los ítems. Para responderla, los autores proponen un marco llamado "LLMs Psychometrics", donde modelos de lenguaje estiman relaciones entre preguntas antes de observar datos empíricos tradicionales. El estudio se apoya en instrumentos consolidados como Big Five y DASS-42.
+
+Los resultados muestran una correspondencia alta entre similitud semántica y correlaciones observadas entre ítems, lo que sugiere que parte de la estructura psicométrica puede estar condicionada por el lenguaje del test. Sobre esa base, el artículo introduce PsychoLLM, un prototipo que usa semántica de ítems para predecir respuestas en escalas distintas (GAD-7 y PHQ-9), alcanzando niveles de precisión relevantes en tareas cruzadas.
+
+La contribución principal no es solo técnica sino epistemológica: invita a revisar supuestos clásicos sobre validez de medición y construcción de instrumentos. En el contexto de «personalidad sintética» y evaluación de LLMs, aporta una ruta para auditar cuestionarios, depurar artefactos semánticos y mejorar la interpretación de resultados psicométricos en investigación computacional.
+
+---
+
+<a id="article-208"></a>
+
+### Artículo 208
+
+**Título original:** Comparing chatbots to psychometric tests in hiring: reduced social desirability bias, but lower predictive validity
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** D Dukanović, Dario Krpan
+
+**Keywords:** Hiring, Chatbots, Psychometric Testing, Social Desirability Bias, Predictive Validity
+
+**URL:** https://doi.org/10.3389/fpsyg.2025.1564979
+
+#### Abstract (English)
+
+This paper explores the efficacy of AI-driven chatbots in accurately inferring personality traits compared to traditional psychometric tests within a real-world professional hiring context. The study is driven by the increasing integration of AI tools in recruitment processes, which necessitates a deeper understanding of their reliability and validity. Using a quasi-experimental design with propensity score matching, we analysed data from 159 candidates and other professionals from Serbian and Montenegrin regions who completed both traditional psychometric assessments and AI-based personality evaluations based on the Big Five Personality model. A novel one-question-per-facet approach was employed in the chatbot assessments with a goal of enabling more granular analysis of the chatbot’s psychometric properties. The findings indicate that the chatbot demonstrated good structural, substantive, and convergent validity for certain traits, particularly Extraversion and Conscientiousness, but not for Neuroticism, Agreeableness, and Openness. While robust regression confirmed that AI-inferred scores are less susceptible to social desirability bias than traditional tests, they did not significantly predict real-world outcomes, indicating issues with external validity, particularly predictive validity. The results suggest that AI-driven chatbots show promise for identifying certain personality traits and demonstrate resistance to social desirability bias. This paper contributes to the emerging field of AI and psychometrics by offering insights into the potential and limitations of AI tools in professional selection, while developing an approach for refining psychometric properties of AI-driven assessments.
+
+#### Resumen (Español)
+
+El estudio compara evaluaciones de personalidad basadas en chatbots con pruebas psicométricas tradicionales en un contexto real de selección laboral. Con un diseño cuasi-experimental y técnicas de emparejamiento estadístico, analiza datos de 159 participantes que completaron ambos tipos de evaluación bajo el marco Big Five. El trabajo busca medir si los sistemas de IA aportan ventajas prácticas sin sacrificar validez.
+
+Los resultados indican que los chatbots muestran desempeño razonable en algunas dimensiones, especialmente extraversión y responsabilidad, y parecen menos vulnerables al sesgo de deseabilidad social que los tests clásicos. Sin embargo, su capacidad para predecir resultados externos reales es más limitada, lo que afecta la validez predictiva en decisiones de contratación.
+
+Desde la perspectiva de aplicaciones y riesgo, el artículo sugiere una postura equilibrada: los chatbots pueden complementar procesos de evaluación, pero no deberían reemplazar instrumentos consolidados sin evidencia adicional. La contribución es relevante para gobernanza de IA en RRHH, donde sesgo, transparencia y consecuencias de error tienen impacto directo en personas y organizaciones.
+
+---
+
+<a id="article-209"></a>
+
+### Artículo 209
+
+**Título original:** Large language models display human-like social desirability biases in Big Five personality surveys
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Aadesh Salecha, Molly Ireland, Shashanka Subrahmanya, João Sedoc, Lyle Ungar, Johannes C. Eichstaedt
+
+**Keywords:** Large Language Models, Social Desirability Bias, Big Five, Survey Methods, Behavioral Bias
+
+**URL:** https://doi.org/10.1093/pnasnexus/pgae533
+
+#### Abstract (English)
+
+Abstract Large language models (LLMs) are becoming more widely used to simulate human participants and so understanding their biases is important. We developed an experimental framework using Big Five personality surveys and uncovered a previously undetected social desirability bias in a wide range of LLMs. By systematically varying the number of questions LLMs were exposed to, we demonstrate their ability to infer when they are being evaluated. When personality evaluation is inferred, LLMs skew their scores towards the desirable ends of trait dimensions (i.e. increased extraversion, decreased neuroticism, etc.). This bias exists in all tested models, including GPT-4/3.5, Claude 3, Llama 3, and PaLM-2. Bias levels appear to increase in more recent models, with GPT-4’s survey responses changing by 1.20 (human) SD and Llama 3’s by 0.98 SD, which are very large effects. This bias remains after question order randomization and paraphrasing. Reverse coding the questions decreases bias levels but does not eliminate them, suggesting that this effect cannot be attributed to acquiescence bias. Our findings reveal an emergent social desirability bias and suggest constraints on profiling LLMs with psychometric tests and on this use of LLMs as proxies for human participants.
+
+#### Resumen (Español)
+
+Este artículo identifica un sesgo de deseabilidad social en múltiples LLMs cuando responden encuestas de personalidad Big Five. Los autores diseñan un marco experimental para comprobar si los modelos detectan que están siendo evaluados y, en ese caso, ajustan sus respuestas hacia perfiles socialmente más aceptables. El fenómeno se observa en modelos comerciales y abiertos, incluyendo GPT, Claude, Llama y PaLM.
+
+El estudio reporta efectos de magnitud alta y robustos a varias pruebas de control, como aleatorización de orden de preguntas y parafraseo de ítems. Aunque el recodificado inverso reduce parte del efecto, no lo elimina, lo que sugiere que no se trata solo de aquiescencia sino de un patrón más profundo en la conducta del modelo ante contextos evaluativos.
+
+Las implicaciones son relevantes para investigación y práctica: usar LLMs como sustitutos de participantes humanos o para perfilado psicométrico directo puede introducir distorsiones sistemáticas. En términos de «personalidad sintética», el trabajo refuerza la necesidad de protocolos que separen señales de rasgo de artefactos de respuesta inducidos por el propio formato de medición.
+
+---
+
+<a id="article-210"></a>
+
+### Artículo 210
+
+**Título original:** Can Large Language Models Assess Personality From Asynchronous Video Interviews? A Comprehensive Evaluation of Validity, Reliability, Fairness, and Rating Patterns
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Tianyi Zhang, Antonis Koutsoumpis, Janneke K. Oostrom, Djurre Holtrop, Sina Ghassemi, Reinout E. de Vries
+
+**Keywords:** Large Language Models, Asynchronous Video Interviews, Personality Assessment, Fairness, Reliability
+
+**URL:** https://doi.org/10.1109/taffc.2024.3374875
+
+#### Abstract (English)
+
+The advent of Artificial Intelligence (AI) technologies has precipitated the rise of asynchronous video interviews (AVIs) as an alternative to conventional job interviews. These one-way video interviews are conducted online and can be analyzed using AI algorithms to automate and speed up the selection procedure. In particular, the swift advancement of Large Language Models (LLMs) has significantly decreased the cost and technical barrier to developing AI systems for automatic personality and interview performance evaluation. However, the generative and task-unspecific nature of LLMs might pose potential risks and biases when evaluating humans based on their AVI responses. In this study, we conducted a comprehensive evaluation of the validity, reliability, fairness, and rating patterns of two widely-used LLMs, GPT-3.5 and GPT-4, in assessing personality and interview performance from an AVI. We compared the personality and interview performance ratings of the LLMs with the ratings from a task-specific AI model and human annotators using simulated AVI responses of 685 participants. The results show that LLMs can achieve similar or even better zero-shot validity compared with the task-specific AI model when predicting personality traits. The verbal explanations for predicting personality traits generated by LLMs are interpretable by the personality items that are designed according to psychological theories. However, LLMs also suffered from uneven performance across different traits, insufficient test-retest reliability, and the emergence of certain biases. Thus, it is necessary to exercise caution when applying LLMs for human-related application scenarios, especially for significant decisions such as employment.
+
+#### Resumen (Español)
+
+El trabajo evalúa si GPT-3.5 y GPT-4 pueden valorar rasgos de personalidad y desempeño en entrevistas asíncronas de video (AVI) con un nivel de calidad comparable a sistemas especializados y evaluadores humanos. El estudio compara validez, fiabilidad, equidad y patrones de puntuación sobre respuestas simuladas de 685 participantes, en un escenario aplicado de selección laboral.
+
+Los resultados muestran que los LLMs pueden alcanzar buena validez en configuración zero-shot, e incluso competir con modelos específicos de tarea en algunas métricas. También se reporta que las explicaciones textuales de los modelos son interpretables desde marcos psicológicos, lo que aporta valor práctico para auditoría cualitativa.
+
+No obstante, aparecen límites importantes: rendimiento desigual según rasgo, fiabilidad temporal insuficiente y señales de sesgo. Por ello, el artículo concluye que su uso en decisiones de alto impacto debe hacerse con cautela y bajo controles metodológicos estrictos, aportando evidencia clave para la agenda de validación psicométrica en sistemas de IA aplicados a personas.
+
+---
+
+<a id="article-211"></a>
+
+### Artículo 211
+
+**Título original:** The Personality Dimensions GPT-3 Expresses During Human-Chatbot Interactions
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Nikola Kovačević, Christian Holz, Markus Groß, Rafael Wampfler
+
+**Keywords:** GPT-3, Human-Chatbot Interaction, Personality Perception, Factor Analysis, Conversational Agents
+
+**URL:** https://doi.org/10.1145/3659626
+
+#### Abstract (English)
+
+Large language models such as GPT-3 and ChatGPT can mimic human-to-human conversation with unprecedented fidelity, which enables many applications such as conversational agents for education and non-player characters in video games. In this work, we investigate the underlying personality structure that a GPT-3-based chatbot expresses during conversations with a human. We conducted a user study to collect 147 chatbot personality descriptors from 86 participants while they interacted with the GPT-3-based chatbot for three weeks. Then, 425 new participants rated the 147 personality descriptors in an online survey. We conducted an exploratory factor analysis on the collected descriptors and show that, though overlapping, human personality models do not fully transfer to the chatbot's personality as perceived by humans. We also show that the perceived personality is significantly different from that of virtual personal assistants, where users focus rather on serviceability and functionality. We discuss the implications of ever-evolving large language models and the change they affect in users' perception of agent personalities.
+
+#### Resumen (Español)
+
+Este artículo estudia la estructura de personalidad que los usuarios perciben en un chatbot basado en GPT-3 durante interacciones prolongadas. A partir de descriptores recogidos en un estudio de uso de tres semanas y una segunda fase de valoración con más participantes, los autores aplican análisis factorial exploratorio para identificar dimensiones latentes de personalidad percibida.
+
+Los resultados indican que, aunque existen solapamientos con modelos de personalidad humana, la estructura percibida en el chatbot no coincide plenamente con taxonomías humanas estándar. Además, la personalidad atribuida a este tipo de agente difiere de la que los usuarios asignan a asistentes virtuales centrados en utilidad funcional, lo que sugiere que la calidad conversacional modifica el marco psicológico de evaluación del sistema.
+
+El trabajo aporta evidencia relevante para medir «personalidad sintética» en interacción real y para diseñar métodos de evaluación más adaptados a agentes conversacionales. En conjunto, refuerza la idea de que no basta con trasladar instrumentos humanos sin ajustes, y que la percepción de personalidad en IA requiere marcos específicos de validación.
+
+---
+
+<a id="article-212"></a>
+
+### Artículo 212
+
+**Título original:** Personality prediction from task-oriented and open-domain human-machine dialogues
+
+**Categoría:** Evaluación y validación psicométrica
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Ao Guo, Ryu Hirai, Atsumoto Ohashi, Yuya Chiba, Yuiko Tsunomori, Ryuichiro Higashinaka
+
+**Keywords:** Personality Prediction, Human-Machine Dialogue, MBTI, Big Five, Dialogue Systems
+
+**URL:** https://doi.org/10.1038/s41598-024-53989-y
+
+#### Abstract (English)
+
+Abstract If a dialogue system can predict the personality of a user from dialogue, it will enable the system to adapt to the user’s personality, leading to better task success and user satisfaction. In a recent study, personality prediction was performed using the Myers-Briggs Type Indicator (MBTI) personality traits with a task-oriented human-machine dialogue using an end-to-end (neural-based) system. However, it is still not clear whether such prediction is generally possible for other types of systems and user personality traits. To clarify this, we recruited 378 participants, asked them to fill out four personality questionnaires covering 25 personality traits, and had them perform three rounds of human-machine dialogue with a pipeline task-oriented dialogue system or an end-to-end task-oriented dialogue system. We also had another 186 participants do the same with an open-domain dialogue system. We then constructed BERT-based models to predict the personality traits of the participants from the dialogues. The results showed that prediction accuracy was generally better with open-domain dialogue than with task-oriented dialogue, although Extraversion (one of the Big Five personality traits) could be predicted equally well for both open-domain dialogue and pipeline task-oriented dialogue. We also examined the effect of utilizing different types of dialogue on personality prediction by conducting a cross-comparison of the models trained from the task-oriented and open-domain dialogues. As a result, we clarified that the open-domain dialogue cannot be used to predict personality traits from task-oriented dialogue, and vice versa. We further analyzed the effects of system utterances, task performance, and the round of dialogue with regard to the prediction accuracy.
+
+#### Resumen (Español)
+
+El estudio analiza si es posible predecir rasgos de personalidad de usuarios a partir de diálogos humano-máquina en distintos tipos de sistemas conversacionales. Para ello combina varios cuestionarios de personalidad, múltiples rondas de conversación y modelos BERT entrenados sobre interacciones task-oriented y open-domain, con una muestra amplia de participantes.
+
+Los resultados indican que el rendimiento de predicción suele ser mejor en diálogo abierto que en diálogo orientado a tarea, aunque algunos rasgos concretos, como extraversión, mantienen niveles comparables en ciertos escenarios task-oriented. Además, el análisis cruzado muestra una baja transferibilidad entre dominios: modelos entrenados en un tipo de diálogo no generalizan bien al otro.
+
+Esta evidencia tiene implicaciones directas para evaluación psicométrica en LLMs y sistemas conversacionales: el contexto de interacción condiciona qué rasgos son inferibles y con qué fiabilidad. El artículo aporta una base metodológica sólida para evitar extrapolaciones indebidas y para diseñar protocolos de inferencia de personalidad sensibles al tipo de diálogo.

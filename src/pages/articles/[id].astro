@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Icon from '../../components/Icon.astro';
-import { loadCanonicalArticles } from '../../lib/data';
+import { getSourceLabel, loadCanonicalArticles } from '../../lib/data';
 
 export function getStaticPaths() {
   const articles = loadCanonicalArticles();
@@ -16,21 +16,52 @@ const esRaw = article.resumen_es_extendido?.trim() || '';
 const enRaw = article.abstract_en_extended?.trim() || article.abstract_en_original?.trim() || '';
 const esParagraphs = esRaw.split(/\n\s*\n/).filter(Boolean);
 const enParagraphs = enRaw.split(/\n\s*\n/).filter(Boolean);
-const sourceTypeLabels: Record<string, string> = {
-  arxiv: 'arXiv',
-  proceedings: 'Actas de conferencia',
-  publisher: 'Editorial / revista',
-  preprint_other: 'Preprint / otro'
+const sourceLabel = getSourceLabel(article.source_url, article.source_type);
+const descriptionSource = esParagraphs[0] || enParagraphs[0] || article.abstract_en_original || '';
+const descriptionCompact = descriptionSource.replace(/\s+/g, ' ').trim();
+const pageDescription =
+  descriptionCompact.length > 210 ? `${descriptionCompact.slice(0, 207).trimEnd()}...` : descriptionCompact;
+const publishedTime = `${article.year}-01-01T00:00:00Z`;
+const modifiedTime = article.verification_date || publishedTime;
+const articleUrl = new URL(`/articles/${article.id}`, 'https://syntheticpersonality.com').toString();
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'ScholarlyArticle',
+  headline: article.title_canonical,
+  name: article.title_canonical,
+  inLanguage: article.language === 'Inglés' ? 'en' : 'es',
+  datePublished: `${article.year}-01-01`,
+  dateModified: modifiedTime.slice(0, 10),
+  author: article.authors.map((author: string) => ({
+    '@type': 'Person',
+    name: author
+  })),
+  keywords: article.keywords,
+  url: articleUrl,
+  sameAs: article.source_url,
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Synthetic Personality Review',
+    url: 'https://syntheticpersonality.com/'
+  }
 };
 ---
 
-<BaseLayout title={`${article.title_canonical} | Synthetic Personality Review`}>
+<BaseLayout
+  title={`${article.title_canonical} | Synthetic Personality Review`}
+  description={pageDescription}
+  ogType="article"
+  keywords={[...article.keywords, article.category, '«personalidad sintética»']}
+  structuredData={structuredData}
+  publishedTime={publishedTime}
+  modifiedTime={modifiedTime}
+>
   <section class="hero">
     <h1>{article.title_canonical}</h1>
     <div class="meta">
       <span class="badge warn">{article.category}</span>
       <span class="badge warn">{article.year}</span>
-      <span class="badge warn">{sourceTypeLabels[article.source_type] || article.source_type}</span>
+      <span class="badge warn">{sourceLabel}</span>
     </div>
     <div class="detail-meta">
       <p class="detail-meta-row">

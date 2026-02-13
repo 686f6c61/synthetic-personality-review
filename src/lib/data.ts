@@ -67,6 +67,161 @@ function readJson<T>(relativePath: string): T {
   return JSON.parse(raw) as T;
 }
 
+function extractDoiFromUrl(sourceUrl: string): string | null {
+  const match = sourceUrl.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i);
+  if (!match) {
+    return null;
+  }
+  return decodeURIComponent(match[0]).replace(/[).,;]+$/, '');
+}
+
+function doiLabel(doi: string): string | null {
+  const normalized = doi.toLowerCase();
+  if (normalized.startsWith('10.1093/pnasnexus/')) {
+    return 'PNAS Nexus';
+  }
+  if (normalized.startsWith('10.1038/')) {
+    return 'Nature / Scientific Reports';
+  }
+  if (normalized.startsWith('10.1109/')) {
+    return 'IEEE';
+  }
+  if (normalized.startsWith('10.1145/')) {
+    return 'ACM';
+  }
+  if (normalized.startsWith('10.1609/')) {
+    return 'AAAI';
+  }
+  if (normalized.startsWith('10.18653/v1/')) {
+    return 'ACL Anthology';
+  }
+  if (normalized.startsWith('10.3389/')) {
+    return 'Frontiers';
+  }
+  if (normalized.startsWith('10.1016/')) {
+    return 'Elsevier';
+  }
+  if (normalized.startsWith('10.1007/')) {
+    return 'Springer';
+  }
+  if (normalized.startsWith('10.3390/')) {
+    return 'MDPI';
+  }
+  if (normalized.startsWith('10.2196/')) {
+    return 'JMIR';
+  }
+  if (normalized.startsWith('10.1080/')) {
+    return 'Taylor & Francis';
+  }
+  if (normalized.startsWith('10.1162/')) {
+    return 'MIT Press';
+  }
+  if (normalized.startsWith('10.1098/')) {
+    return 'Royal Society';
+  }
+  return null;
+}
+
+function formatTitleToken(token: string): string {
+  if (!token) {
+    return token;
+  }
+  return token.charAt(0).toUpperCase() + token.slice(1);
+}
+
+export function getSourceLabel(sourceUrl: string, sourceType?: string): string {
+  try {
+    const parsed = new URL(sourceUrl);
+    const host = parsed.hostname.replace(/^www\./, '').toLowerCase();
+    const path = parsed.pathname.toLowerCase();
+
+    if (host.includes('arxiv.org')) {
+      return 'arXiv';
+    }
+    if (host.includes('aclanthology.org')) {
+      return 'ACL Anthology';
+    }
+    if (host.includes('ojs.aaai.org')) {
+      return 'AAAI Proceedings';
+    }
+    if (host.includes('openreview.net')) {
+      return 'OpenReview';
+    }
+    if (host.includes('proceedings.neurips.cc') || host === 'neurips.cc') {
+      return 'NeurIPS Proceedings';
+    }
+    if (host === 'icml.cc') {
+      return 'ICML Proceedings';
+    }
+    if (host.includes('ieeexplore.ieee.org')) {
+      return 'IEEE Xplore';
+    }
+    if (host.includes('dl.acm.org')) {
+      return 'ACM Digital Library';
+    }
+    if (host.includes('nature.com')) {
+      if (path.includes('/s41598-')) {
+        return 'Scientific Reports';
+      }
+      return 'Nature';
+    }
+    if (host.includes('frontiersin.org')) {
+      const journalMatch = path.match(/\/journals\/([^/]+)/);
+      if (journalMatch?.[1]) {
+        const journal = journalMatch[1]
+          .split('-')
+          .map((token) => formatTitleToken(token))
+          .join(' ');
+        return `Frontiers (${journal})`;
+      }
+      return 'Frontiers';
+    }
+    if (host.includes('pmc.ncbi.nlm.nih.gov')) {
+      return 'PubMed Central';
+    }
+    if (host.includes('pubmed.ncbi.nlm.nih.gov')) {
+      return 'PubMed';
+    }
+    if (host.includes('jmir.org')) {
+      return 'JMIR';
+    }
+    if (host.includes('medrxiv.org')) {
+      return 'medRxiv';
+    }
+    if (host.includes('doi.org')) {
+      const doi = extractDoiFromUrl(sourceUrl);
+      if (doi) {
+        return doiLabel(doi) || `DOI (${doi.split('/')[0]})`;
+      }
+      return 'DOI';
+    }
+
+    const doi = extractDoiFromUrl(sourceUrl);
+    if (doi) {
+      const mappedDoiLabel = doiLabel(doi);
+      if (mappedDoiLabel) {
+        return mappedDoiLabel;
+      }
+    }
+
+    return host;
+  } catch {
+    if (sourceType === 'arxiv') {
+      return 'arXiv';
+    }
+    if (sourceType === 'proceedings') {
+      return 'Actas de conferencia';
+    }
+    if (sourceType === 'publisher') {
+      return 'Editorial / revista';
+    }
+    if (sourceType === 'preprint_other') {
+      return 'Preprint / otro';
+    }
+    return sourceUrl;
+  }
+}
+
 export function loadCanonicalArticles(): Article[] {
   return readJson<Article[]>('data/articles.canonical.json').sort(
     (a, b) => a.legacy_article_number - b.legacy_article_number

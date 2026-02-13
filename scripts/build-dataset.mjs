@@ -255,10 +255,18 @@ function canonicalizeSourceUrl(rawUrl) {
         return `https://arxiv.org/abs/${id}`;
       }
     }
+
+    // Remove unstable tracking/error query params from publisher URLs.
+    const removableParams = ['utm_source', 'utm_medium', 'utm_campaign', 'error', 'code'];
+    removableParams.forEach((key) => parsed.searchParams.delete(key));
+    if (host.includes('nature.com') && parsed.searchParams.size === 0) {
+      parsed.search = '';
+    }
+
+    return parsed.toString();
   } catch {
     return url;
   }
-  return url;
 }
 
 function extractDoiFromUrl(url) {
@@ -302,9 +310,13 @@ function sleep(ms) {
 
 async function fetchWithRetry(url, options = {}, attempts = 3) {
   let lastError = null;
+  const timeoutMs = 25000;
   for (let i = 0; i < attempts; i += 1) {
+    let timeout = null;
     try {
-      const response = await fetch(url, options);
+      const controller = new AbortController();
+      timeout = setTimeout(() => controller.abort(new Error(`Timeout after ${timeoutMs}ms`)), timeoutMs);
+      const response = await fetch(url, { ...options, signal: controller.signal });
       if (![429, 500, 502, 503, 504].includes(response.status) || i === attempts - 1) {
         return response;
       }
@@ -313,6 +325,10 @@ async function fetchWithRetry(url, options = {}, attempts = 3) {
       lastError = error;
       if (i < attempts - 1) {
         await sleep(400 * (i + 1));
+      }
+    } finally {
+      if (timeout) {
+        clearTimeout(timeout);
       }
     }
   }
@@ -954,7 +970,7 @@ function buildFinalArticle(article) {
     language: article.language,
     authors: article.authors,
     keywords: article.keywords,
-    source_url: article.evidence.final_url || article.source_url,
+    source_url: canonicalizeSourceUrl(article.evidence.final_url || article.source_url),
     source_type: article.source_type,
     verification_status: article.verification_status,
     verification_date: article.verification_date,
@@ -1066,6 +1082,40 @@ async function main() {
     throw new Error('No se detectaron articulos en el markdown fuente.');
   }
 
+  const cachedIntermediateByLegacy = new Map();
+  if (fs.existsSync(INTERMEDIATE_FILE)) {
+    try {
+      const cachedIntermediate = JSON.parse(fs.readFileSync(INTERMEDIATE_FILE, 'utf8'));
+      if (Array.isArray(cachedIntermediate)) {
+        for (const cachedArticle of cachedIntermediate) {
+          if (cachedArticle?.legacy_article_number) {
+            cachedIntermediateByLegacy.set(Number(cachedArticle.legacy_article_number), cachedArticle);
+          }
+        }
+      }
+    } catch {
+      // Ignore broken cache and fallback to full verification.
+    }
+  }
+
+  function shouldReuseCachedVerification(currentArticle, cachedArticle) {
+    if (!cachedArticle || cachedArticle.verification_status !== 'verified') {
+      return false;
+    }
+    const normalizedCurrentUrl = canonicalizeSourceUrl(currentArticle.source_url || '');
+    const normalizedCachedUrl = canonicalizeSourceUrl(cachedArticle.source_url || '');
+    return (
+      normalizeText(cachedArticle.title_original || '') === normalizeText(currentArticle.title_original || '') &&
+      Number(cachedArticle.year) === Number(currentArticle.year) &&
+      normalizeText(cachedArticle.category || '') === normalizeText(currentArticle.category || '') &&
+      normalizeText(normalizedCachedUrl) === normalizeText(normalizedCurrentUrl) &&
+      normalizeText(cachedArticle.abstract_en_original || '') ===
+        normalizeText(currentArticle.abstract_en_original || '') &&
+      normalizeText(cachedArticle.resumen_es_original || '') ===
+        normalizeText(currentArticle.resumen_es_original || '')
+    );
+  }
+
   for (const article of parsedArticles) {
     const override = MANUAL_OVERRIDES[String(article.legacy_article_number)];
     if (!override) {
@@ -1094,9 +1144,18 @@ async function main() {
       const currentIndex = index;
       index += 1;
       const article = parsedArticles[currentIndex];
-      const verifiedArticle = await verifyArticle(article);
-      enriched[currentIndex] = verifiedArticle;
-      process.stdout.write(`Verified ${currentIndex + 1}/${parsedArticles.length}\n`);
+      const cachedArticle = cachedIntermediateByLegacy.get(article.legacy_article_number);
+      if (shouldReuseCachedVerification(article, cachedArticle)) {
+        enriched[currentIndex] = {
+          ...cachedArticle,
+          id: `article-${String(article.legacy_article_number).padStart(3, '0')}`
+        };
+        process.stdout.write(`Verified ${currentIndex + 1}/${parsedArticles.length} (cached)\n`);
+      } else {
+        const verifiedArticle = await verifyArticle(article);
+        enriched[currentIndex] = verifiedArticle;
+        process.stdout.write(`Verified ${currentIndex + 1}/${parsedArticles.length}\n`);
+      }
     }
   }
 

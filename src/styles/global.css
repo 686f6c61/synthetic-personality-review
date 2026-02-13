@@ -454,12 +454,12 @@ p {
 }
 
 .track-card .muted {
-  margin: 0;
+  margin: 0 0 0.8rem;
   line-height: 1.65;
 }
 
 .track-link {
-  margin-top: 1.35rem;
+  margin-top: auto;
   align-self: flex-end;
   display: inline-flex;
   align-items: center;
