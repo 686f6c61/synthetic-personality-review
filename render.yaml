@@ -2,7 +2,7 @@ services:
   - type: web
     name: synthetic-personality-review
     runtime: static
-    plan: free
+    repo: https://github.com/686f6c61/synthetic-personality-review
     branch: main
     buildCommand: npm ci && npm run build:site
     staticPublishPath: ./dist
