@@ -4746,3 +4746,1491 @@ El estudio analiza si es posible predecir rasgos de personalidad de usuarios a p
 Los resultados indican que el rendimiento de predicción suele ser mejor en diálogo abierto que en diálogo orientado a tarea, aunque algunos rasgos concretos, como extraversión, mantienen niveles comparables en ciertos escenarios task-oriented. Además, el análisis cruzado muestra una baja transferibilidad entre dominios: modelos entrenados en un tipo de diálogo no generalizan bien al otro.
 
 Esta evidencia tiene implicaciones directas para evaluación psicométrica en LLMs y sistemas conversacionales: el contexto de interacción condiciona qué rasgos son inferibles y con qué fiabilidad. El artículo aporta una base metodológica sólida para evitar extrapolaciones indebidas y para diseñar protocolos de inferencia de personalidad sensibles al tipo de diálogo.
+
+---
+
+### Artículo 213
+
+**Título original:** LLM Can be a Dangerous Persuader: Empirical Study of Persuasion Safety in Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Minqian Liu, Zhiyang Xu, Xinyi Zhang, Huaming An, Sarvech Qadir, Qi Zhang, Pamela Wiśniewski, Jin-Hee Cho, Sang Won Lee, Ruoxi Jia, Lifu Huang
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2504.10430
+
+#### Abstract (English)
+
+Recent advancements in Large Language Models (LLMs) have enabled them to approach human-level persuasion capabilities. However, such potential also raises concerns about the safety risks of LLM-driven persuasion, particularly their potential for unethical influence through manipulation, deception, exploitation of vulnerabilities, and many other harmful tactics. In this work, we present a systematic investigation of LLM persuasion safety through two critical aspects: (1) whether LLMs appropriately reject unethical persuasion tasks and avoid unethical strategies during execution, including cases where the initial persuasion goal appears ethically neutral, and (2) how influencing factors like personality traits and external pressures affect their behavior. To this end, we introduce PersuSafety, the first comprehensive framework for the assessment of persuasion safety which consists of three stages, i.e., persuasion scene creation, persuasive conversation simulation, and persuasion safety assessment. PersuSafety covers 6 diverse unethical persuasion topics and 15 common unethical strategies. Through extensive experiments across 8 widely used LLMs, we observe significant safety concerns in most LLMs, including failing to identify harmful persuasion tasks and leveraging various unethical persuasion strategies. Our study calls for more attention to improve safety alignment in progressive and goal-driven conversations such as persuasion.
+
+#### Resumen (Español)
+
+Este trabajo examina llm can be a dangerous persuader: empirical study of persuasion safety in large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que recent advancements in Large Language Models (LLMs) have enabled them to approach human-level persuasion capabilities. However, such potential also raises concerns about the safety risks of LLM-driven persuasion, particularly their potential for unethical influence through manipulation, deception, exploitation of vulnerabilities, and many other harmful tactics. In this work, we present a systematic investigation of LLM persuasion safety through two critical aspects: (1) whether LLMs appropriately reject unethical persuasion tasks and avoid unethical strategies during execution, including cases where the initial persuasion goal appears ethically neutral, and (2) how influencing factors like personality traits and external pressures affect their behavior. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 214
+
+**Título original:** Investigating Political and Demographic Associations in Large Language Models Through Moral Foundations Theory
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Nicole Smith-Vaniz, Harper Lyon, Lorraine Steigner, Ben Armstrong, Nicholas Mattei
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://doi.org/10.1609/aies.v8i3.36727
+
+#### Abstract (English)
+
+Large Language Models (LLMs) have become increasingly incorporated into everyday life for many internet users, taking on significant roles as advice givers in the domains of medicine, personal relationships, and even legal matters. The importance of these roles raise questions about how and what responses LLMs make in difficult political and moral domains, especially questions about possible biases. To quantify the nature of potential biases in LLMs, various works have applied Moral Foundations Theory (MFT), a framework that categorizes human moral reasoning into five dimensions: Harm, Fairness, Ingroup Loyalty, Authority, and Purity. Previous research has used the MFT to measure differences in human participants along political, national, and cultural lines. While there has been some analysis of the responses of LLM with respect to political stance in role-playing scenarios, no work so far has directly assessed the moral leanings in the LLM responses, nor have they connected LLM outputs with robust human data. In this paper we analyze the distinctions between LLM MFT responses and existing human research directly, investigating whether commonly available LLM responses demonstrate ideological leanings — either through their inherent responses, straightforward representations of political ideologies, or when responding from the perspectives of constructed human personas. We assess whether LLMs inherently generate responses that align more closely with one political ideology over another, and additionally examine how accurately LLMs can represent ideological perspectives through both explicit prompting and demographic-based role-playing. By systematically analyzing LLM behavior across these conditions and experiments, our study provides insight into the extent of political and demographic dependency in AI-generated responses.
+
+#### Resumen (Español)
+
+Este trabajo examina investigating political and demographic associations in large language models through moral foundations theory dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large Language Models (LLMs) have become increasingly incorporated into everyday life for many internet users, taking on significant roles as advice givers in the domains of medicine, personal relationships, and even legal matters. The importance of these roles raise questions about how and what responses LLMs make in difficult political and moral domains, especially questions about possible biases. To quantify the nature of potential biases in LLMs, various works have applied Moral Foundations Theory (MFT), a framework that categorizes human moral reasoning into five dimensions: Harm, Fairness, Ingroup Loyalty, Authority, and Purity. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 215
+
+**Título original:** GermanPartiesQA: Benchmarking Commercial Large Language Models and AI Companions for Political Alignment and Sycophancy
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Jan Batzner, Volker Stocker, Stefan Schmid, Gjergji Kasneci
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://doi.org/10.1609/aies.v8i1.36552
+
+#### Abstract (English)
+
+Large language models (LLMs) are increasingly shaping citizens’ information ecosystems. Products incorporating LLMs, such as chatbots and AI Companions, are now widely used for decision support and information retrieval, including in sensitive domains, raising concerns about hidden biases and growing potential to shape individual decisions and public opinion. This paper introduces GermanPartiesQA, a benchmark of 418 political statements from German Voting Advice Applications across 11 elections to evaluate six commercial LLMs. We evaluate their political alignment based on role-playing experiments with political personas. Our evaluation reveals three specific findings: (1) Factual limitations: LLMs show limited ability to accurately generate factual party positions, particularly for centrist parties. (2) Model-specific ideological alignment: We identify consistent alignment patterns and degree of political steerability for each model across temperature settings and experiments. (3) Claim of sycophancy: While models adjust to political personas during role-play, we find this reflects persona-based steerability rather than the increasingly popular, yet contested concept of sycophancy. Our study contributes to evaluating the political alignment of closed-source LLMs that are increasingly embedded in electoral decision support tools and AI Companion chatbots.
+
+#### Resumen (Español)
+
+Este trabajo examina germanpartiesqa: benchmarking commercial large language models and ai companions for political alignment and sycophancy dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large language models (LLMs) are increasingly shaping citizens’ information ecosystems. Products incorporating LLMs, such as chatbots and AI Companions, are now widely used for decision support and information retrieval, including in sensitive domains, raising concerns about hidden biases and growing potential to shape individual decisions and public opinion. This paper introduces GermanPartiesQA, a benchmark of 418 political statements from German Voting Advice Applications across 11 elections to evaluate six commercial LLMs. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 216
+
+**Título original:** LLMs Generate Structurally Realistic Social Networks but Overestimate Political Homophily
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Serina Chang, Alicja Chaszczewicz, Emma Wang, Maya Josifovska, Emma Pierson, Jure Leskovec
+
+**Keywords:** Homophily, Politics, Social network (sociolinguistics), Computer science, Sociology
+
+**URL:** https://doi.org/10.1609/icwsm.v19i1.35820
+
+#### Abstract (English)
+
+Generating social networks is essential for many applications, such as epidemic modeling and social simulations. The emergence of generative AI, especially large language models (LLMs), offers new possibilities for social network generation: LLMs can generate networks without additional training or need to define network parameters, and users can flexibly define individuals in the network using natural language. However, this potential raises two critical questions: 1) are the social networks generated by LLMs realistic, and 2) what are risks of bias, given the importance of demographics in forming social ties? To answer these questions, we develop three prompting methods for network generation and compare the generated networks to a suite of real social networks. We find that more realistic networks are generated with “local” methods, where the LLM constructs relations for one persona at a time, compared to “global” methods that construct the entire network at once. We also find that the generated networks match real networks on many characteristics, including density, clustering, connectivity, and degree distribution. However, we find that LLMs emphasize political homophily over all other types of homophily and significantly overestimate political homophily compared to real social networks.
+
+#### Resumen (Español)
+
+Este trabajo examina llms generate structurally realistic social networks but overestimate political homophily dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que generating social networks is essential for many applications, such as epidemic modeling and social simulations. The emergence of generative AI, especially large language models (LLMs), offers new possibilities for social network generation: LLMs can generate networks without additional training or need to define network parameters, and users can flexibly define individuals in the network using natural language. However, this potential raises two critical questions: 1) are the social networks generated by LLMs realistic, and 2) what are risks of bias, given the importance of demographics in forming social ties? En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 217
+
+**Título original:** Unmasking Implicit Bias: Evaluating Persona-Prompted LLM Responses in Power-Disparate Social Scenarios
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Bo Tan, Roy Ka-Wei Lee
+
+**Keywords:** Persona, Power (physics), Computer science, Implicit bias, Social psychology
+
+**URL:** https://aclanthology.org/2025.naacl-long.50/
+
+#### Abstract (English)
+
+Large language models (LLMs) have demonstrated remarkable capabilities in simulating human behaviour and social intelligence. However, they risk perpetuating societal biases, especially when demographic information is involved. We introduce a novel framework using cosine distance to measure semantic shifts in responses and an LLM-judged Preference Win Rate (WR) to assess how demographic prompts affect response quality across power-disparate social scenarios. Evaluating five LLMs over 100 diverse social scenarios and nine demographic axes, our findings suggest a "default persona" bias toward middle-aged, able-bodied, native-born, Caucasian, atheistic males with centrist views. Moreover, interactions involving specific demographics are associated with lower-quality responses. Lastly, the presence of power disparities increases variability in response semantics and quality across demographic groups, suggesting that implicit biases may be heightened under power-imbalanced conditions. These insights expose the demographic biases inherent in LLMs and offer potential paths toward future bias mitigation efforts in LLMs.
+
+#### Resumen (Español)
+
+Este trabajo examina unmasking implicit bias: evaluating persona-prompted llm responses in power-disparate social scenarios dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large language models (LLMs) have demonstrated remarkable capabilities in simulating human behaviour and social intelligence. However, they risk perpetuating societal biases, especially when demographic information is involved. We introduce a novel framework using cosine distance to measure semantic shifts in responses and an LLM-judged Preference Win Rate (WR) to assess how demographic prompts affect response quality across power-disparate social scenarios. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 218
+
+**Título original:** Actions Speak Louder than Words: Agent Decisions Reveal Implicit Biases in Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Yuxuan Li, Hirokazu Shirado, Sauvik Das
+
+**Keywords:** Psychology, Cognitive psychology, Social psychology, Linguistics, Computer science
+
+**URL:** https://arxiv.org/abs/2501.17420
+
+#### Abstract (English)
+
+While advances in fairness and alignment have helped mitigate overt biases exhibited by large language models (LLMs) when explicitly prompted, we hypothesize that these models may still exhibit implicit biases when simulating human behavior. To test this hypothesis, we propose a technique to systematically uncover such biases across a broad range of sociodemographic categories by assessing decision-making disparities among agents with LLM-generated, sociodemographically-informed personas. Using our technique, we tested six LLMs across three sociodemographic groups and four decision-making scenarios. Our results show that state-of-the-art LLMs exhibit significant sociodemographic disparities in nearly all simulations, with more advanced models exhibiting greater implicit biases despite reducing explicit biases. Furthermore, when comparing our findings to real-world disparities reported in empirical studies, we find that the biases we uncovered are directionally aligned but markedly amplified. This directional alignment highlights the utility of our technique in uncovering systematic biases in LLMs rather than random variations; moreover, the presence and amplification of implicit biases emphasizes the need for novel strategies to address these biases.
+
+#### Resumen (Español)
+
+Este trabajo examina actions speak louder than words: agent decisions reveal implicit biases in language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que while advances in fairness and alignment have helped mitigate overt biases exhibited by large language models (LLMs) when explicitly prompted, we hypothesize that these models may still exhibit implicit biases when simulating human behavior. To test this hypothesis, we propose a technique to systematically uncover such biases across a broad range of sociodemographic categories by assessing decision-making disparities among agents with LLM-generated, sociodemographically-informed personas. Using our technique, we tested six LLMs across three sociodemographic groups and four decision-making scenarios. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 219
+
+**Título original:** Hateful Person or Hateful Model? Investigating the Role of Personas in Hate Speech Detection by Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Shuzhou Yuan, Ercong Nie, Mario Tawfelis, Helmut Schmid, Hinrich Schütze, Michael Färber
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2506.08593
+
+#### Abstract (English)
+
+Hate speech detection is a socially sensitive and inherently subjective task, with judgments often varying based on personal traits. While prior work has examined how socio-demographic factors influence annotation, the impact of personality traits on Large Language Models (LLMs) remains largely unexplored. In this paper, we present the first comprehensive study on the role of persona prompts in hate speech classification, focusing on MBTI-based traits. A human annotation survey confirms that MBTI dimensions significantly affect labeling behavior. Extending this to LLMs, we prompt four open-source models with MBTI personas and evaluate their outputs across three hate speech datasets. Our analysis uncovers substantial persona-driven variation, including inconsistencies with ground truth, inter-persona disagreement, and logit-level biases. These findings highlight the need to carefully define persona prompts in LLM-based annotation workflows, with implications for fairness and alignment with human values.
+
+#### Resumen (Español)
+
+Este trabajo examina hateful person or hateful model? investigating the role of personas in hate speech detection by large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que hate speech detection is a socially sensitive and inherently subjective task, with judgments often varying based on personal traits. While prior work has examined how socio-demographic factors influence annotation, the impact of personality traits on Large Language Models (LLMs) remains largely unexplored. In this paper, we present the first comprehensive study on the role of persona prompts in hate speech classification, focusing on MBTI-based traits. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 220
+
+**Título original:** Persona-Assigned Large Language Models Exhibit Human-Like Motivated Reasoning
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Saloni Dash, Amélie Reymond, Emma S. Spiro, Aylin Caliskan
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2506.20020
+
+#### Abstract (English)
+
+Reasoning in humans is prone to biases due to underlying motivations like identity protection, that undermine rational decision-making and judgment. This motivated reasoning at a collective level can be detrimental to society when debating critical issues such as human-driven climate change or vaccine safety, and can further aggravate political polarization. Prior studies have reported that large language models (LLMs) are also susceptible to human-like cognitive biases, however, the extent to which LLMs selectively reason toward identity-congruent conclusions remains largely unexplored. Here, we investigate whether assigning 8 personas across 4 political and socio-demographic attributes induces motivated reasoning in LLMs. Testing 8 LLMs (open source and proprietary) across two reasoning tasks from human-subject studies -- veracity discernment of misinformation headlines and evaluation of numeric scientific evidence -- we find that persona-assigned LLMs have up to 9% reduced veracity discernment relative to models without personas. Political personas specifically, are up to 90% more likely to correctly evaluate scientific evidence on gun control when the ground truth is congruent with their induced political identity. Prompt-based debiasing methods are largely ineffective at mitigating these effects. Taken together, our empirical findings are the first to suggest that persona-assigned LLMs exhibit human-like motivated reasoning that is hard to mitigate through conventional debiasing prompts -- raising concerns of exacerbating identity-congruent reasoning in both LLMs and humans.
+
+#### Resumen (Español)
+
+Este trabajo examina persona-assigned large language models exhibit human-like motivated reasoning dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que reasoning in humans is prone to biases due to underlying motivations like identity protection, that undermine rational decision-making and judgment. This motivated reasoning at a collective level can be detrimental to society when debating critical issues such as human-driven climate change or vaccine safety, and can further aggravate political polarization. Prior studies have reported that large language models (LLMs) are also susceptible to human-like cognitive biases, however, the extent to which LLMs selectively reason toward identity-congruent conclusions remains largely unexplored. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 221
+
+**Título original:** The Hidden Bias: A Study on Explicit and Implicit Political Stereotypes in Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Konrad Löhr, Shuzhou Yuan, Michael Färber
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2510.08236
+
+#### Abstract (English)
+
+Large Language Models (LLMs) are increasingly integral to information dissemination and decision-making processes. Given their growing societal influence, understanding potential biases, particularly within the political domain, is crucial to prevent undue influence on public opinion and democratic processes. This work investigates political bias and stereotype propagation across eight prominent LLMs using the two-dimensional Political Compass Test (PCT). Initially, the PCT is employed to assess the inherent political leanings of these models. Subsequently, persona prompting with the PCT is used to explore explicit stereotypes across various social dimensions. In a final step, implicit stereotypes are uncovered by evaluating models with multilingual versions of the PCT. Key findings reveal a consistent left-leaning political alignment across all investigated models. Furthermore, while the nature and extent of stereotypes vary considerably between models, implicit stereotypes elicited through language variation are more pronounced than those identified via explicit persona prompting. Interestingly, for most models, implicit and explicit stereotypes show a notable alignment, suggesting a degree of transparency or "awareness" regarding their inherent biases. This study underscores the complex interplay of political bias and stereotypes in LLMs.
+
+#### Resumen (Español)
+
+Este trabajo examina the hidden bias: a study on explicit and implicit political stereotypes in large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large Language Models (LLMs) are increasingly integral to information dissemination and decision-making processes. Given their growing societal influence, understanding potential biases, particularly within the political domain, is crucial to prevent undue influence on public opinion and democratic processes. This work investigates political bias and stereotype propagation across eight prominent LLMs using the two-dimensional Political Compass Test (PCT). En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 222
+
+**Título original:** Destination (Un)Known: Auditing Bias and Fairness in LLM-Based Travel Recommendations
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Hristo Andreev, Petros Kosmas, Antonios D. Livieratos, Antonis L. Theocharous, Anastasios Zopiatis
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://doi.org/10.3390/ai6090236
+
+#### Abstract (English)
+
+Large language-model chatbots such as ChatGPT and DeepSeek are quickly gaining traction as an easy, first-stop tool for trip planning because they offer instant, conversational advice that once required sifting through multiple websites or guidebooks. Yet little is known about the biases that shape the destination suggestions these systems provide. This study conducts a controlled, persona-based audit of the two models, generating 6480 recommendations for 216 traveller profiles that vary by origin country, age, gender identity and trip theme. Six observable bias families (popularity, geographic, cultural, stereotype, demographic and reinforcement) are quantified using tourism rankings, Hofstede scores, a 150-term cliché lexicon and information-theoretic distance measures. Findings reveal measurable bias in every bias category. DeepSeek is more likely than ChatGPT to suggest off-list cities and recommends domestic travel more often, while both models still favour mainstream destinations. DeepSeek also points users toward culturally more distant destinations on all six Hofstede dimensions and employs a denser, superlative-heavy cliché register; ChatGPT shows wider lexical variety but remains strongly promotional. Demographic analysis uncovers moderate gender gaps and extreme divergence for non-binary personas, tempered by a “protective” tendency to guide non-binary travellers toward countries with higher LGBTQI acceptance. Reinforcement bias is minimal, with over 90 percent of follow-up suggestions being novel in both systems. These results confirm that unconstrained LLMs are not neutral filters but active amplifiers of structural imbalances. The paper proposes a public-interest re-ranking layer, hosted by a body such as UN Tourism, that balances exposure fairness, seasonality smoothing, low-carbon routing, cultural congruence, safety safeguards and stereotype penalties, transforming conversational AI from an opaque gatekeeper into a sustainability-oriented travel recommendation tool.
+
+#### Resumen (Español)
+
+Este trabajo examina destination (un)known: auditing bias and fairness in llm-based travel recommendations dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large language-model chatbots such as ChatGPT and DeepSeek are quickly gaining traction as an easy, first-stop tool for trip planning because they offer instant, conversational advice that once required sifting through multiple websites or guidebooks. Yet little is known about the biases that shape the destination suggestions these systems provide. This study conducts a controlled, persona-based audit of the two models, generating 6480 recommendations for 216 traveller profiles that vary by origin country, age, gender identity and trip theme. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 223
+
+**Título original:** Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Chandan Kumar Sah, Xiaoli Lian, Li Zhang, Tony Xu, Syed Saqib Hussain Shah
+
+**Keywords:** Computer science, Categorical variable, Recommender system, Personalization, Benchmark (surveying)
+
+**URL:** https://arxiv.org/abs/2602.02582
+
+#### Abstract (English)
+
+Large language models (LLMs) enable powerful zero-shot recommendations by leveraging broad contextual knowledge, yet predictive uncertainty and embedded biases threaten reliability and fairness. This paper studies how uncertainty and fairness evaluations affect the accuracy, consistency, and trustworthiness of LLM-generated recommendations. We introduce a benchmark of curated metrics and a dataset annotated for eight demographic attributes (31 categorical values) across two domains: movies and music. Through in-depth case studies, we quantify predictive uncertainty (via entropy) and demonstrate that Google DeepMind's Gemini 1.5 Flash exhibits systematic unfairness for certain sensitive attributes; measured similarity-based gaps are SNSR at 0.1363 and SNSV at 0.0507. These disparities persist under prompt perturbations such as typographical errors and multilingual inputs. We further integrate personality-aware fairness into the RecLLM evaluation pipeline to reveal personality-linked bias patterns and expose trade-offs between personalization and group fairness. We propose a novel uncertainty-aware evaluation methodology for RecLLMs, present empirical insights from deep uncertainty case studies, and introduce a personality profile-informed fairness benchmark that advances explainability and equity in LLM recommendations. Together, these contributions establish a foundation for safer, more interpretable RecLLMs and motivate future work on multi-model benchmarks and adaptive calibration for trustworthy deployment.
+
+#### Resumen (Español)
+
+Este trabajo examina uncertainty and fairness awareness in llm-based recommendation systems dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large language models (LLMs) enable powerful zero-shot recommendations by leveraging broad contextual knowledge, yet predictive uncertainty and embedded biases threaten reliability and fairness. This paper studies how uncertainty and fairness evaluations affect the accuracy, consistency, and trustworthiness of LLM-generated recommendations. We introduce a benchmark of curated metrics and a dataset annotated for eight demographic attributes (31 categorical values) across two domains: movies and music. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 224
+
+**Título original:** Distributive Fairness in Large Language Models: Evaluating Alignment with Human Values
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Hadi Hosseini, Samarth Khanna
+
+**Keywords:** Distributive property, Distributive justice, Computer science, Psychology, Economics
+
+**URL:** https://arxiv.org/abs/2502.00313
+
+#### Abstract (English)
+
+The growing interest in employing large language models (LLMs) for decision-making in social and economic contexts has raised questions about their potential to function as agents in these domains. A significant number of societal problems involve the distribution of resources, where fairness, along with economic efficiency, play a critical role in the desirability of outcomes. In this paper, we examine whether LLM responses adhere to fundamental fairness concepts such as equitability, envy-freeness, and Rawlsian maximin, and investigate their alignment with human preferences. We evaluate the performance of several LLMs, providing a comparative benchmark of their ability to reflect these measures. Our results demonstrate a lack of alignment between current LLM responses and human distributional preferences. Moreover, LLMs are unable to utilize money as a transferable resource to mitigate inequality. Nonetheless, we demonstrate a stark contrast when (some) LLMs are tasked with selecting from a predefined menu of options rather than generating one. In addition, we analyze the robustness of LLM responses to variations in semantic factors (e.g., intentions or personas) or non-semantic prompting changes (e.g., templates or orderings). Finally, we highlight potential strategies aimed at enhancing the alignment of LLM behavior with well-established fairness concepts.
+
+#### Resumen (Español)
+
+Este trabajo examina distributive fairness in large language models: evaluating alignment with human values dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que the growing interest in employing large language models (LLMs) for decision-making in social and economic contexts has raised questions about their potential to function as agents in these domains. A significant number of societal problems involve the distribution of resources, where fairness, along with economic efficiency, play a critical role in the desirability of outcomes. In this paper, we examine whether LLM responses adhere to fundamental fairness concepts such as equitability, envy-freeness, and Rawlsian maximin, and investigate their alignment with human preferences. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 225
+
+**Título original:** Who Gets the Callback? Generative AI and Gender Bias
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Sugat Chaturvedi, Rochana Chaturvedi
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2504.21400
+
+#### Abstract (English)
+
+Generative artificial intelligence (AI), particularly large language models (LLMs), is being rapidly deployed in recruitment and for candidate shortlisting. We audit several mid-sized open-source LLMs for gender bias using a dataset of 332,044 real-world online job postings. For each posting, we prompt the model to recommend whether an equally qualified male or female candidate should receive an interview callback. We find that most models tend to favor men, especially for higher-wage roles. Mapping job descriptions to the Standard Occupational Classification system, we find lower callback rates for women in male-dominated occupations and higher rates in female-associated ones, indicating occupational segregation. A comprehensive analysis of linguistic features in job ads reveals strong alignment of model recommendations with traditional gender stereotypes. To examine the role of recruiter identity, we steer model behavior by infusing Big Five personality traits and simulating the perspectives of historical figures. We find that less agreeable personas reduce stereotyping, consistent with an agreeableness bias in LLMs. Our findings highlight how AI-driven hiring may perpetuate biases in the labor market and have implications for fairness and diversity within firms.
+
+#### Resumen (Español)
+
+Este trabajo examina who gets the callback? generative ai and gender bias dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que generative artificial intelligence (AI), particularly large language models (LLMs), is being rapidly deployed in recruitment and for candidate shortlisting. We audit several mid-sized open-source LLMs for gender bias using a dataset of 332,044 real-world online job postings. For each posting, we prompt the model to recommend whether an equally qualified male or female candidate should receive an interview callback. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 226
+
+**Título original:** Risk and prosocial behavioural cues elicit human-like response patterns from AI chatbots
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Yukun Zhao, Zhen Huang, Martin E. P. Seligman, Kaiping Peng
+
+**Keywords:** Prosocial behavior, Generosity, Psychology, Social psychology, Operationalization
+
+**URL:** https://doi.org/10.1038/s41598-024-55949-y
+
+#### Abstract (English)
+
+Emotions, long deemed a distinctly human characteristic, guide a repertoire of behaviors, e.g., promoting risk-aversion under negative emotional states or generosity under positive ones. The question of whether Artificial Intelligence (AI) can possess emotions remains elusive, chiefly due to the absence of an operationalized consensus on what constitutes 'emotion' within AI. Adopting a pragmatic approach, this study investigated the response patterns of AI chatbots—specifically, large language models (LLMs)—to various emotional primes. We engaged AI chatbots as one would human participants, presenting scenarios designed to elicit positive, negative, or neutral emotional states. Multiple accounts of OpenAI's ChatGPT Plus were then tasked with responding to inquiries concerning investment decisions and prosocial behaviors. Our analysis revealed that ChatGPT-4 bots, when primed with positive, negative, or neutral emotions, exhibited distinct response patterns in both risk-taking and prosocial decisions, a phenomenon less evident in the ChatGPT-3.5 iterations. This observation suggests an enhanced capacity for modulating responses based on emotional cues in more advanced LLMs. While these findings do not suggest the presence of emotions in AI, they underline the feasibility of swaying AI responses by leveraging emotional indicators.
+
+#### Resumen (Español)
+
+Este trabajo examina risk and prosocial behavioural cues elicit human-like response patterns from ai chatbots dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que emotions, long deemed a distinctly human characteristic, guide a repertoire of behaviors, e.g., promoting risk-aversion under negative emotional states or generosity under positive ones. The question of whether Artificial Intelligence (AI) can possess emotions remains elusive, chiefly due to the absence of an operationalized consensus on what constitutes 'emotion' within AI. Adopting a pragmatic approach, this study investigated the response patterns of AI chatbots—specifically, large language models (LLMs)—to various emotional primes. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 227
+
+**Título original:** Testing theories of political persuasion using AI
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Lisa P. Argyle, Ethan C. Busby, Joshua R. Gubler, A. Lyman, Jocelyn Olcott, Jackson Pond, David Wingate
+
+**Keywords:** Persuasion, Elaboration likelihood model, Psychology, Social psychology, Politics
+
+**URL:** https://doi.org/10.1073/pnas.2412815122
+
+#### Abstract (English)
+
+Despite its importance to society and many decades of research, key questions about the social and psychological processes of political persuasion remain unanswered, often due to data limitations. We propose that AI tools, specifically generative large language models (LLMs), can be used to address these limitations, offering important advantages in the study of political persuasion. In two preregistered online survey experiments, we demonstrate the potential of generative AI as a tool to study persuasion and provide important insights about the psychological and communicative processes that lead to increased persuasion. Specifically, we test the effects of four AI-generated counterattitudinal persuasive strategies, designed to test the effectiveness of messages that include customization (writing messages based on a receiver’s personal traits and beliefs), and elaboration (increased psychological engagement with the argument through interaction). We find that all four types of persuasive AI produce significant attitude change relative to the control and shift vote support for candidates espousing views consistent with the treatments. However, we do not find evidence that message customization via microtargeting or cognitive elaboration through interaction with the AI have much more persuasive effect than a single generic message. These findings have implications for different theories of persuasion, which we discuss. Finally, we find that although persuasive messages are able to moderate some people’s attitudes, they have inconsistent and weaker effects on the democratic reciprocity people grant to their political opponents. This suggests that attitude moderation (ideological depolarization) does not necessarily lead to increased democratic tolerance or decreased affective polarization.
+
+#### Resumen (Español)
+
+Este trabajo examina testing theories of political persuasion using ai dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que despite its importance to society and many decades of research, key questions about the social and psychological processes of political persuasion remain unanswered, often due to data limitations. We propose that AI tools, specifically generative large language models (LLMs), can be used to address these limitations, offering important advantages in the study of political persuasion. In two preregistered online survey experiments, we demonstrate the potential of generative AI as a tool to study persuasion and provide important insights about the psychological and communicative processes that lead to increased persuasion. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 228
+
+**Título original:** Simulating Misinformation Propagation in Social Networks using Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Raj Maurya, Vaibhav Shukla, Raj Dandekar, Rajat Dandekar, Sreedath Panat
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2511.10384
+
+#### Abstract (English)
+
+Misinformation on social media thrives on surprise, emotion, and identity-driven reasoning, often amplified through human cognitive biases. To investigate these mechanisms, we model large language model (LLM) personas as synthetic agents that mimic user-level biases, ideological alignments, and trust heuristics. Within this setup, we introduce an auditor--node framework to simulate and analyze how misinformation evolves as it circulates through networks of such agents. News articles are propagated across networks of persona-conditioned LLM nodes, each rewriting received content. A question--answering-based auditor then measures factual fidelity at every step, offering interpretable, claim-level tracking of misinformation drift. We formalize a misinformation index and a misinformation propagation rate to quantify factual degradation across homogeneous and heterogeneous branches of up to 30 sequential rewrites. Experiments with 21 personas across 10 domains reveal that identity- and ideology-based personas act as misinformation accelerators, especially in politics, marketing, and technology. By contrast, expert-driven personas preserve factual stability. Controlled-random branch simulations further show that once early distortions emerge, heterogeneous persona interactions rapidly escalate misinformation to propaganda-level distortion. Our taxonomy of misinformation severity -- spanning factual errors, lies, and propaganda -- connects observed drift to established theories in misinformation studies. These findings demonstrate the dual role of LLMs as both proxies for human-like biases and as auditors capable of tracing information fidelity. The proposed framework provides an interpretable, empirically grounded approach for studying, simulating, and mitigating misinformation diffusion in digital ecosystems.
+
+#### Resumen (Español)
+
+Este trabajo examina simulating misinformation propagation in social networks using large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que misinformation on social media thrives on surprise, emotion, and identity-driven reasoning, often amplified through human cognitive biases. To investigate these mechanisms, we model large language model (LLM) personas as synthetic agents that mimic user-level biases, ideological alignments, and trust heuristics. Within this setup, we introduce an auditor--node framework to simulate and analyze how misinformation evolves as it circulates through networks of such agents. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 229
+
+**Título original:** Assessing Social Alignment: Do Personality-Prompted Large Language Models Behave Like Humans?
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Ivan Zakazov, Mikolaj Boronski, Lorenzo Drudi, Robert West
+
+**Keywords:** Personality, Psychology, Cognitive psychology, Social psychology, Evaluation
+
+**URL:** https://arxiv.org/abs/2412.16772
+
+#### Abstract (English)
+
+The ongoing revolution in language modeling has led to various novel applications, some of which rely on the emerging social abilities of large language models (LLMs). Already, many turn to the new cyber friends for advice during the pivotal moments of their lives and trust them with the deepest secrets, implying that accurate shaping of the LLM's personality is paramount. To this end, state-of-the-art approaches exploit a vast variety of training data, and prompt the model to adopt a particular personality. We ask (i) if personality-prompted models behave (i.e., make decisions when presented with a social situation) in line with the ascribed personality (ii) if their behavior can be finely controlled. We use classic psychological experiments, the Milgram experiment and the Ultimatum Game, as social interaction testbeds and apply personality prompting to open- and closed-source LLMs from 4 different vendors. Our experiments reveal failure modes of the prompt-based modulation of the models' behavior that are shared across all models tested and persist under prompt perturbations. These findings challenge the optimistic sentiment toward personality prompting generally held in the community.
+
+#### Resumen (Español)
+
+Este trabajo examina assessing social alignment: do personality-prompted large language models behave like humans? dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que the ongoing revolution in language modeling has led to various novel applications, some of which rely on the emerging social abilities of large language models (LLMs). Already, many turn to the new cyber friends for advice during the pivotal moments of their lives and trust them with the deepest secrets, implying that accurate shaping of the LLM's personality is paramount. To this end, state-of-the-art approaches exploit a vast variety of training data, and prompt the model to adopt a particular personality. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 230
+
+**Título original:** Misalignment of LLM-Generated Personas with Human Perceptions in Low-Resource Settings
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Tabia Tanzin Prama, Christopher M. Danforth, Peter Sheridan Dodds
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2512.02058
+
+#### Abstract (English)
+
+Recent advances enable Large Language Models (LLMs) to generate AI personas, yet their lack of deep contextual, cultural, and emotional understanding poses a significant limitation. This study quantitatively compared human responses with those of eight LLM-generated social personas (e.g., Male, Female, Muslim, Political Supporter) within a low-resource environment like Bangladesh, using culturally specific questions. Results show human responses significantly outperform all LLMs in answering questions, and across all matrices of persona perception, with particularly large gaps in empathy and credibility. Furthermore, LLM-generated content exhibited a systematic bias along the lines of the ``Pollyanna Principle'', scoring measurably higher in positive sentiment ($Φ_{avg} = 5.99$ for LLMs vs. $5.60$ for Humans). These findings suggest that LLM personas do not accurately reflect the authentic experience of real people in resource-scarce environments. It is essential to validate LLM personas against real-world human data to ensure their alignment and reliability before deploying them in social science research.
+
+#### Resumen (Español)
+
+Este trabajo examina misalignment of llm-generated personas with human perceptions in low-resource settings dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que recent advances enable Large Language Models (LLMs) to generate AI personas, yet their lack of deep contextual, cultural, and emotional understanding poses a significant limitation. This study quantitatively compared human responses with those of eight LLM-generated social personas (e.g., Male, Female, Muslim, Political Supporter) within a low-resource environment like Bangladesh, using culturally specific questions. Results show human responses significantly outperform all LLMs in answering questions, and across all matrices of persona perception, with particularly large gaps in empathy and credibility. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 231
+
+**Título original:** Confident, Calibrated, or Complicit: Probing the Trade-offs between Safety Alignment and Ideological Bias in Language Models in Detecting Hate Speech
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Sanjeeevan Selvaganapathy, Mehwish Nasim
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2509.00673
+
+#### Abstract (English)
+
+We investigate the efficacy of Large Language Models (LLMs) in detecting implicit and explicit hate speech, examining whether models with minimal safety alignment (uncensored) might provide more objective classification capabilities compared to their heavily-aligned (censored) counterparts. While uncensored models theoretically offer a less constrained perspective free from moral guardrails that could bias classification decisions, our results reveal a surprising trade-off: censored models significantly outperform their uncensored counterparts in both accuracy and robustness, achieving 78.7% versus 64.1% strict accuracy. However, this enhanced performance comes with its own limitation -- the safety alignment acts as a strong ideological anchor, making censored models resistant to persona-based influence, while uncensored models prove highly malleable to ideological framing. Furthermore, we identify critical failures across all models in understanding nuanced language such as irony. We also find alarming fairness disparities in performance across different targeted groups and systemic overconfidence that renders self-reported certainty unreliable. These findings challenge the notion of LLMs as objective arbiters and highlight the need for more sophisticated auditing frameworks that account for fairness, calibration, and ideological consistency.
+
+#### Resumen (Español)
+
+Este trabajo examina confident, calibrated, or complicit: probing the trade-offs between safety alignment and ideological bias in language models in detecting hate speech dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que we investigate the efficacy of Large Language Models (LLMs) in detecting implicit and explicit hate speech, examining whether models with minimal safety alignment (uncensored) might provide more objective classification capabilities compared to their heavily-aligned (censored) counterparts. While uncensored models theoretically offer a less constrained perspective free from moral guardrails that could bias classification decisions, our results reveal a surprising trade-off: censored models significantly outperform their uncensored counterparts in both accuracy and robustness, achieving 78.7% versus 64.1% strict accuracy. However, this enhanced performance comes with its own limitation -- the safety alignment acts as a strong ideological anchor, making censored models resistant to persona-based influence, while uncensored models prove highly malleable to ideological framing. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 232
+
+**Título original:** Generative AI voting: fair collective choice is resilient to LLM biases and inconsistencies
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Srijoni Majumdar, Edith Elkind, Evangelos Pournaras
+
+**Keywords:** Generative grammar, Voting, Computer science, Psychology, Political science
+
+**URL:** https://arxiv.org/abs/2406.11871
+
+#### Abstract (English)
+
+Recent breakthroughs in generative artificial intelligence (AI) and large language models (LLMs) unravel new capabilities for AI personal assistants to overcome cognitive bandwidth limitations of humans, providing decision support or even direct representation of abstained human voters at large scale. However, the quality of this representation and what underlying biases manifest when delegating collective decision making to LLMs is an alarming and timely challenge to tackle. By rigorously emulating more than &gt;50K LLM voting personas in 363 real-world voting elections, we disentangle how AI-generated choices differ from human choices and how this affects collective decision outcomes. Complex preferential ballot formats show significant inconsistencies compared to simpler majoritarian elections, which demonstrate higher consistency. Strikingly, proportional ballot aggregation methods such as equal shares prove to be a win-win: fairer voting outcomes for humans and fairer AI representation, especially for voters likely to abstain. This novel underlying relationship proves paramount for building democratic resilience in scenarios of low voters turnout by voter fatigue: abstained voters are mitigated via AI representatives that recover representative and fair voting outcomes. These interdisciplinary insights provide decision support to policymakers and citizens for developing safeguards and policies for risks of using AI in democratic innovations.
+
+#### Resumen (Español)
+
+Este trabajo examina generative ai voting: fair collective choice is resilient to llm biases and inconsistencies dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que recent breakthroughs in generative artificial intelligence (AI) and large language models (LLMs) unravel new capabilities for AI personal assistants to overcome cognitive bandwidth limitations of humans, providing decision support or even direct representation of abstained human voters at large scale. However, the quality of this representation and what underlying biases manifest when delegating collective decision making to LLMs is an alarming and timely challenge to tackle. By rigorously emulating more than &gt;50K LLM voting personas in 363 real-world voting elections, we disentangle how AI-generated choices differ from human choices and how this affects collective decision outcomes. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 233
+
+**Título original:** AI, social desirability, and personality assessments: Impression management in large language models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Luke Treglown, Adrian Furnham
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://doi.org/10.1016/j.paid.2025.113563
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina ai, social desirability, and personality assessments: impression management in large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 234
+
+**Título original:** Understanding Down Syndrome Stereotypes in LLM-Based Personas
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Chen Wu, Peng Wang, Nafi Nibras, Meiyu Li, Dajun Yuan, Zhixiao Wang, Jason He, Mona A. S. Ali, Mirjana Prpa
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2512.02275
+
+#### Abstract (English)
+
+We present a case study of Persona-L, a system that leverages large language models (LLMs) and retrieval-augmented generation (RAG) to model personas of people with Down syndrome. Existing approaches to persona creation can often lead to oversimplified or stereotypical profiles of people with Down Syndrome. To that end, we built stereotype detection capabilities into Persona-L. Through interviews with caregivers and healthcare professionals (N=10), we examine how Down Syndrome stereotypes could manifest in both, content and delivery of LLMs, and interface design. Our findings show the challenges in stereotypes definition, and reveal the potential stereotype emergence from the training data, interface design, and the tone of LLM output. This highlights the need for participatory methods that capture the heterogeneity of lived experiences of people with Down Syndrome.
+
+#### Resumen (Español)
+
+Este trabajo examina understanding down syndrome stereotypes in llm-based personas dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que we present a case study of Persona-L, a system that leverages large language models (LLMs) and retrieval-augmented generation (RAG) to model personas of people with Down syndrome. Existing approaches to persona creation can often lead to oversimplified or stereotypical profiles of people with Down Syndrome. To that end, we built stereotype detection capabilities into Persona-L. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 235
+
+**Título original:** “I’ve never seen a glass ceiling better represented”: Bias and gendering in LLM-generated synthetic personas from a participatory design perspective
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Helena A. Haxvig, Vincenzo D’Andrea, Maurizio Teli
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://doi.org/10.1016/j.ijhcs.2025.103651
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina “i’ve never seen a glass ceiling better represented”: bias and gendering in llm-generated synthetic personas from a participatory design perspective dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 236
+
+**Título original:** Political Bias in LLMs: Unaligned Moral Values in Agent-centric Simulations
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Simon Münker
+
+**Keywords:** Statement (logic), Context (archaeology), Differential (mechanical device), Epistemology, Value (mathematics)
+
+**URL:** https://arxiv.org/abs/2408.11415
+
+#### Abstract (English)
+
+Contemporary research in social sciences increasingly utilizes state-of-the-art generative language models to annotate or generate content. While these models achieve benchmark-leading performance on common language tasks, their application to novel out-of-domain tasks remains insufficiently explored. To address this gap, we investigate how personalized language models align with human responses on the Moral Foundation Theory Questionnaire. We adapt open-source generative language models to different political personas and repeatedly survey these models to generate synthetic data sets where model-persona combinations define our sub-populations. Our analysis reveals that models produce inconsistent results across multiple repetitions, yielding high response variance. Furthermore, the alignment between synthetic data and corresponding human data from psychological studies shows a weak correlation, with conservative persona-prompted models particularly failing to align with actual conservative populations. These results suggest that language models struggle to coherently represent ideologies through in-context prompting due to their alignment process. Thus, using language models to simulate social interactions requires measurable improvements in in-context optimization or parameter manipulation to align with psychological and sociological stereotypes properly.
+
+#### Resumen (Español)
+
+Este trabajo examina political bias in llms: unaligned moral values in agent-centric simulations dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que contemporary research in social sciences increasingly utilizes state-of-the-art generative language models to annotate or generate content. While these models achieve benchmark-leading performance on common language tasks, their application to novel out-of-domain tasks remains insufficiently explored. To address this gap, we investigate how personalized language models align with human responses on the Moral Foundation Theory Questionnaire. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 237
+
+**Título original:** Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Gavin Wang, Srinaath Anbudurai, Oliver Sun, Xitong Li, Lynn Wu
+
+**Keywords:** Ideology, Politics, Hostility, Sociology, Critical discourse analysis
+
+**URL:** https://arxiv.org/abs/2601.20238
+
+#### Abstract (English)
+
+The emergence of large language models (LLMs) is reshaping how people engage in political discourse online. We examine how the release of ChatGPT altered ideological and emotional patterns in the largest political forum on Reddit. Analysis of millions of comments shows that ChatGPT intensified ideological polarization: liberals became more liberal, and conservatives more conservative. This shift does not stem from the creation of more persuasive or ideologically extreme original content using ChatGPT. Instead, it originates from the tendency of ChatGPT-generated comments to echo and reinforce the viewpoint of original posts, a pattern consistent with algorithmic sycophancy. Yet, despite growing ideological divides, affective polarization, measured by hostility and toxicity, declined. These findings reveal that LLMs can simultaneously deepen ideological separation and foster more civil exchanges, challenging the long-standing assumption that extremity and incivility necessarily move together.
+
+#### Resumen (Español)
+
+Este trabajo examina large language models polarize ideologically but moderate affectively in online political discourse dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que the emergence of large language models (LLMs) is reshaping how people engage in political discourse online. We examine how the release of ChatGPT altered ideological and emotional patterns in the largest political forum on Reddit. Analysis of millions of comments shows that ChatGPT intensified ideological polarization: liberals became more liberal, and conservatives more conservative. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 238
+
+**Título original:** From Delegates to Trustees: How Optimizing for Long-Term Interests Shapes Bias and Alignment in LLM
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Suyash Fulay, Jian Zhu, M. Bakker
+
+**Keywords:** Large Language Models, Personality, Bias, Social Impact, Evaluation
+
+**URL:** https://arxiv.org/abs/2510.12689
+
+#### Abstract (English)
+
+Large language models (LLMs) have shown promising accuracy in predicting survey responses and policy preferences, which has increased interest in their potential to represent human interests in various domains. Most existing research has focused on "behavioral cloning", effectively evaluating how well models reproduce individuals' expressed preferences. Drawing on theories of political representation, we highlight an underexplored design trade-off: whether AI systems should act as delegates, mirroring expressed preferences, or as trustees, exercising judgment about what best serves an individual's interests. This trade-off is closely related to issues of LLM sycophancy, where models can encourage behavior or validate beliefs that may be aligned with a user's short-term preferences, but is detrimental to their long-term interests. Through a series of experiments simulating votes on various policy issues in the U.S. context, we apply a temporal utility framework that weighs short and long-term interests (simulating a trustee role) and compare voting outcomes to behavior-cloning models (simulating a delegate). We find that trustee-style predictions weighted toward long-term interests produce policy decisions that align more closely with expert consensus on well-understood issues, but also show greater bias toward models' default stances on topics lacking clear agreement. These findings reveal a fundamental trade-off in designing AI systems to represent human interests. Delegate models better preserve user autonomy but may diverge from well-supported policy positions, while trustee models can promote welfare on well-understood issues yet risk paternalism and bias on subjective topics.
+
+#### Resumen (Español)
+
+Este trabajo examina from delegates to trustees: how optimizing for long-term interests shapes bias and alignment in llm dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que large language models (LLMs) have shown promising accuracy in predicting survey responses and policy preferences, which has increased interest in their potential to represent human interests in various domains. Most existing research has focused on "behavioral cloning", effectively evaluating how well models reproduce individuals' expressed preferences. Drawing on theories of political representation, we highlight an underexplored design trade-off: whether AI systems should act as delegates, mirroring expressed preferences, or as trustees, exercising judgment about what best serves an individual's interests. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 239
+
+**Título original:** Position is Power: System Prompts as a Mechanism of Bias in Large Language Models (LLMs)
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Anna Neumann, Elisabeth Kirsten, Muhammad Bilal Zafar, Jatinder Singh
+
+**Keywords:** Mechanism (biology), Computer science, Position (finance), Power (physics), Position paper
+
+**URL:** https://arxiv.org/abs/2505.21091
+
+#### Abstract (English)
+
+System prompts in Large Language Models (LLMs) are predefined directives that guide model behaviour, taking precedence over user inputs in text processing and generation. LLM deployers increasingly use them to ensure consistent responses across contexts. While model providers set a foundation of system prompts, deployers and third-party developers can append additional prompts without visibility into others' additions, while this layered implementation remains entirely hidden from end-users. As system prompts become more complex, they can directly or indirectly introduce unaccounted for side effects. This lack of transparency raises fundamental questions about how the position of information in different directives shapes model outputs. As such, this work examines how the placement of information affects model behaviour. To this end, we compare how models process demographic information in system versus user prompts across six commercially available LLMs and 50 demographic groups. Our analysis reveals significant biases, manifesting in differences in user representation and decision-making scenarios. Since these variations stem from inaccessible and opaque system-level configurations, they risk representational, allocative and potential other biases and downstream harms beyond the user's ability to detect or correct. Our findings draw attention to these critical issues, which have the potential to perpetuate harms if left unexamined. Further, we argue that system prompt analysis must be incorporated into AI auditing processes, particularly as customisable system prompts become increasingly prevalent in commercial AI deployments.
+
+#### Resumen (Español)
+
+Este trabajo examina position is power: system prompts as a mechanism of bias in large language models (llms) dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que system prompts in Large Language Models (LLMs) are predefined directives that guide model behaviour, taking precedence over user inputs in text processing and generation. LLM deployers increasingly use them to ensure consistent responses across contexts. While model providers set a foundation of system prompts, deployers and third-party developers can append additional prompts without visibility into others' additions, while this layered implementation remains entirely hidden from end-users. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 240
+
+**Título original:** Battling Misinformation: An Empirical Study on Adversarial Factuality in Open-Source Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Shahnewaz Karim Sakib, Anindya Bijoy Das, Shibbir Ahmed
+
+**Keywords:** Misinformation, Computer science, Adversarial system, Open source, Language model
+
+**URL:** https://aclanthology.org/2025.trustnlp-main.28/
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina battling misinformation: an empirical study on adversarial factuality in open-source large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 241
+
+**Título original:** “I understand your perspective”: LLM Persuasion through the Lens of Communicative Action Theory
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Esra Dönmez, Agnieszka Faleńska
+
+**Keywords:** Persuasion, Perspective (graphical), Communicative action, Action (physics), Lens (geology)
+
+**URL:** https://aclanthology.org/2025.findings-acl.793/
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina “i understand your perspective”: llm persuasion through the lens of communicative action theory dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 242
+
+**Título original:** Can LLMs Ground when they (Don’t) Know: A Study on Direct and Loaded Political Questions
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Clara Lachenmaier, Judith Sieker, Sina Zarrieß
+
+**Keywords:** Politics, Computer science, Political science, Law, Evaluation
+
+**URL:** https://aclanthology.org/2025.acl-long.728/
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina can llms ground when they (don’t) know: a study on direct and loaded political questions dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 243
+
+**Título original:** Investigating Cultural Alignment of Large Language Models
+
+**Categoría:** Aplicaciones, sesgos y consecuencias sociales
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Badr AlKhamissi, Muhammad ElNokrashy, Mai AlKhamissi, Mona Diab
+
+**Keywords:** Computer science, Natural language processing, Linguistics, Artificial intelligence, Philosophy
+
+**URL:** https://aclanthology.org/2024.acl-long.671/
+
+#### Abstract (English)
+
+This paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings.
+
+#### Resumen (Español)
+
+Este trabajo examina investigating cultural alignment of large language models dentro de la línea de aplicaciones, sesgos y consecuencias sociales en LLMs. El artículo reporta que this paper studies social, bias, and behavioral effects related to synthetic personality and role conditioning in large language models, with emphasis on measurable impacts in realistic interaction settings. En conjunto, la evidencia aporta criterios para comparar resultados entre modelos y para diseñar evaluaciones más sólidas sobre sesgo, alineación y efectos en usuarios.
+
+---
+
+### Artículo 244
+
+**Título original:** Extroversion or Introversion? Controlling The Personality of Your Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Yanquan Chen, Zhen Wu, Junjie Guo, Shujian Huang, Xinyu Dai
+
+**Keywords:** Extraversion and introversion, Personality, Psychology, Social psychology, Big Five personality traits
+
+**URL:** https://arxiv.org/abs/2406.04583
+
+#### Abstract (English)
+
+Large language models (LLMs) exhibit robust capabilities in text generation and comprehension, mimicking human behavior and exhibiting synthetic personalities. However, some LLMs have displayed offensive personality, propagating toxic discourse. Existing literature neglects the origin and evolution of LLM personalities, as well as the effective personality control. To fill these gaps, our study embarked on a comprehensive investigation into LLM personality control. We investigated several typical methods to influence LLMs, including three training methods: Continual Pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning from Human Feedback (RLHF), along with inference phase considerations (prompts). Our investigation revealed a hierarchy of effectiveness in control: Prompt &gt; SFT &gt; RLHF &gt; Continual Pre-train. Notably, SFT exhibits a higher control success rate compared to prompt induction. While prompts prove highly effective, we found that prompt-induced personalities are less robust than those trained, making them more prone to showing conflicting personalities under reverse personality prompt induction. Besides, harnessing the strengths of both SFT and prompt, we proposed $\underline{\text{P}}$rompt $\underline{\text{I}}$nduction post $\underline{\text{S}}$upervised $\underline{\text{F}}$ine-tuning (PISF), which emerges as the most effective and robust strategy for controlling LLMs' personality, displaying high efficacy, high success rates, and high robustness. Even under reverse personality prompt induction, LLMs controlled by PISF still exhibit stable and robust personalities.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que large language models (LLMs) exhibit robust capabilities in text generation and comprehension, mimicking human behavior and exhibiting synthetic personalities. However, some LLMs have displayed offensive personality, propagating toxic discourse. Existing literature neglects the origin and evolution of LLM personalities, as well as the effective personality control. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 245
+
+**Título original:** Large Language Models are Superpositions of All Characters: Attaining Arbitrary Role-play via Self-Alignment
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Keming Lu, Bowen Yu, Chang Zhou, Jingren Zhou
+
+**Keywords:** Computer science, Language model, Artificial intelligence, Natural language processing, Theoretical computer science
+
+**URL:** https://aclanthology.org/2024.acl-long.423/
+
+#### Abstract (English)
+
+Considerable efforts have been invested in augmenting the role-playing proficiency of open-source large language models (LLMs) by emulating proprietary counterparts. Nevertheless, we posit that LLMs inherently harbor role-play capabilities, owing to the extensive knowledge of characters and potential dialogues ingrained in their vast training corpora. Thus, we introduce Ditto, the first self-alignment method for role-play, which encourages an instruction-following LLM to simulate role-play dialogues as a variant of reading comprehension, and creates a role-play training set comprising 4000 characters, surpassing the scale of currently available datasets by tenfold regarding the number of roles. Subsequently, we fine-tune the LLM using this self-generated dataset to augment its role-playing capabilities. Upon evaluating our meticulously constructed role-play benchmark and the roleplay subset of MT-Bench, Ditto, in various parameter scales, consistently maintains a consistent role identity and provides accurate role-specific knowledge in multi-turn role-play conversations, outperforming all open-source role-play baselines. Furthermore, we present the first cross-supervision role-play experiment, revealing that the role-play styles can be easily acquired, while the intrinsic capabilities of LLMs confine the knowledge within role-play.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que considerable efforts have been invested in augmenting the role-playing proficiency of open-source large language models (LLMs) by emulating proprietary counterparts. Nevertheless, we posit that LLMs inherently harbor role-play capabilities, owing to the extensive knowledge of characters and potential dialogues ingrained in their vast training corpora. Thus, we introduce Ditto, the first self-alignment method for role-play, which encourages an instruction-following LLM to simulate role-play dialogues as a variant of reading comprehension, and creates a role-play training set comprising 4000 characters, surpassing the scale of currently available datasets by tenfold regarding the number of roles. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 246
+
+**Título original:** Beyond Demographics: Aligning Role-playing LLM-based Agents Using Human Belief Networks
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Yun‐Shiuan Chuang, Krirk Nirunwiroj, Zach Studdiford, Agam Goyal, Vincent Frigo, Sijia Yang, Dhavan V. Shah, Junjie Hu, Timothy T. Rogers
+
+**Keywords:** Demographics, Computer science, Sociology, Demography, Steering
+
+**URL:** https://aclanthology.org/2024.findings-emnlp.819/
+
+#### Abstract (English)
+
+Creating human-like large language model (LLM) agents is crucial for faithful social simulation. Having LLMs role-play based on demographic information sometimes improves human likeness but often does not. This study assessed whether LLM alignment with human behavior can be improved by integrating information from empirically-derived human belief networks. Using data from a human survey, we estimated a belief network encompassing 64 topics loading on nine non-overlapping latent factors. We then seeded LLM-based agents with an opinion on one topic, and assessed the alignment of its expressed opinions on remaining test topics with corresponding human data. Role-playing based on demographic information alone did not align LLM and human opinions, but seeding the agent with a single belief greatly improved alignment for topics related in the belief network, and not for topics outside the network. These results suggest a novel path for human-LLM belief alignment in work seeking to simulate and understand patterns of belief distributions in society.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que creating human-like large language model (LLM) agents is crucial for faithful social simulation. Having LLMs role-play based on demographic information sometimes improves human likeness but often does not. This study assessed whether LLM alignment with human behavior can be improved by integrating information from empirically-derived human belief networks. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 247
+
+**Título original:** Roleplay-doh: Enabling Domain-Experts to Create LLM-simulated Patients via Eliciting and Adhering to Principles
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2024 | **Idioma:** Inglés
+
+**Autores:** Ryan Louie, Ananjan Nandi, William Fang, Cheng Chang, Emma Brunskill, Diyi Yang
+
+**Keywords:** Computer science, Domain (mathematical analysis), Mathematics, Mathematical analysis, Steering
+
+**URL:** https://aclanthology.org/2024.emnlp-main.591/
+
+#### Abstract (English)
+
+Recent works leverage LLMs to roleplay realistic social scenarios, aiding novices in practicing their social skills. However, simulating sensitive interactions, such as in the domain of mental health, is challenging. Privacy concerns restrict data access, and collecting expert feedback, although vital, is laborious. To address this, we develop Roleplay-doh, a novel human-LLM collaboration pipeline that elicits qualitative feedback from a domain-expert, which is transformed into a set of principles, or natural language rules, that govern an LLM-prompted roleplay. We apply this pipeline to enable senior mental health supporters to create customized AI patients as simulated practice partners for novice counselors. After uncovering issues with basic GPT-4 simulations not adhering to expert-defined principles, we also introduce a novel principle-adherence prompting pipeline which shows a 30% improvement in response quality and principle following for the downstream task. Through a user study with 25 counseling experts, we demonstrate that the pipeline makes it easy and effective to create AI patients that more faithfully resemble real patients, as judged by both creators and third-party counselors. We provide access to the code and data on our project website: https://roleplay-doh.github.io/.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que recent works leverage LLMs to roleplay realistic social scenarios, aiding novices in practicing their social skills. However, simulating sensitive interactions, such as in the domain of mental health, is challenging. Privacy concerns restrict data access, and collecting expert feedback, although vital, is laborious. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 248
+
+**Título original:** Test-Time-Matching: Decouple Personality, Memory, and Linguistic Style in LLM-based Role-Playing Language Agent
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Xiaoyu Zhan, Xinyu Fu, Hao Sun, Yuanqi Li, Guo Jie, Yanwen Guo
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2507.16799
+
+#### Abstract (English)
+
+The rapid advancement of large language models (LLMs) has enabled role-playing language agents to demonstrate significant potential in various applications. However, relying solely on prompts and contextual inputs often proves insufficient for achieving deep immersion in specific roles, particularly well-known fictional or public figures. On the other hand, fine-tuning-based approaches face limitations due to the challenges associated with data collection and the computational resources required for training, thereby restricting their broader applicability. To address these issues, we propose Test-Time-Matching (TTM), a training-free role-playing framework through test-time scaling and context engineering. TTM uses LLM agents to automatically decouple a character's features into personality, memory, and linguistic style. Our framework involves a structured, three-stage generation pipeline that utilizes these features for controlled role-playing. It achieves high-fidelity role-playing performance, also enables seamless combinations across diverse linguistic styles and even variations in personality and memory. We evaluate our framework through human assessment, and the results demonstrate that our method achieves the outstanding performance in generating expressive and stylistically consistent character dialogues.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que the rapid advancement of large language models (LLMs) has enabled role-playing language agents to demonstrate significant potential in various applications. However, relying solely on prompts and contextual inputs often proves insufficient for achieving deep immersion in specific roles, particularly well-known fictional or public figures. On the other hand, fine-tuning-based approaches face limitations due to the challenges associated with data collection and the computational resources required for training, thereby restricting their broader applicability. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 249
+
+**Título original:** Multi-Personality Generation of LLMs at Decoding-time
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** R.S. Chen, Yinjin Li, Yufei Yuan, Bingbing Xu, Huawei Shen
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2511.01891
+
+#### Abstract (English)
+
+Multi-personality generation for LLMs, enabling simultaneous embodiment of multiple personalization attributes, is a fundamental challenge. Existing retraining-based approaches are costly and poorly scalable, while decoding-time methods often rely on external models or heuristics, limiting flexibility and robustness. In this paper, we propose a novel Multi-Personality Generation (MPG) framework under the decoding-time combination paradigm. It flexibly controls multi-personality without relying on scarce multi-dimensional models or extra training, leveraging implicit density ratios in single-dimensional models as a "free lunch" to reformulate the task as sampling from a target strategy aggregating these ratios. To implement MPG efficiently, we design Speculative Chunk-level based Rejection sampling (SCR), which generates responses in chunks and parallelly validates them via estimated thresholds within a sliding window. This significantly reduces computational overhead while maintaining high-quality generation. Experiments on MBTI personality and Role-Playing demonstrate the effectiveness of MPG, showing improvements up to 16%-18%. Code and data are available at https://github.com/Libra117/MPG .
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que multi-personality generation for LLMs, enabling simultaneous embodiment of multiple personalization attributes, is a fundamental challenge. Existing retraining-based approaches are costly and poorly scalable, while decoding-time methods often rely on external models or heuristics, limiting flexibility and robustness. In this paper, we propose a novel Multi-Personality Generation (MPG) framework under the decoding-time combination paradigm. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 250
+
+**Título original:** Interpolative Decoding: Exploring the Spectrum of Personality Traits in LLMs
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Eric Yeh, John Cadigan, Ran Chen, Dick Crouch, Melinda Gervasio, Dayne Freitag
+
+**Keywords:** Personality, Fidelity, Psychology, Replicate, Big Five personality traits
+
+**URL:** https://arxiv.org/abs/2512.19937
+
+#### Abstract (English)
+
+Recent research has explored using very large language models (LLMs) as proxies for humans in tasks such as simulation, surveys, and studies. While LLMs do not possess a human psychology, they often can emulate human behaviors with sufficiently high fidelity to drive simulations to test human behavioral hypotheses, exhibiting more nuance and range than the rule-based agents often employed in behavioral economics. One key area of interest is the effect of personality on decision making, but the requirement that a prompt must be created for every tested personality profile introduces experimental overhead and degrades replicability. To address this issue, we leverage interpolative decoding, representing each dimension of personality as a pair of opposed prompts and employing an interpolation parameter to simulate behavior along the dimension. We show that interpolative decoding reliably modulates scores along each of the Big Five dimensions. We then show how interpolative decoding causes LLMs to mimic human decision-making behavior in economic games, replicating results from human psychological research. Finally, we present preliminary results of our efforts to ``twin'' individual human players in a collaborative game through systematic search for points in interpolation space that cause the system to replicate actions taken by the human subject.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que recent research has explored using very large language models (LLMs) as proxies for humans in tasks such as simulation, surveys, and studies. While LLMs do not possess a human psychology, they often can emulate human behaviors with sufficiently high fidelity to drive simulations to test human behavioral hypotheses, exhibiting more nuance and range than the rule-based agents often employed in behavioral economics. One key area of interest is the effect of personality on decision making, but the requirement that a prompt must be created for every tested personality profile introduces experimental overhead and degrades replicability. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 251
+
+**Título original:** The Geometry of Persona: Disentangling Personality from Reasoning in Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Wang, Zhixiang
+
+**Keywords:** Computer science, Representation (politics), Artificial intelligence, Probabilistic logic, Personality
+
+**URL:** https://arxiv.org/abs/2512.07092
+
+#### Abstract (English)
+
+Background: The deployment of personalized Large Language Models (LLMs) is currently constrained by the stability-plasticity dilemma. Prevailing alignment methods, such as Supervised Fine-Tuning (SFT), rely on stochastic weight updates that often incur an "alignment tax" -- degrading general reasoning capabilities. Methods: We propose the Soul Engine, a framework based on the Linear Representation Hypothesis, which posits that personality traits exist as orthogonal linear subspaces. We introduce SoulBench, a dataset constructed via dynamic contextual sampling. Using a dual-head architecture on a frozen Qwen-2.5 base, we extract disentangled personality vectors without modifying the backbone weights. Results: Our experiments demonstrate three breakthroughs. First, High-Precision Profiling: The model achieves a Mean Squared Error (MSE) of 0.011 against psychological ground truth. Second, Geometric Orthogonality: T-SNE visualization confirms that personality manifolds are distinct and continuous, allowing for "Zero-Shot Personality Injection" that maintains original model intelligence. Third, Deterministic Steering: We achieve robust control over behavior via vector arithmetic, validated through extensive ablation studies. Conclusion: This work challenges the necessity of fine-tuning for personalization. By transitioning from probabilistic prompting to deterministic latent intervention, we provide a mathematically rigorous foundation for safe, controllable AI personalization.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que background: The deployment of personalized Large Language Models (LLMs) is currently constrained by the stability-plasticity dilemma. Prevailing alignment methods, such as Supervised Fine-Tuning (SFT), rely on stochastic weight updates that often incur an "alignment tax" -- degrading general reasoning capabilities. Methods: We propose the Soul Engine, a framework based on the Linear Representation Hypothesis, which posits that personality traits exist as orthogonal linear subspaces. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 252
+
+**Título original:** Profile-LLM: Dynamic Profile Optimization for Realistic Personality Expression in LLMs
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Dai, Shi-Wei, Shie, Yan-Wei, Yang, Tsung-Huan, Ku, Lun-Wei, Li, Yung-Hui
+
+**Keywords:** Personality, Big Five personality traits, Expression (computer science), Situational ethics, Psychology
+
+**URL:** https://arxiv.org/abs/2511.19852
+
+#### Abstract (English)
+
+Personalized Large Language Models (LLMs) have been shown to be an effective way to create more engaging and enjoyable user-AI interactions. While previous studies have explored using prompts to elicit specific personality traits in LLMs, they have not optimized these prompts to maximize personality expression. To address this limitation, we propose PersonaPulse: Dynamic Profile Optimization for Realistic Personality Expression in LLMs, a framework that leverages LLMs' inherent knowledge of personality traits to iteratively enhance role-play prompts while integrating a situational response benchmark as a scoring tool, ensuring a more realistic and contextually grounded evaluation to guide the optimization process. Quantitative evaluations demonstrate that the prompts generated by PersonaPulse outperform those of prior work, which were designed based on personality descriptions from psychological studies. Additionally, we explore the relationship between model size and personality modeling through extensive experiments. Finally, we find that, for certain personality traits, the extent of personality evocation can be partially controlled by pausing the optimization process. These findings underscore the importance of prompt optimization in shaping personality expression within LLMs, offering valuable insights for future research on adaptive AI interactions.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que personalized Large Language Models (LLMs) have been shown to be an effective way to create more engaging and enjoyable user-AI interactions. While previous studies have explored using prompts to elicit specific personality traits in LLMs, they have not optimized these prompts to maximize personality expression. To address this limitation, we propose PersonaPulse: Dynamic Profile Optimization for Realistic Personality Expression in LLMs, a framework that leverages LLMs' inherent knowledge of personality traits to iteratively enhance role-play prompts while integrating a situational response benchmark as a scoring tool, ensuring a more realistic and contextually grounded evaluation to guide the optimization process. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 253
+
+**Título original:** BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Tzu‐Yi Pai, J Wang, Li-Chun Lu, Shaohua Sun, Hung-Yi Lee, Kai-Wei Chang
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2510.10157
+
+#### Abstract (English)
+
+Multi-LLM systems enhance the creativity of large language models by simulating human collective intelligence but suffer from significant drawbacks, such as high computational costs and inference latency. To address these limitations, we propose BILLY (BlendIng persona vectors for Large Language model creativitY), a training-free framework that captures the benefits of multi-LLM collaboration, i.e. inducing diverse perspectives and specialized expertise, within a single model. BILLY operates by extracting and blending multiple distinct persona vectors directly in the model's activation space. We steer the model's generation process with this merged vector while inference, enabling multi-perspective output without explicit multi-LLM communication. Our experiments across creativity-oriented benchmarks demonstrate that BILLY surpasses single model prompting and traditional multi-LLM approaches, while substantially reducing inference time and computational costs. Our analyses further reveal that distinct persona vectors can be blended to achieve both effective control over complementary aspects of generation and greater interpretability.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que multi-LLM systems enhance the creativity of large language models by simulating human collective intelligence but suffer from significant drawbacks, such as high computational costs and inference latency. To address these limitations, we propose BILLY (BlendIng persona vectors for Large Language model creativitY), a training-free framework that captures the benefits of multi-LLM collaboration, i.e. inducing diverse perspectives and specialized expertise, within a single model. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 254
+
+**Título original:** IROTE: Human-like Traits Elicitation of Large Language Model via In-Context Self-Reflective Optimization
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Yuzhuo Bai, Shitong Duan, Muhua Huang, Jing Yao, Zhenghao Liu, Peng Zhang, Tun Lü, Xiaoyuan Yi, Maosong Sun, Xing Xie
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2508.08719
+
+#### Abstract (English)
+
+Trained on various human-authored corpora, Large Language Models (LLMs) have demonstrated a certain capability of reflecting specific human-like traits (e.g., personality or values) by prompting, benefiting applications like personalized LLMs and social simulations. However, existing methods suffer from the superficial elicitation problem: LLMs can only be steered to mimic shallow and unstable stylistic patterns, failing to embody the desired traits precisely and consistently across diverse tasks like humans. To address this challenge, we propose IROTE, a novel in-context method for stable and transferable trait elicitation. Drawing on psychological theories suggesting that traits are formed through identity-related reflection, our method automatically generates and optimizes a textual self-reflection within prompts, which comprises self-perceived experience, to stimulate LLMs' trait-driven behavior. The optimization is performed by iteratively maximizing an information-theoretic objective that enhances the connections between LLMs' behavior and the target trait, while reducing noisy redundancy in reflection without any fine-tuning, leading to evocative and compact trait reflection. Extensive experiments across three human trait systems manifest that one single IROTE-generated self-reflection can induce LLMs' stable impersonation of the target trait across diverse downstream tasks beyond simple questionnaire answering, consistently outperforming existing strong baselines.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que trained on various human-authored corpora, Large Language Models (LLMs) have demonstrated a certain capability of reflecting specific human-like traits (e.g., personality or values) by prompting, benefiting applications like personalized LLMs and social simulations. However, existing methods suffer from the superficial elicitation problem: LLMs can only be steered to mimic shallow and unstable stylistic patterns, failing to embody the desired traits precisely and consistently across diverse tasks like humans. To address this challenge, we propose IROTE, a novel in-context method for stable and transferable trait elicitation. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 255
+
+**Título original:** Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Amin Banayeeanzade, Ala N. Tak, Fatemeh Bahrani, Anahita Bolourani, Leonardo Blas, Emilio Ferrara, Jonathan Gratch, Sai Praneeth Karimireddy
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2510.04484
+
+#### Abstract (English)
+
+The ability to control LLMs' emulated emotional states and personality traits is essential for enabling rich, human-centered interactions in socially interactive settings. We introduce PsySET, a Psychologically-informed benchmark to evaluate LLM Steering Effectiveness and Trustworthiness across the emotion and personality domains. Our study spans four models from different LLM families paired with various steering strategies, including prompting, fine-tuning, and representation engineering. Our results indicate that prompting is consistently effective but limited in intensity control, whereas vector injections achieve finer controllability while slightly reducing output quality. Moreover, we explore the trustworthiness of steered LLMs by assessing safety, truthfulness, fairness, and ethics, highlighting potential side effects and behavioral shifts. Notably, we observe idiosyncratic effects; for instance, even a positive emotion like joy can degrade robustness to adversarial factuality, lower privacy awareness, and increase preferential bias. Meanwhile, anger predictably elevates toxicity yet strengthens leakage resistance. Our framework establishes the first holistic evaluation of emotion and personality steering, offering insights into its interpretability and reliability for socially interactive applications.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que the ability to control LLMs' emulated emotional states and personality traits is essential for enabling rich, human-centered interactions in socially interactive settings. We introduce PsySET, a Psychologically-informed benchmark to evaluate LLM Steering Effectiveness and Trustworthiness across the emotion and personality domains. Our study spans four models from different LLM families paired with various steering strategies, including prompting, fine-tuning, and representation engineering. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 256
+
+**Título original:** AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Ajay Naik, Patrick Quinn, Guillermo Bosch, Emma Gouné, Francisco Javier Campos Zabala, Jason R. Brown, Edward Young
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2506.04018
+
+#### Abstract (English)
+
+As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deployments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. We introduce a misalignment propensity benchmark, \textsc{AgentMisalignment}, a benchmark suite designed to evaluate the propensity of LLM agents to misalign in realistic scenarios. Evaluations cover behaviours such as avoiding oversight, resisting shutdown, sandbagging, and power-seeking. Testing frontier models, we find that more capable agents tend to exhibit higher misalignment on average. We also systematically vary agent personalities through different system prompts and observe that persona characteristics can strongly and unpredictably influence misalignment, sometimes more than the choice of model itself. Our results reveal the limitations of current alignment methods for autonomous LLM agents and underscore the need to rethink misalignment in realistic deployment settings.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que as Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deployments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 257
+
+**Título original:** Grounded Test-Time Adaptation for LLM Agents
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Chen, Arthur, Liu Hon, Jianguo Zhang, Akshara Prabhakar, Zhiwei Liu, Shelby Heinecke, Silvio Savarese, Victor W. Zhong, Caiming Xiong
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2511.04847
+
+#### Abstract (English)
+
+Large language model (LLM)-based agents struggle to generalize to novel and complex environments, such as unseen websites or new sets of functions, due to a fundamental mismatch between their pre-training and test-time conditions. This challenge stems from two distinct failure modes: a syntactic misunderstanding of environment-specific components like observation formats, and a semantic misunderstanding of state-transition dynamics, which are only revealed at test time. To address these issues, we propose two distinct and complementary strategies for adapting LLM agents by leveraging environment-specific information available during deployment. First, an online distributional adaptation method parameterizes environmental nuances by learning a lightweight adaptation vector that biases the model's output distribution, enabling rapid alignment with an environment response format. Second, a deployment-time dynamics grounding method employs a persona-driven exploration phase to systematically probe and learn the environment's causal dynamics before task execution, equipping the agent with a nonparametric world model. We evaluate these strategies across diverse agentic benchmarks, including function calling and web navigation. Our empirical results show the effectiveness of both strategies across all benchmarks with minimal computational cost. We find that dynamics grounding is particularly effective in complex environments where unpredictable dynamics pose a major obstacle, demonstrating a robust path toward more generalizable and capable LLM-based agents. For example, on the WebArena multi-site split, this method increases the agent's success rate from 2% to 23%.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que large language model (LLM)-based agents struggle to generalize to novel and complex environments, such as unseen websites or new sets of functions, due to a fundamental mismatch between their pre-training and test-time conditions. This challenge stems from two distinct failure modes: a syntactic misunderstanding of environment-specific components like observation formats, and a semantic misunderstanding of state-transition dynamics, which are only revealed at test time. To address these issues, we propose two distinct and complementary strategies for adapting LLM agents by leveraging environment-specific information available during deployment. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 258
+
+**Título original:** Aligning LLM agents with human learning and adjustment behavior: a dual agent approach
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Tianming Liu, Jirong Yang, Yafeng Yin, M. H. Li, Linghao Wang, Zheng Zhu
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2511.00993
+
+#### Abstract (English)
+
+Effective modeling of how human travelers learn and adjust their travel behavior from interacting with transportation systems is critical for system assessment and planning. However, this task is also difficult due to the complex cognition and decision-making involved in such behavior. Recent research has begun to leverage Large Language Model (LLM) agents for this task. Building on this, we introduce a novel dual-agent framework that enables continuous learning and alignment between LLM agents and human travelers on learning and adaptation behavior from online data streams. Our approach involves a set of LLM traveler agents, equipped with a memory system and a learnable persona, which serve as simulators for human travelers. To ensure behavioral alignment, we introduce an LLM calibration agent that leverages the reasoning and analytical capabilities of LLMs to train the personas of these traveler agents. Working together, this dual-agent system is designed to track and align the underlying decision-making mechanisms of travelers and produce realistic, adaptive simulations. Using a real-world dataset from a day-to-day route choice experiment, we show our approach significantly outperforms existing LLM-based methods in both individual behavioral alignment and aggregate simulation accuracy. Furthermore, we demonstrate that our method moves beyond simple behavioral mimicry to capture the evolution of underlying learning processes, a deeper alignment that fosters robust generalization. Overall, our framework provides a new approach for creating adaptive and behaviorally realistic agents to simulate travelers' learning and adaptation that can benefit transportation simulation and policy analysis.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que effective modeling of how human travelers learn and adjust their travel behavior from interacting with transportation systems is critical for system assessment and planning. However, this task is also difficult due to the complex cognition and decision-making involved in such behavior. Recent research has begun to leverage Large Language Model (LLM) agents for this task. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 259
+
+**Título original:** PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Siqi Liang, Yudi Zhang, Yingying Guo
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2511.17467
+
+#### Abstract (English)
+
+We propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's "persona" (e.g. user profile or taste) and is powered by a large language model (LLM). To enable the agent to leverage rich contextual information, we introduce a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism that constructs an LLM-derived graph index of relevant documents and summarizes communities of related information. Our framework generates personalized prompts by combining: (1) a summary of the user's historical behaviors and preferences extracted from the knowledge graph, and (2) relevant global interaction patterns identified through graph-based community detection. This dynamic prompt engineering approach allows the agent to maintain consistent persona-aligned behaviors while benefiting from collective knowledge. On the LaMP benchmark, our method improves news categorization F1 by 11.1%, movie tagging F1 by 56.1%, and reduces product rating MAE by 10.4% over prior methods. Our code is available at https://anonymous.4open.science/r/PersonaAgentwGraphRAG-DE6F
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que we propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's "persona" (e.g. user profile or taste) and is powered by a large language model (LLM). Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 260
+
+**Título original:** Towards Effective Model Editing for LLM Personalization
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Biao Huang, Limeng Cui, Yang Liu, Haoran Wang, Jiawei Xu, Zheng Tan, Yutong Chen, Chen Luo, Yi Liu, Kai Shu
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2512.13676
+
+#### Abstract (English)
+
+Personalization is becoming indispensable for LLMs to align with individual user preferences and needs. Yet current approaches are often computationally expensive, data-intensive, susceptible to catastrophic forgetting, and prone to performance degradation in multi-turn interactions or when handling implicit queries. To address these challenges, we conceptualize personalization as a model editing task and introduce Personalization Editing, a framework that applies localized edits guided by clustered preference representations. This design enables precise preference-aligned updates while preserving overall model capabilities. In addition, existing personalization benchmarks frequently rely on persona-based dialogs between LLMs rather than user-LLM interactions, or focus primarily on stylistic imitation while neglecting information-seeking tasks that require accurate recall of user-specific preferences. We introduce User Preference Question Answering (UPQA), a short-answer QA dataset constructed from in-situ user queries with varying levels of difficulty. Unlike prior benchmarks, UPQA directly evaluates a model's ability to recall and apply specific user preferences. Across experimental settings, Personalization Editing achieves higher editing accuracy and greater computational efficiency than fine-tuning, while outperforming prompting-based baselines in multi-turn conversations and implicit preference questions settings.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que personalization is becoming indispensable for LLMs to align with individual user preferences and needs. Yet current approaches are often computationally expensive, data-intensive, susceptible to catastrophic forgetting, and prone to performance degradation in multi-turn interactions or when handling implicit queries. To address these challenges, we conceptualize personalization as a model editing task and introduce Personalization Editing, a framework that applies localized edits guided by clustered preference representations. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 261
+
+**Título original:** Moral Susceptibility and Robustness under Persona Role-Play in Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Durval C. Costa, Felippe Alves, Rafael J. Vicente
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2511.08565
+
+#### Abstract (English)
+
+Large language models (LLMs) increasingly operate in social contexts, motivating analysis of how they express and shift moral judgments. In this work, we investigate the moral response of LLMs to persona role-play, prompting a LLM to assume a specific character. Using the Moral Foundations Questionnaire (MFQ), we introduce a benchmark that quantifies two properties: moral susceptibility and moral robustness, defined from the variability of MFQ scores across and within personas, respectively. We find that, for moral robustness, model family accounts for most of the variance, while model size shows no systematic effect. The Claude family is, by a significant margin, the most robust, followed by Gemini and GPT-4 models, with other families exhibiting lower robustness. In contrast, moral susceptibility exhibits a mild family effect but a clear within-family size effect, with larger variants being more susceptible. Moreover, robustness and susceptibility are positively correlated, an association that is more pronounced at the family level. Additionally, we present moral foundation profiles for models without persona role-play and for personas averaged across models. Together, these analyses provide a systematic view of how persona conditioning shapes moral behavior in large language models.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que large language models (LLMs) increasingly operate in social contexts, motivating analysis of how they express and shift moral judgments. In this work, we investigate the moral response of LLMs to persona role-play, prompting a LLM to assume a specific character. Using the Moral Foundations Questionnaire (MFQ), we introduce a benchmark that quantifies two properties: moral susceptibility and moral robustness, defined from the variability of MFQ scores across and within personas, respectively. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 262
+
+**Título original:** Too Good to be Bad: On the Failure of LLMs to Role-Play Villains
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Yi, Zihao, Jiang, Qingxuan, Ma, Ruotian, Chen, Xingyu, Yang, Qu, Wang, Mengru, Ye, Fanghua, Shen, Ying, Tu, Zhaopeng, Li, Xiaolong, Linus
+
+**Keywords:** Morality, Set (abstract data type), Task (project management), Test (biology), Moral character
+
+**URL:** https://arxiv.org/abs/2511.04962
+
+#### Abstract (English)
+
+Large Language Models (LLMs) are increasingly tasked with creative generation, including the simulation of fictional characters. However, their ability to portray non-prosocial, antagonistic personas remains largely unexamined. We hypothesize that the safety alignment of modern LLMs creates a fundamental conflict with the task of authentically role-playing morally ambiguous or villainous characters. To investigate this, we introduce the Moral RolePlay benchmark, a new dataset featuring a four-level moral alignment scale and a balanced test set for rigorous evaluation. We task state-of-the-art LLMs with role-playing characters from moral paragons to pure villains. Our large-scale evaluation reveals a consistent, monotonic decline in role-playing fidelity as character morality decreases. We find that models struggle most with traits directly antithetical to safety principles, such as ``Deceitful'' and ``Manipulative'', often substituting nuanced malevolence with superficial aggression. Furthermore, we demonstrate that general chatbot proficiency is a poor predictor of villain role-playing ability, with highly safety-aligned models performing particularly poorly. Our work provides the first systematic evidence of this critical limitation, highlighting a key tension between model safety and creative fidelity. Our benchmark and findings pave the way for developing more nuanced, context-aware alignment methods.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que large Language Models (LLMs) are increasingly tasked with creative generation, including the simulation of fictional characters. However, their ability to portray non-prosocial, antagonistic personas remains largely unexamined. We hypothesize that the safety alignment of modern LLMs creates a fundamental conflict with the task of authentically role-playing morally ambiguous or villainous characters. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 263
+
+**Título original:** Letting Tutor Personas "Speak Up" for LLMs: Learning Steering Vectors from Dialogue via Preference Optimization
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Jaewook Lee, Alexander Scarlatos, Simon Woodhead, Andrew Lan
+
+**Keywords:** TUTOR, Preference, Computer science, Variation (astronomy), Generative grammar
+
+**URL:** https://arxiv.org/abs/2602.07639
+
+#### Abstract (English)
+
+With the emergence of large language models (LLMs) as a powerful class of generative artificial intelligence (AI), their use in tutoring has become increasingly prominent. Prior works on LLM-based tutoring typically learn a single tutor policy and do not capture the diversity of tutoring styles. In real-world tutor-student interactions, pedagogical intent is realized through adaptive instructional strategies, with tutors varying the level of scaffolding, instructional directiveness, feedback, and affective support in response to learners' needs. These differences can all impact dialogue dynamics and student engagement. In this paper, we explore how tutor personas embedded in human tutor-student dialogues can be used to guide LLM behavior without relying on explicitly prompted instructions. We modify Bidirectional Preference Optimization (BiPO) to learn a steering vector, an activation-space direction that steers model responses towards certain tutor personas. We find that this steering vector captures tutor-specific variation across dialogue contexts, improving semantic alignment with ground-truth tutor utterances and increasing preference-based evaluations, while largely preserving lexical similarity. Analysis of the learned directional coefficients further reveals interpretable structure across tutors, corresponding to consistent differences in tutoring behavior. These results demonstrate that activation steering offers an effective and interpretable way for controlling tutor-specific variation in LLMs using signals derived directly from human dialogue data.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que with the emergence of large language models (LLMs) as a powerful class of generative artificial intelligence (AI), their use in tutoring has become increasingly prominent. Prior works on LLM-based tutoring typically learn a single tutor policy and do not capture the diversity of tutoring styles. In real-world tutor-student interactions, pedagogical intent is realized through adaptive instructional strategies, with tutors varying the level of scaffolding, instructional directiveness, feedback, and affective support in response to learners' needs. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 264
+
+**Título original:** On the Identifiability of Steering Vectors in Large Language Models
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Sohan Venkatesh, Ashish Mahendran Kurapath
+
+**Keywords:** Identifiability, Interpretability, Computer science, Equivalence (formal languages), Interpretation (philosophy)
+
+**URL:** https://arxiv.org/abs/2602.06801
+
+#### Abstract (English)
+
+Activation steering methods, such as persona vectors, are widely used to control large language model behavior and increasingly interpreted as revealing meaningful internal representations. This interpretation implicitly assumes steering directions are identifiable and uniquely recoverable from input-output behavior. We formalize steering as an intervention on internal representations and prove that, under realistic modeling and data conditions, steering vectors are fundamentally non-identifiable due to large equivalence classes of behaviorally indistinguishable interventions. Empirically, we validate this across multiple models and semantic traits, showing orthogonal perturbations achieve near-equivalent efficacy with negligible effect sizes. However, identifiability is recoverable under structural assumptions including statistical independence, sparsity constraints, multi-environment validation or cross-layer consistency. These findings reveal fundamental interpretability limits and clarify structural assumptions required for reliable safety-critical control.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que activation steering methods, such as persona vectors, are widely used to control large language model behavior and increasingly interpreted as revealing meaningful internal representations. This interpretation implicitly assumes steering directions are identifiable and uniquely recoverable from input-output behavior. We formalize steering as an intervention on internal representations and prove that, under realistic modeling and data conditions, steering vectors are fundamentally non-identifiable due to large equivalence classes of behaviorally indistinguishable interventions. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 265
+
+**Título original:** Styles + Persona-plug = Customized LLMs
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Yutong Song, Jiang Wu, Shaofan Yuan, Chengze Shen, Jian Wang, Amir Rahmani, Nikil Dutt, Yu Wang
+
+**Keywords:** Personalization, Computer science, Persona, Preference, Style (visual arts)
+
+**URL:** https://arxiv.org/abs/2601.06362
+
+#### Abstract (English)
+
+We discover a previously overlooked challenge in personalized text generation: personalization methods are increasingly applied under explicit style instructions, yet their behavior under such constraints remains poorly understood. To balance implicit personalization and explicit style, we formulate personalization as a distributional residual and propose PsPLUG, a lightweight soft-prompt plug-in trained with style-conditioned preference contrasts. Across LaMP benchmark, our framework improves persona alignment, maintains stylistic fidelity, and outperforms retrieval-based and soft-prompt baselines with minimal computation. These results show that residual modeling provides a simple and principled foundation for controllable, style-aware LLM personalization.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que we discover a previously overlooked challenge in personalized text generation: personalization methods are increasingly applied under explicit style instructions, yet their behavior under such constraints remains poorly understood. To balance implicit personalization and explicit style, we formulate personalization as a distributional residual and propose PsPLUG, a lightweight soft-prompt plug-in trained with style-conditioned preference contrasts. Across LaMP benchmark, our framework improves persona alignment, maintains stylistic fidelity, and outperforms retrieval-based and soft-prompt baselines with minimal computation. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 266
+
+**Título original:** HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Chengyu Du, Xintao Wang, Aili Chen, Weiyuan Li, Rui Xu, Junteng Liu, Zishan Huang, Rong Tian, Zijun Sun, Yuhao Li, Liheng Feng, Deming Ding, Pengyu Zhao, Yanghua Xiao
+
+**Keywords:** Reinforcement learning, Computer science, Artificial intelligence, Construct (python library), Key (lock)
+
+**URL:** https://arxiv.org/abs/2601.21459
+
+#### Abstract (English)
+
+LLM role-playing, i.e., using LLMs to simulate specific personas, has emerged as a key capability in various applications, such as companionship, content creation, and digital games. While current models effectively capture character tones and knowledge, simulating the inner thoughts behind their behaviors remains a challenge. Towards cognitive simulation in LLM role-play, previous efforts mainly suffer from two deficiencies: data with high-quality reasoning traces, and reliable reward signals aligned with human preferences. In this paper, we propose HER, a unified framework for cognitive-level persona simulation. HER introduces dual-layer thinking, which distinguishes characters' first-person thinking from LLMs' third-person thinking. To bridge these gaps, we curate reasoning-augmented role-playing data via reverse engineering and construct human-aligned principles and reward models. Leveraging these resources, we train HER models based on Qwen3-32B via supervised and reinforcement learning. Extensive experiments validate the effectiveness of our approach. Notably, our models significantly outperform the Qwen3-32B baseline, achieving a 30.26 improvement on the CoSER benchmark and a 14.97 gain on the Minimax Role-Play Bench. Our datasets, principles, and models will be released to facilitate future research.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que lLM role-playing, i.e., using LLMs to simulate specific personas, has emerged as a key capability in various applications, such as companionship, content creation, and digital games. While current models effectively capture character tones and knowledge, simulating the inner thoughts behind their behaviors remains a challenge. Towards cognitive simulation in LLM role-play, previous efforts mainly suffer from two deficiencies: data with high-quality reasoning traces, and reliable reward signals aligned with human preferences. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 267
+
+**Título original:** PersonaLedger: Generating Realistic Financial Transactions with Persona Conditioned LLMs and Rule Grounded Feedback
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Dehao Yuan, Tyler Farnan, Stefan Tesliuc, Doron L. Bergman, Yulun Wu, Xiaoyu Liu, Minghui Liu, James Montgomery, Nam H Nguyen, C. Bayan Bruss, Furong Huang
+
+**Keywords:** Computer science, Persona, Context (archaeology), Workflow, Database transaction
+
+**URL:** https://arxiv.org/abs/2601.03149
+
+#### Abstract (English)
+
+Strict privacy regulations limit access to real transaction data, slowing open research in financial AI. Synthetic data can bridge this gap, but existing generators do not jointly achieve behavioral diversity and logical groundedness. Rule-driven simulators rely on hand-crafted workflows and shallow stochasticity, which miss the richness of human behavior. Learning-based generators such as GANs capture correlations yet often violate hard financial constraints and still require training on private data. We introduce PersonaLedger, a generation engine that uses a large language model conditioned on rich user personas to produce diverse transaction streams, coupled with an expert configurable programmatic engine that maintains correctness. The LLM and engine interact in a closed loop: after each event, the engine updates the user state, enforces financial rules, and returns a context aware "nextprompt" that guides the LLM toward feasible next actions. With this engine, we create a public dataset of 30 million transactions from 23,000 users and a benchmark suite with two tasks, illiquidity classification and identity theft segmentation. PersonaLedger offers a realistic, privacy preserving resource that supports rigorous evaluation of forecasting and anomaly detection models. PersonaLedger offers the community a rich, realistic, and privacy preserving resource -- complete with code, rules, and generation logs -- to accelerate innovation in financial AI and enable rigorous, reproducible evaluation.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que strict privacy regulations limit access to real transaction data, slowing open research in financial AI. Synthetic data can bridge this gap, but existing generators do not jointly achieve behavioral diversity and logical groundedness. Rule-driven simulators rely on hand-crafted workflows and shallow stochasticity, which miss the richness of human behavior. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 268
+
+**Título original:** Character as a Latent Variable in Large Language Models: A Mechanistic Account of Emergent Misalignment and Conditional Safety Failures
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2026 | **Idioma:** Inglés
+
+**Autores:** Yanghao Su, Wenbo Zhou, Tianwei Zhang, Han Qiu, Weiming Zhang, Nenghai Yu, Jie Zhang
+
+**Keywords:** Backdoor, Generalization, Computer science, Character (mathematics), Latent variable
+
+**URL:** https://arxiv.org/abs/2601.23081
+
+#### Abstract (English)
+
+Emergent Misalignment refers to a failure mode in which fine-tuning large language models (LLMs) on narrowly scoped data induces broadly misaligned behavior. Prior explanations mainly attribute this phenomenon to the generalization of erroneous or unsafe content. In this work, we show that this view is incomplete. Across multiple domains and model families, we find that fine-tuning models on data exhibiting specific character-level dispositions induces substantially stronger and more transferable misalignment than incorrect-advice fine-tuning, while largely preserving general capabilities. This indicates that emergent misalignment arises from stable shifts in model behavior rather than from capability degradation or corrupted knowledge. We further show that such behavioral dispositions can be conditionally activated by both training-time triggers and inference-time persona-aligned prompts, revealing shared structure across emergent misalignment, backdoor activation, and jailbreak susceptibility. Overall, our results identify character formation as a central and underexplored alignment risk, suggesting that robust alignment must address behavioral dispositions rather than isolated errors or prompt-level defenses.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que emergent Misalignment refers to a failure mode in which fine-tuning large language models (LLMs) on narrowly scoped data induces broadly misaligned behavior. Prior explanations mainly attribute this phenomenon to the generalization of erroneous or unsafe content. In this work, we show that this view is incomplete. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 269
+
+**Título original:** German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Rupprecht, Jens, Fröhling, Leon, Wagner, Claudia, Strohmaier, Markus
+
+**Keywords:** Persona, German, Representativeness heuristic, Population, Computer science
+
+**URL:** https://arxiv.org/abs/2511.21722
+
+#### Abstract (English)
+
+The use of Large Language Models (LLMs) for simulating human perspectives via persona prompting is gaining traction in computational social science. However, well-curated, empirically grounded persona collections remain scarce, limiting the accuracy and representativeness of such simulations. Here we introduce the German General Personas (GGP) collection, a comprehensive and representative persona prompt collection built from the German General Social Survey (ALLBUS). The GGP and its persona prompts are designed to be easily plugged into prompts for all types of LLMs and tasks, steering models to generate responses aligned with the underlying German population. We evaluate GGP by prompting various LLMs to simulate survey response distributions across diverse topics, demonstrating that GGP-guided LLMs outperform state-of-the-art classifiers, particularly under data scarcity. Furthermore, we analyze how the representativity and attribute selection within persona prompts affect alignment with population responses. Our findings suggest that GGP provides a potentially valuable resource for research on LLM-based social simulations that enables more systematic explorations of population-aligned persona prompting in NLP and social science research.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que the use of Large Language Models (LLMs) for simulating human perspectives via persona prompting is gaining traction in computational social science. However, well-curated, empirically grounded persona collections remain scarce, limiting the accuracy and representativeness of such simulations. Here we introduce the German General Personas (GGP) collection, a comprehensive and representative persona prompt collection built from the German General Social Survey (ALLBUS). Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 270
+
+**Título original:** Behavioral Guardrails for Dynamic LLM Persona
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Ognjen Malkoc, K. Abe, Kazuki Kitagawa, Masashi Oka, Yuya Ishikawa
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://doi.org/10.1162/isal.a.855
+
+#### Abstract (English)
+
+We demonstrate an automated instruction-tuning process using Low-Rank Adaptation (LoRA) Hu et al. (2022) to align small language models with user-defined behavior guardrails. This enables safeguards for artificial characters with dynamically changeable traits. The process requires only trigger and resolution instructions, which we also leverage to generate synthetic training data via an auxiliary large language model. We exemplify the method by applying it to varying LLM-based personas (defined by biographies, traits, and conversation history) and show that merging guardrail adapters to the base model allows reliable detection and coherent resolution of unwanted behaviors.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que we demonstrate an automated instruction-tuning process using Low-Rank Adaptation (LoRA) Hu et al. (2022) to align small language models with user-defined behavior guardrails. This enables safeguards for artificial characters with dynamically changeable traits. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 271
+
+**Título original:** SynthesizeMe! Inducing Persona-Guided Prompts for Personalized Reward Models in LLMs
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Michael J. Ryan, Omar Shaikh, Aditri Bhagirath, Daniel Frees, William A. Held, Diyi Yang
+
+**Keywords:** Large Language Models, Personality Control, Prompting, Persona, Steering
+
+**URL:** https://arxiv.org/abs/2506.05598
+
+#### Abstract (English)
+
+Recent calls for pluralistic alignment of Large Language Models (LLMs) encourage adapting models to diverse user preferences. However, most prior work on personalized reward models heavily rely on additional identity information, such as demographic details or a predefined set of preference categories. To this end, we introduce SynthesizeMe, an approach to inducing synthetic user personas from user interactions for personalized reward modeling. SynthesizeMe first generates and verifies reasoning to explain user preferences, then induces synthetic user personas from that reasoning, and finally filters to informative prior user interactions in order to build personalized prompts for a particular user. We show that using SynthesizeMe induced prompts improves personalized LLM-as-a-judge accuracy by 4.4% on Chatbot Arena. Combining SynthesizeMe derived prompts with a reward model achieves top performance on PersonalRewardBench: a new curation of user-stratified interactions with chatbots collected from 854 users of Chatbot Arena and PRISM.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que recent calls for pluralistic alignment of Large Language Models (LLMs) encourage adapting models to diverse user preferences. However, most prior work on personalized reward models heavily rely on additional identity information, such as demographic details or a predefined set of preference categories. To this end, we introduce SynthesizeMe, an approach to inducing synthetic user personas from user interactions for personalized reward modeling. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 272
+
+**Título original:** LLM Personas as a Substitute for Field Experiments in Method Benchmarking
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Enoch Hyunwook Kang
+
+**Keywords:** Benchmarking, Persona, Benchmark (surveying), Computer science, Field (mathematics)
+
+**URL:** https://arxiv.org/abs/2512.21080
+
+#### Abstract (English)
+
+Field experiments (A/B tests) are often the most credible benchmark for methods (algorithms) in societal systems, but their cost and latency bottleneck rapid methodological progress. LLM-based persona simulation offers a cheap synthetic alternative, yet it is unclear whether replacing humans with personas preserves the benchmark interface that adaptive methods optimize against. We prove an if-and-only-if characterization: when (i) methods observe only the aggregate outcome (aggregate-only observation) and (ii) evaluation depends only on the submitted artifact and not on the method's identity or provenance (method-blind evaluation), swapping humans for personas is just panel change from the method's point of view, indistinguishable from changing the evaluation population (e.g., New York to Jakarta). Furthermore, we move from validity to usefulness: we define an information-theoretic discriminability of the induced aggregate channel and show that making persona benchmarking as decision-relevant as a field experiment is fundamentally a sample-size question, yielding explicit bounds on the number of independent persona evaluations required to reliably distinguish meaningfully different methods at a chosen resolution.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que field experiments (A/B tests) are often the most credible benchmark for methods (algorithms) in societal systems, but their cost and latency bottleneck rapid methodological progress. LLM-based persona simulation offers a cheap synthetic alternative, yet it is unclear whether replacing humans with personas preserves the benchmark interface that adaptive methods optimize against. We prove an if-and-only-if characterization: when (i) methods observe only the aggregate outcome (aggregate-only observation) and (ii) evaluation depends only on the submitted artifact and not on the method's identity or provenance (method-blind evaluation), swapping humans for personas is just panel change from the method's point of view, indistinguishable from changing the evaluation population (e.g., New York to Jakarta). Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 273
+
+**Título original:** The Effects of Demographic Instructions on LLM Personas
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Angel Felipe Magnossão de Paula, J. Shane Culpepper, Alistair Moffat, Sachin Pathiyan Cherumanal, Falk Scholer, Johanne R. Trippas
+
+**Keywords:** Persona, Computer science, Prompting, Persona, Steering
+
+**URL:** https://doi.org/10.1145/3726302.3730255
+
+#### Abstract (English)
+
+Social media platforms must filter sexist content in compliance with governmental regulations. Current machine learning approaches can reliably detect sexism based on standardized definitions, but often neglect the subjective nature of sexist language and fail to consider individual users' perspectives. To address this gap, we adopt a perspectivist approach, retaining diverse annotations rather than enforcing gold-standard labels or their aggregations, allowing models to account for personal or group-specific views of sexism. Using demographic data from Twitter, we employ large language models (LLMs) to personalize the identification of sexism.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que social media platforms must filter sexist content in compliance with governmental regulations. Current machine learning approaches can reliably detect sexism based on standardized definitions, but often neglect the subjective nature of sexist language and fail to consider individual users' perspectives. To address this gap, we adopt a perspectivist approach, retaining diverse annotations rather than enforcing gold-standard labels or their aggregations, allowing models to account for personal or group-specific views of sexism. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.
+
+---
+
+### Artículo 274
+
+**Título original:** Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents
+
+**Categoría:** Inducción y control de personalidad
+
+**Año:** 2025 | **Idioma:** Inglés
+
+**Autores:** Chaoran Chen, Bingsheng Yao, Ruishi Zou, Wenyue Hua, Weimin Lyu, Tingting Li, De Yun Wang, Wang, Dakuo
+
+**Keywords:** Guideline, Computer science, Medicine, Pathology, Steering
+
+**URL:** https://arxiv.org/abs/2502.13012
+
+#### Abstract (English)
+
+Role-Playing Agent (RPA) is an increasingly popular type of LLM Agent that simulates human-like behaviors in a variety of tasks. However, evaluating RPAs is challenging due to diverse task requirements and agent designs. This paper proposes an evidence-based, actionable, and generalizable evaluation design guideline for LLM-based RPA by systematically reviewing 1,676 papers published between Jan. 2021 and Dec. 2024. Our analysis identifies six agent attributes, seven task attributes, and seven evaluation metrics from existing literature. Based on these findings, we present an RPA evaluation design guideline to help researchers develop more systematic and consistent evaluation methods.
+
+#### Resumen (Español)
+
+Este trabajo se incorpora en la línea de inducción y control de personalidad para analizar cómo los LLMs pueden adoptar, mantener o modular rasgos mediante prompting, memoria, roles o técnicas de steering. En términos técnicos, el estudio plantea que role-Playing Agent (RPA) is an increasingly popular type of LLM Agent that simulates human-like behaviors in a variety of tasks. However, evaluating RPAs is challenging due to diverse task requirements and agent designs. This paper proposes an evidence-based, actionable, and generalizable evaluation design guideline for LLM-based RPA by systematically reviewing 1,676 papers published between Jan. Su valor para esta bitácora está en aportar evidencia comparable sobre control de rasgos, estabilidad de identidad y límites de intervención sobre la «personalidad sintética» del modelo.

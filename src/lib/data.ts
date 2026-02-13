@@ -191,7 +191,7 @@ export function getSourceLabel(sourceUrl: string, sourceType?: string): string {
     if (host.includes('doi.org')) {
       const doi = extractDoiFromUrl(sourceUrl);
       if (doi) {
-        return doiLabel(doi) || `DOI (${doi.split('/')[0]})`;
+        return doiLabel(doi) || 'DOI';
       }
       return 'DOI';
     }

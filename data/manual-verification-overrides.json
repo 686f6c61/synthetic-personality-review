@@ -12,5 +12,149 @@
     ],
     "replacement_year": 2025,
     "note": "Manual assisted verification via DOI metadata and high title agreement with source entry."
+  },
+  "213": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2504.10430",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "219": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2506.08593",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "220": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2506.20020",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "221": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2510.08236",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "223": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2602.02582",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "224": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2502.00313",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "228": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.10384",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "229": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2412.16772",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "230": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.02058",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "231": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2509.00673",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "232": {
+    "replacement_url": "https://doi.org/10.1140/epjds/s13688-025-00612-3",
+    "note": "Manual assisted verification via journal DOI to avoid transient arXiv timeout."
+  },
+  "234": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.02275",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "237": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2601.20238",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "238": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2510.12689",
+    "note": "Manual assisted verification fallback to DOI metadata."
+  },
+  "244": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2406.04583",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "248": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2507.16799",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "249": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.01891",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "250": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.19937",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "251": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.07092",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "253": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2510.10157",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "255": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2510.04484",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "256": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2506.04018",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "257": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.04847",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "259": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.17467",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "260": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.13676",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "261": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.08565",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "262": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.04962",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "263": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2602.07639",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "264": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2602.06801",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "265": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2601.06362",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "266": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2601.21459",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "267": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2601.03149",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "268": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2601.23081",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "269": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2511.21722",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "271": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2506.05598",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
+  },
+  "272": {
+    "replacement_url": "https://doi.org/10.48550/arXiv.2512.21080",
+    "note": "Manual assisted verification fallback to DOI metadata (arXiv API mismatch mitigation)."
   }
 }

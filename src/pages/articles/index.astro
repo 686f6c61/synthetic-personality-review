@@ -173,6 +173,10 @@ const buildAbstractPreview = (article: {
     const sourceTypeSelect = document.getElementById('sourceType');
     const cards = Array.from(document.querySelectorAll('.article-card'));
     const countNode = document.getElementById('resultsCountValue');
+    const sourceOptions = sourceTypeSelect ? Array.from(sourceTypeSelect.options) : [];
+    const sourceOptionBaseText = new Map(
+      sourceOptions.map((option) => [option.value, option.textContent || option.value])
+    );
 
     const params = new URLSearchParams(window.location.search);
     const categoryParam = params.get('category');
@@ -183,10 +187,46 @@ const buildAbstractPreview = (article: {
       }
     }
 
+    function updateSourceAvailability(search, category, year) {
+      if (!sourceTypeSelect || sourceOptions.length === 0) {
+        return;
+      }
+
+      const availableBySource = new Map();
+      cards.forEach((card) => {
+        const matchesSearch = !search || card.dataset.search.includes(search);
+        const matchesCategory = !category || card.dataset.category === category;
+        const matchesYear = !year || card.dataset.year === year;
+
+        if (matchesSearch && matchesCategory && matchesYear) {
+          const sourceLabel = card.dataset.sourceLabel || '';
+          availableBySource.set(sourceLabel, (availableBySource.get(sourceLabel) || 0) + 1);
+        }
+      });
+
+      sourceOptions.forEach((option, index) => {
+        if (index === 0) {
+          option.disabled = false;
+          option.textContent = sourceOptionBaseText.get(option.value) || 'Todos';
+          return;
+        }
+
+        const baseText = sourceOptionBaseText.get(option.value) || option.value;
+        const available = availableBySource.get(option.value) || 0;
+        option.disabled = available === 0;
+        option.textContent = `${baseText} (${available})`;
+      });
+
+      if (sourceTypeSelect.value && !availableBySource.get(sourceTypeSelect.value)) {
+        sourceTypeSelect.value = '';
+      }
+    }
+
     function applyFilters() {
       const search = (searchInput?.value || '').toLowerCase().trim();
       const category = categorySelect?.value || '';
       const year = yearSelect?.value || '';
+      updateSourceAvailability(search, category, year);
       const sourceType = sourceTypeSelect?.value || '';
 
       let visible = 0;

@@ -20,15 +20,13 @@ const publishedNumberById = new Map(
   ])
 );
 
-const latest2026 = canonical
-  .filter((article) => article.year === 2026 && publishedIds.has(article.id))
-  .sort((a, b) => b.legacy_article_number - a.legacy_article_number);
-const latest = latest2026.slice(0, 6);
-const latestSectionTitle = latest2026.length ? 'Artículos 2026 incorporados' : 'Últimos artículos incorporados';
-
-const spotlight = [...canonical]
+const latestByAddition = [...canonical]
   .filter((article) => publishedIds.has(article.id))
-  .sort((a, b) => b.legacy_article_number - a.legacy_article_number)[0];
+  .sort((a, b) => b.legacy_article_number - a.legacy_article_number);
+const latest = latestByAddition.slice(0, 6);
+const latestSectionTitle = 'Últimos artículos añadidos';
+
+const spotlight = latestByAddition[0];
 const spotlightResumen =
   spotlight?.resumen_es_extendido?.split(/\n\s*\n/).filter(Boolean)[0]?.slice(0, 420) || '';
 const byCategory = new Map(stats.byCategory);

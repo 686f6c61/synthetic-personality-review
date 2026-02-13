@@ -24,5 +24,29 @@
       "author_overlap": 0,
       "year_match": true
     }
+  },
+  {
+    "id": "article-239",
+    "legacy_article_number": 239,
+    "title_original": "Position is Power: System Prompts as a Mechanism of Bias in Large Language Models (LLMs)",
+    "year": 2025,
+    "category": "Aplicaciones, sesgos y consecuencias sociales",
+    "source_url": "https://arxiv.org/abs/2505.21091",
+    "source_type": "arxiv",
+    "verification_status": "removed",
+    "verification_date": "2026-02-13T19:43:11.018Z",
+    "evidence": {
+      "checked_at": "2026-02-13T19:43:11.018Z",
+      "checks": [
+        "verification_error"
+      ],
+      "reason": "verification_error: Timeout after 25000ms",
+      "http_status": null,
+      "final_url": "https://arxiv.org/abs/2505.21091",
+      "fetched_title": "",
+      "title_similarity": 0,
+      "author_overlap": 0,
+      "year_match": false
+    }
   }
 ]
