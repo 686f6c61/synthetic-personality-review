@@ -1,0 +1,896 @@
+[
+  {
+    "n": 25,
+    "title": "Do LLMs Possess a Personality? Making the MBTI Test an Amazing Evaluation for Large Language Models",
+    "current_url": "https://www.researchgate.net/publication/372784584_Do_LLMs_Possess_a_Personality_Making_the_MBTI_Test_an_Amazing_Evaluation_for_Large_Language_Models",
+    "reason": "HTTP status 403",
+    "arxiv_candidates": [
+      {
+        "score": 1.0,
+        "title": "Do LLMs Possess a Personality? Making the MBTI Test an Amazing Evaluation for Large Language Models",
+        "url": "https://arxiv.org/abs/2307.16180",
+        "year": null
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "score": 0.4162,
+        "title": "Tangible LLMs: Tangible Sense-Making For Trustworthy Large Language Models",
+        "doi": "10.1145/3689050.3708338",
+        "url": "https://doi.org/10.1145/3689050.3708338",
+        "year": 2025
+      },
+      {
+        "score": 0.3445,
+        "title": "Deploying Large Language Models (LLMs) for Automated Test Case Generation and QA Evaluation",
+        "doi": "10.63345/jqst.v2i1.163",
+        "url": "https://doi.org/10.63345/jqst.v2i1.163",
+        "year": 2025
+      },
+      {
+        "score": 0.3443,
+        "title": "Do Large Language Models (LLMs) Really Understand Personality? A Test of Embeddings vs. Zero-Shot (Preprint)",
+        "doi": "10.2196/preprints.75347",
+        "url": "https://doi.org/10.2196/preprints.75347",
+        "year": 2025
+      },
+      {
+        "score": 0.3442,
+        "title": "Exploring Large Language Models (LLMs)",
+        "doi": "10.1007/979-8-8688-0882-1_4",
+        "url": "https://doi.org/10.1007/979-8-8688-0882-1_4",
+        "year": 2024
+      },
+      {
+        "score": 0.3209,
+        "title": "Test-Time Training on Graphs with Large Language Models (LLMs)",
+        "doi": "10.1145/3664647.3680865",
+        "url": "https://doi.org/10.1145/3664647.3680865",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 105,
+    "title": "Identifying Cooperative Personalities in Multi-agent Contexts",
+    "current_url": "https://arxiv.org/abs/2503.12722",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [
+      {
+        "score": 0.5962,
+        "title": "Identifying Cooperative Personalities in Multi-agent Contexts through Personality Steering with Representation Engineering",
+        "url": "https://arxiv.org/abs/2503.12722",
+        "year": null
+      }
+    ],
+    "crossref_candidates": [
+      {
+        "score": 0.5077,
+        "title": "Anticipatory Thinking in Multi-Agent Contexts",
+        "doi": "10.5753/wesaac.2025.37525",
+        "url": "https://doi.org/10.5753/wesaac.2025.37525",
+        "year": 2025
+      },
+      {
+        "score": 0.4745,
+        "title": "Modelling Cooperative Multi-agent Systems",
+        "doi": "10.1007/978-3-540-24680-0_155",
+        "url": "https://doi.org/10.1007/978-3-540-24680-0_155",
+        "year": 2004
+      },
+      {
+        "score": 0.4482,
+        "title": "Cooperative Multi-Agent Planning",
+        "doi": "10.1145/3128584",
+        "url": "https://doi.org/10.1145/3128584",
+        "year": 2017
+      },
+      {
+        "score": 0.4263,
+        "title": "Cooperative Multi-agent Policy Gradient",
+        "doi": "10.1007/978-3-030-10925-7_28",
+        "url": "https://doi.org/10.1007/978-3-030-10925-7_28",
+        "year": 2019
+      },
+      {
+        "score": 0.4145,
+        "title": "Cooperative distributed multi-agent optimization",
+        "doi": "10.1017/cbo9780511804458.011",
+        "url": "https://doi.org/10.1017/cbo9780511804458.011",
+        "year": 2009
+      }
+    ]
+  },
+  {
+    "n": 129,
+    "title": "Personality-Driven Decision-Making in Autonomous Agents: Simulating Individual Differences in Risk Aversion and Time Discounting",
+    "current_url": "https://arxiv.org/abs/2501.06992",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4843,
+        "title": "Personality-Driven Decision Making in LLM-Based Autonomous Agents",
+        "doi": "10.65109/upog9306",
+        "url": "https://doi.org/10.65109/upog9306",
+        "year": 2025
+      },
+      {
+        "score": 0.4746,
+        "title": "Personality, Social Identity, and Individual Differences in Multinational Decision-Making",
+        "doi": "10.1177/1541931213601685",
+        "url": "https://doi.org/10.1177/1541931213601685",
+        "year": 2017
+      },
+      {
+        "score": 0.3991,
+        "title": "Accounting for Individual Differences in Decision-Making Competence: Personality and Gender Differences",
+        "doi": "10.3389/fpsyg.2018.02258",
+        "url": "https://doi.org/10.3389/fpsyg.2018.02258",
+        "year": 2018
+      },
+      {
+        "score": 0.3882,
+        "title": "Individual Differences in Time Pressured Decision Making",
+        "doi": "10.1037/e537272012-224",
+        "url": "https://doi.org/10.1037/e537272012-224",
+        "year": 1994
+      },
+      {
+        "score": 0.3617,
+        "title": "Proficiency-Driven Decision-Making for Networks of Autonomous Agents",
+        "doi": "10.23919/eusipco63237.2025.11226695",
+        "url": "https://doi.org/10.23919/eusipco63237.2025.11226695",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 131,
+    "title": "AI Agent Behavioral Science: Dynamics of Multi-Agent Societies and Applications for Behavioral Economics",
+    "current_url": "https://arxiv.org/abs/2501.15606",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.3746,
+        "title": "Behavioral Modeling and Multi‐agent Simulation",
+        "doi": "10.1002/9780470610879.ch6",
+        "url": "https://doi.org/10.1002/9780470610879.ch6",
+        "year": 2008
+      },
+      {
+        "score": 0.3571,
+        "title": "Behavioral Modeling of Multi Agent System",
+        "doi": "10.4018/ijats.2015010104",
+        "url": "https://doi.org/10.4018/ijats.2015010104",
+        "year": 2015
+      },
+      {
+        "score": 0.3405,
+        "title": "TACtic- A Multi Behavioral Agent for Trading Agent Competition",
+        "doi": "10.1007/978-3-540-89985-3_109",
+        "url": "https://doi.org/10.1007/978-3-540-89985-3_109",
+        "year": 2008
+      },
+      {
+        "score": 0.2899,
+        "title": "AI Behavioral Science",
+        "doi": "10.2139/ssrn.5395006",
+        "url": "https://doi.org/10.2139/ssrn.5395006",
+        "year": 2025
+      },
+      {
+        "score": 0.2891,
+        "title": "Behavioral Multi-Agent Systems: Integrating Human Decision-Making into AI Cooperation",
+        "doi": "10.2139/ssrn.5223726",
+        "url": "https://doi.org/10.2139/ssrn.5223726",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 132,
+    "title": "Personality as a Probe for LLM Evaluation: Unveiling Consistency, Stability, and Generalizability",
+    "current_url": "https://arxiv.org/abs/2501.18166",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.3183,
+        "title": "The Narcissistic Personality Inventory: Test–retest stability and internal consistency",
+        "doi": "10.1016/j.paid.2005.08.001",
+        "url": "https://doi.org/10.1016/j.paid.2005.08.001",
+        "year": 2005
+      },
+      {
+        "score": 0.2934,
+        "title": "Consistency and generalizability of intraindividual variability.",
+        "doi": "10.1037/h0026720",
+        "url": "https://doi.org/10.1037/h0026720",
+        "year": 1969
+      },
+      {
+        "score": 0.2686,
+        "title": "Personality Consistency",
+        "doi": "10.1007/978-3-319-24612-3_301936",
+        "url": "https://doi.org/10.1007/978-3-319-24612-3_301936",
+        "year": 2020
+      },
+      {
+        "score": 0.2368,
+        "title": "TEMPLEs: Teacher Evaluation using Metamorphic-mediated Personality-aware LLM Evaluators",
+        "doi": "10.1109/tale66047.2025.11346704",
+        "url": "https://doi.org/10.1109/tale66047.2025.11346704",
+        "year": 2025
+      },
+      {
+        "score": 0.2041,
+        "title": "CryptexLLM: How LLM Generalizability Forecasts High Volatility",
+        "doi": "10.1109/escience65000.2025.00071",
+        "url": "https://doi.org/10.1109/escience65000.2025.00071",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 133,
+    "title": "Multilingual != Multicultural: A Case Study of How Culturally Aligned LLMs Really Are",
+    "current_url": "https://arxiv.org/abs/2501.17680",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4891,
+        "title": "Multilingual Language Models are not Multicultural: A Case Study in Emotion",
+        "doi": "10.18653/v1/2023.wassa-1.19",
+        "url": "https://doi.org/10.18653/v1/2023.wassa-1.19",
+        "year": 2023
+      },
+      {
+        "score": 0.4528,
+        "title": "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs",
+        "doi": "10.18653/v1/2025.findings-acl.770",
+        "url": "https://doi.org/10.18653/v1/2025.findings-acl.770",
+        "year": 2025
+      },
+      {
+        "score": 0.435,
+        "title": "How Multilingual LLMs Are! A Case Study of LLMs Using Multilingual Sentiment Analysis in Indian Language",
+        "doi": "10.1007/978-981-96-8753-4_34",
+        "url": "https://doi.org/10.1007/978-981-96-8753-4_34",
+        "year": 2025
+      },
+      {
+        "score": 0.4277,
+        "title": "Fake Alignment: Are LLMs Really Aligned Well?",
+        "doi": "10.18653/v1/2024.naacl-long.263",
+        "url": "https://doi.org/10.18653/v1/2024.naacl-long.263",
+        "year": 2024
+      },
+      {
+        "score": 0.4169,
+        "title": "Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs",
+        "doi": "10.26615/978-954-452-101-1-009",
+        "url": "https://doi.org/10.26615/978-954-452-101-1-009",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 136,
+    "title": "Fluent but Foreign: Regional LLMs Lack Cultural Alignment Despite Language Fluency",
+    "current_url": "https://arxiv.org/abs/2501.07913",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.3663,
+        "title": "A Resource-Efficient Framework for Cultural Alignment in Large Language Models (LLMs): The Chinese Context",
+        "doi": "10.2139/ssrn.5655296",
+        "url": "https://doi.org/10.2139/ssrn.5655296",
+        "year": 2025
+      },
+      {
+        "score": 0.3281,
+        "title": "“Glocal” Identity, Cultural Intelligence and Language Fluency",
+        "doi": "10.1016/j.sbspro.2013.08.599",
+        "url": "https://doi.org/10.1016/j.sbspro.2013.08.599",
+        "year": 2013
+      },
+      {
+        "score": 0.3194,
+        "title": "FOREIGN LANGUAGE ANXIETY AND SECOND LANGUAGE FLUENCY IN STUDY ABROAD",
+        "doi": "10.21125/iceri.2023.1556",
+        "url": "https://doi.org/10.21125/iceri.2023.1556",
+        "year": 2023
+      },
+      {
+        "score": 0.3145,
+        "title": "Foreign-Language Fluency",
+        "doi": "10.1080/00221546.1963.11774842",
+        "url": "https://doi.org/10.1080/00221546.1963.11774842",
+        "year": 1963
+      },
+      {
+        "score": 0.2874,
+        "title": "“Less‐than‐fluent” and culturally connected: Language learning and cultural fluency as research methodology",
+        "doi": "10.1111/area.12357",
+        "url": "https://doi.org/10.1111/area.12357",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "n": 137,
+    "title": "LLM-GLOBE: A Benchmark for Evaluating Large Language Models on Culture-Specific Values",
+    "current_url": "https://arxiv.org/abs/2410.16975",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.5914,
+        "title": "TelBench: A Benchmark for Evaluating Telco-Specific Large Language Models",
+        "doi": "10.18653/v1/2024.emnlp-industry.45",
+        "url": "https://doi.org/10.18653/v1/2024.emnlp-industry.45",
+        "year": 2024
+      },
+      {
+        "score": 0.5834,
+        "title": "A bilingual benchmark for evaluating large language models",
+        "doi": "10.7717/peerj-cs.1893",
+        "url": "https://doi.org/10.7717/peerj-cs.1893",
+        "year": 2024
+      },
+      {
+        "score": 0.5284,
+        "title": "PM-LLM-Benchmark: Evaluating Large Language Models on Process Mining Tasks",
+        "doi": "10.1007/978-3-031-82225-4_45",
+        "url": "https://doi.org/10.1007/978-3-031-82225-4_45",
+        "year": 2025
+      },
+      {
+        "score": 0.5283,
+        "title": "FDM-bench: a domain-specific benchmark for evaluating large language models in additive manufacturing",
+        "doi": "10.1016/j.mfglet.2025.06.161",
+        "url": "https://doi.org/10.1016/j.mfglet.2025.06.161",
+        "year": 2025
+      },
+      {
+        "score": 0.4447,
+        "title": "LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models",
+        "doi": "10.1038/s41598-025-18489-7",
+        "url": "https://doi.org/10.1038/s41598-025-18489-7",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 138,
+    "title": "Evaluating Cultural Awareness of LLMs via Analyzing Reward Models for RLHF Preferences: A Case Study Using CARB Dataset",
+    "current_url": "https://arxiv.org/abs/2412.01562",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.3449,
+        "title": "Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset",
+        "doi": "10.18653/v1/2025.emnlp-main.874",
+        "url": "https://doi.org/10.18653/v1/2025.emnlp-main.874",
+        "year": 2025
+      },
+      {
+        "score": 0.3244,
+        "title": "Predicting User Preferences in LLMs: A Real - World Data - Driven Approach Based on RLHF",
+        "doi": "10.54254/2755-2721/2025.po24816",
+        "url": "https://doi.org/10.54254/2755-2721/2025.po24816",
+        "year": 2025
+      },
+      {
+        "score": 0.3155,
+        "title": "Enhancing RLHF in LLMs: Comparing BERT, XGBoost, and Deep Models for Bias Detection",
+        "doi": "10.1109/dese68208.2025.11367955",
+        "url": "https://doi.org/10.1109/dese68208.2025.11367955",
+        "year": 2025
+      },
+      {
+        "score": 0.3134,
+        "title": "CondenseLM: LLMs-driven Text Dataset Condensation via Reward Matching",
+        "doi": "10.18653/v1/2025.emnlp-main.65",
+        "url": "https://doi.org/10.18653/v1/2025.emnlp-main.65",
+        "year": 2025
+      },
+      {
+        "score": 0.2996,
+        "title": "RLHF-Aligned Open LLMs: A Comparative Survey",
+        "doi": "10.20944/preprints202506.2381.v1",
+        "url": "https://doi.org/10.20944/preprints202506.2381.v1",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 139,
+    "title": "Aligning to What? Limits to Personality-Based RLHF Alignment for Large Language Models",
+    "current_url": "https://arxiv.org/abs/2501.11243",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.6277,
+        "title": "Aligning to What? Limits to RLHF Based Alignment",
+        "doi": "10.18653/v1/2025.findings-naacl.421",
+        "url": "https://doi.org/10.18653/v1/2025.findings-naacl.421",
+        "year": 2025
+      },
+      {
+        "score": 0.4702,
+        "title": "Aligning Brains into a Shared Space Improves their Alignment to Large Language Models",
+        "doi": "10.1101/2024.06.04.597448",
+        "url": "https://doi.org/10.1101/2024.06.04.597448",
+        "year": 2024
+      },
+      {
+        "score": 0.4253,
+        "title": "Aligning brains into a shared space improves their alignment with large language models",
+        "doi": "10.1038/s43588-025-00900-y",
+        "url": "https://doi.org/10.1038/s43588-025-00900-y",
+        "year": 2025
+      },
+      {
+        "score": 0.382,
+        "title": "Alignment Studio: Aligning Large Language Models to Particular Contextual Regulations",
+        "doi": "10.1109/mic.2024.3453671",
+        "url": "https://doi.org/10.1109/mic.2024.3453671",
+        "year": 2024
+      },
+      {
+        "score": 0.3789,
+        "title": "Aligning Large Language Models for Controllable Recommendations",
+        "doi": "10.18653/v1/2024.acl-long.443",
+        "url": "https://doi.org/10.18653/v1/2024.acl-long.443",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 140,
+    "title": "MM-RLHF: Multimodal Personality Alignment for Vision-Language Models",
+    "current_url": "https://arxiv.org/abs/2501.08794",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.5496,
+        "title": "Multimodal Features Alignment for Vision–Language Object Tracking",
+        "doi": "10.3390/rs16071168",
+        "url": "https://doi.org/10.3390/rs16071168",
+        "year": 2024
+      },
+      {
+        "score": 0.5156,
+        "title": "Semantic Alignment for Multimodal Large Language Models",
+        "doi": "10.1145/3664647.3681014",
+        "url": "https://doi.org/10.1145/3664647.3681014",
+        "year": 2024
+      },
+      {
+        "score": 0.5004,
+        "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
+        "doi": "10.18653/v1/2025.acl-long.327",
+        "url": "https://doi.org/10.18653/v1/2025.acl-long.327",
+        "year": 2025
+      },
+      {
+        "score": 0.4437,
+        "title": "Multimodal Alignment Augmentation Transferable Attack on Vision-Language Pre-Training Models",
+        "doi": "10.2139/ssrn.4879047",
+        "url": "https://doi.org/10.2139/ssrn.4879047",
+        "year": 2024
+      },
+      {
+        "score": 0.4437,
+        "title": "Multimodal alignment augmentation transferable attack on vision-language pre-training models",
+        "doi": "10.1016/j.patrec.2025.03.007",
+        "url": "https://doi.org/10.1016/j.patrec.2025.03.007",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 141,
+    "title": "Adversarial RLHF: How Personality Can Be Misaligned Through Reward Hacking",
+    "current_url": "https://arxiv.org/abs/2412.19823",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.2306,
+        "title": "InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling",
+        "doi": "10.52202/079017-4270",
+        "url": "https://doi.org/10.52202/079017-4270",
+        "year": 2024
+      },
+      {
+        "score": 0.2069,
+        "title": "Optimizing RLHF Reward Models with Fairness Constraints",
+        "doi": "10.1109/ccsb66722.2025.11154240",
+        "url": "https://doi.org/10.1109/ccsb66722.2025.11154240",
+        "year": 2025
+      },
+      {
+        "score": 0.1873,
+        "title": "Improving Discriminative Capability of Reward Models in RLHF Using Contrastive Learning",
+        "doi": "10.18653/v1/2024.emnlp-main.852",
+        "url": "https://doi.org/10.18653/v1/2024.emnlp-main.852",
+        "year": 2024
+      },
+      {
+        "score": 0.1677,
+        "title": "Prototypical Reward Network for Data-Efficient RLHF",
+        "doi": "10.18653/v1/2024.acl-long.748",
+        "url": "https://doi.org/10.18653/v1/2024.acl-long.748",
+        "year": 2024
+      },
+      {
+        "score": 0.1594,
+        "title": "Group Robust Preference Optimization in Reward-free RLHF",
+        "doi": "10.52202/079017-1171",
+        "url": "https://doi.org/10.52202/079017-1171",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 142,
+    "title": "A Survey of Large Language Models in Psychotherapy: Evaluating Empathy, Personality Consistency, and Clinical Effectiveness",
+    "current_url": "https://arxiv.org/abs/2501.04447",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4345,
+        "title": "Evaluating the Effectiveness of Large Language Models in Converting Clinical Data to FHIR Format",
+        "doi": "10.20944/preprints202502.1664.v1",
+        "url": "https://doi.org/10.20944/preprints202502.1664.v1",
+        "year": 2025
+      },
+      {
+        "score": 0.4345,
+        "title": "Evaluating the Effectiveness of Large Language Models in Converting Clinical Data to FHIR Format",
+        "doi": "10.3390/app15063379",
+        "url": "https://doi.org/10.3390/app15063379",
+        "year": 2025
+      },
+      {
+        "score": 0.4011,
+        "title": "Evaluating the ability of large language models to emulate personality",
+        "doi": "10.1038/s41598-024-84109-5",
+        "url": "https://doi.org/10.1038/s41598-024-84109-5",
+        "year": 2025
+      },
+      {
+        "score": 0.3878,
+        "title": "Firm or Fickle? Evaluating Large Language Models Consistency in Sequential Interactions",
+        "doi": "10.18653/v1/2025.findings-acl.347",
+        "url": "https://doi.org/10.18653/v1/2025.findings-acl.347",
+        "year": 2025
+      },
+      {
+        "score": 0.3656,
+        "title": "Evaluating Consistency and Reasoning Capabilities of Large Language Models",
+        "doi": "10.1109/icdsis61070.2024.10594233",
+        "url": "https://doi.org/10.1109/icdsis61070.2024.10594233",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 143,
+    "title": "CounselBench: A Benchmark for Evaluating Empathy and Personality Consistency in Mental Health Counseling LLMs",
+    "current_url": "https://arxiv.org/abs/2501.12123",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4625,
+        "title": "A benchmark for evaluating crisis information generation capabilities in LLMs",
+        "doi": "10.47989/ir30iconf47518",
+        "url": "https://doi.org/10.47989/ir30iconf47518",
+        "year": 2025
+      },
+      {
+        "score": 0.4546,
+        "title": "CTIBench: A Benchmark for Evaluating LLMs in Cyber Threat Intelligence",
+        "doi": "10.52202/079017-1607",
+        "url": "https://doi.org/10.52202/079017-1607",
+        "year": 2024
+      },
+      {
+        "score": 0.4356,
+        "title": "Evaluating Correct-Consistency and Robustness in Code-Generating LLMs",
+        "doi": "10.1109/icst62969.2025.10988971",
+        "url": "https://doi.org/10.1109/icst62969.2025.10988971",
+        "year": 2025
+      },
+      {
+        "score": 0.3991,
+        "title": "Cultural Empathy and Disaster Mental Health Counseling",
+        "doi": "10.1891/9780826132895.0006",
+        "url": "https://doi.org/10.1891/9780826132895.0006",
+        "year": 2016
+      },
+      {
+        "score": 0.3547,
+        "title": "Empathy First Aid and Disaster Mental Health Counseling",
+        "doi": "10.1891/9780826132895.0005",
+        "url": "https://doi.org/10.1891/9780826132895.0005",
+        "year": 2016
+      }
+    ]
+  },
+  {
+    "n": 144,
+    "title": "Reasoning Is Not All You Need: A Multi-Turn Analysis of Mental Health Counseling with Large Language Models",
+    "current_url": "https://arxiv.org/abs/2501.16789",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.467,
+        "title": "Consensus Is All You Need: Gossip-Based Reasoning Among Large Language Models",
+        "doi": "10.2139/ssrn.5395454",
+        "url": "https://doi.org/10.2139/ssrn.5395454",
+        "year": 2025
+      },
+      {
+        "score": 0.449,
+        "title": "Grimoire is All You Need for Enhancing Large Language Models",
+        "doi": "10.21203/rs.3.rs-3845612/v1",
+        "url": "https://doi.org/10.21203/rs.3.rs-3845612/v1",
+        "year": 2024
+      },
+      {
+        "score": 0.4209,
+        "title": "Dynamic Evaluation with Cognitive Reasoning for Multi-turn Safety of Large Language Models",
+        "doi": "10.18653/v1/2025.acl-long.963",
+        "url": "https://doi.org/10.18653/v1/2025.acl-long.963",
+        "year": 2025
+      },
+      {
+        "score": 0.3951,
+        "title": "Do Large Language Models Align with Core Mental Health Counseling Competencies?",
+        "doi": "10.18653/v1/2025.findings-naacl.418",
+        "url": "https://doi.org/10.18653/v1/2025.findings-naacl.418",
+        "year": 2025
+      },
+      {
+        "score": 0.3946,
+        "title": "Reasoning-Augmented Conversation for Multi-Turn Jailbreak Attacks on Large Language Models",
+        "doi": "10.18653/v1/2025.findings-emnlp.929",
+        "url": "https://doi.org/10.18653/v1/2025.findings-emnlp.929",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "n": 145,
+    "title": "Can Large Language Models Be a Dangerous Persuader? Personality-Driven Persuasion Strategies and Their Ethical Implications",
+    "current_url": "https://arxiv.org/abs/2501.09876",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4372,
+        "title": "Large Language Models: Methodologies, Applications, and Ethical Implications",
+        "doi": "10.2139/ssrn.5212414",
+        "url": "https://doi.org/10.2139/ssrn.5212414",
+        "year": 2025
+      },
+      {
+        "score": 0.355,
+        "title": "Using large language models to evaluate ethical persuasion text: A measurement modeling approach",
+        "doi": "10.21449/ijate.1788563",
+        "url": "https://doi.org/10.21449/ijate.1788563",
+        "year": 2026
+      },
+      {
+        "score": 0.3482,
+        "title": "Large Language Models Can Enhance Persuasion Through Linguistic Feature Alignment",
+        "doi": "10.2139/ssrn.4725351",
+        "url": "https://doi.org/10.2139/ssrn.4725351",
+        "year": 2024
+      },
+      {
+        "score": 0.3254,
+        "title": "Large language models can replicate cross-cultural differences in personality",
+        "doi": "10.1016/j.jrp.2025.104584",
+        "url": "https://doi.org/10.1016/j.jrp.2025.104584",
+        "year": 2025
+      },
+      {
+        "score": 0.3137,
+        "title": "Ethical Implications of Large Language Models in Content Generation",
+        "doi": "10.51219/jaimld/chinmay-shripad-kulkarni/32",
+        "url": "https://doi.org/10.51219/jaimld/chinmay-shripad-kulkarni/32",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "n": 146,
+    "title": "Can Generative Agent-Based Modeling Replicate Social Phenomena? The Case of the Friendship Paradox with Personality-Driven Agents",
+    "current_url": "https://arxiv.org/abs/2501.14562",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.5964,
+        "title": "Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?",
+        "doi": "10.1145/3717867.3717895",
+        "url": "https://doi.org/10.1145/3717867.3717895",
+        "year": 2025
+      },
+      {
+        "score": 0.5102,
+        "title": "Validating generative agent-Based modeling in social media simulations through the lens of the friendship paradox",
+        "doi": "10.1016/j.ipm.2026.104636",
+        "url": "https://doi.org/10.1016/j.ipm.2026.104636",
+        "year": 2026
+      },
+      {
+        "score": 0.3386,
+        "title": "Agent-based modeling for psychological research on social phenomena.",
+        "doi": "10.1037/amp0001530",
+        "url": "https://doi.org/10.1037/amp0001530",
+        "year": 2025
+      },
+      {
+        "score": 0.3386,
+        "title": "Agent-Based Modeling for Psychological Research on Social Phenomena",
+        "doi": "10.31234/osf.io/st8an_v1",
+        "url": "https://doi.org/10.31234/osf.io/st8an_v1",
+        "year": 2025
+      },
+      {
+        "score": 0.3263,
+        "title": "Psychologically-Valid Generative Agents: A Novel Approach to Agent-Based Modeling in Social Sciences",
+        "doi": "10.1609/aaaiss.v2i1.27698",
+        "url": "https://doi.org/10.1609/aaaiss.v2i1.27698",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 147,
+    "title": "Persuasion and Safety in the Era of Generative AI: Understanding Personality-Based Manipulation Risks",
+    "current_url": "https://arxiv.org/abs/2501.05673",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4474,
+        "title": "Social Risks in the Era of Generative <scp>AI</scp>",
+        "doi": "10.1002/pra2.1103",
+        "url": "https://doi.org/10.1002/pra2.1103",
+        "year": 2024
+      },
+      {
+        "score": 0.4294,
+        "title": "Understanding and Mitigating Risks of Generative AI in Financial Services",
+        "doi": "10.1145/3715275.3732168",
+        "url": "https://doi.org/10.1145/3715275.3732168",
+        "year": 2025
+      },
+      {
+        "score": 0.3372,
+        "title": "Satellite image manipulation detection in generative AI era",
+        "doi": "10.1117/12.3033974",
+        "url": "https://doi.org/10.1117/12.3033974",
+        "year": 2024
+      },
+      {
+        "score": 0.3227,
+        "title": "Extending Knowledge-Based View in Generative AI Era",
+        "doi": "10.5465/amproc.2025.19643abstract",
+        "url": "https://doi.org/10.5465/amproc.2025.19643abstract",
+        "year": 2025
+      },
+      {
+        "score": 0.2945,
+        "title": "Mitigating manipulation in generative AI",
+        "doi": "10.1109/mpot.2024.3491338",
+        "url": "https://doi.org/10.1109/mpot.2024.3491338",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "n": 148,
+    "title": "FairEval: Evaluating Fairness in Personality-Aware Recommendation Systems Powered by LLMs",
+    "current_url": "https://arxiv.org/abs/2501.07234",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4165,
+        "title": "Can LLMs Enhance Fairness in Recommendation Systems? A Data Augmentation Approach",
+        "doi": "10.1145/3726302.3729917",
+        "url": "https://doi.org/10.1145/3726302.3729917",
+        "year": 2025
+      },
+      {
+        "score": 0.4012,
+        "title": "A survey on personality-aware recommendation systems",
+        "doi": "10.1007/s10462-021-10063-7",
+        "url": "https://doi.org/10.1007/s10462-021-10063-7",
+        "year": 2021
+      },
+      {
+        "score": 0.4004,
+        "title": "FairEval: Evaluating Fairness in LLM-Based Recommendations with Personality Awareness",
+        "doi": "10.2139/ssrn.5214582",
+        "url": "https://doi.org/10.2139/ssrn.5214582",
+        "year": 2025
+      },
+      {
+        "score": 0.3232,
+        "title": "Distributional Fairness-aware Recommendation",
+        "doi": "10.1145/3652854",
+        "url": "https://doi.org/10.1145/3652854",
+        "year": 2024
+      },
+      {
+        "score": 0.2876,
+        "title": "Fairness-Aware Tensor-Based Recommendation",
+        "doi": "10.1145/3269206.3271795",
+        "url": "https://doi.org/10.1145/3269206.3271795",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "n": 149,
+    "title": "CFaiRLLM: Consumer Fairness Evaluation for Recommendation Systems Using Large Language Models with Personality Profiling",
+    "current_url": "https://arxiv.org/abs/2412.02991",
+    "reason": "arxiv_metadata_mismatch",
+    "arxiv_candidates": [],
+    "crossref_candidates": [
+      {
+        "score": 0.4818,
+        "title": "CFaiRLLM: Consumer Fairness Evaluation in Large-Language Model Recommender System",
+        "doi": "10.1145/3725853",
+        "url": "https://doi.org/10.1145/3725853",
+        "year": 2025
+      },
+      {
+        "score": 0.3829,
+        "title": "Bidirectionally Guided Large Language Models for Consumer-Centric Personalized Recommendation",
+        "doi": "10.1109/tce.2025.3540780",
+        "url": "https://doi.org/10.1109/tce.2025.3540780",
+        "year": 2025
+      },
+      {
+        "score": 0.3758,
+        "title": "Fairness identification of large language models in recommendation",
+        "doi": "10.1038/s41598-025-89965-3",
+        "url": "https://doi.org/10.1038/s41598-025-89965-3",
+        "year": 2025
+      },
+      {
+        "score": 0.3758,
+        "title": "Fairness Identification of Large Language Models in Recommendation",
+        "doi": "10.21203/rs.3.rs-5228643/v1",
+        "url": "https://doi.org/10.21203/rs.3.rs-5228643/v1",
+        "year": 2024
+      },
+      {
+        "score": 0.3656,
+        "title": "Personality-Guided Code Generation Using Large Language Models",
+        "doi": "10.18653/v1/2025.acl-long.54",
+        "url": "https://doi.org/10.18653/v1/2025.acl-long.54",
+        "year": 2025
+      }
+    ]
+  }
+]

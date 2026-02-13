@@ -1,0 +1,54 @@
+---
+import arrowRight from 'lucide-static/icons/arrow-right.svg?raw';
+import calendarDays from 'lucide-static/icons/calendar-days.svg?raw';
+import clipboardList from 'lucide-static/icons/clipboard-list.svg?raw';
+import link from 'lucide-static/icons/link.svg?raw';
+import listOrdered from 'lucide-static/icons/list-ordered.svg?raw';
+import megaphone from 'lucide-static/icons/megaphone.svg?raw';
+import network from 'lucide-static/icons/network.svg?raw';
+import slidersHorizontal from 'lucide-static/icons/sliders-horizontal.svg?raw';
+import tags from 'lucide-static/icons/tags.svg?raw';
+import type from 'lucide-static/icons/type.svg?raw';
+import users from 'lucide-static/icons/users.svg?raw';
+
+interface Props {
+  name:
+    | 'arrow-right'
+    | 'calendar-days'
+    | 'clipboard-list'
+    | 'link'
+    | 'list-ordered'
+    | 'megaphone'
+    | 'network'
+    | 'sliders-horizontal'
+    | 'tags'
+    | 'type'
+    | 'users';
+  class?: string;
+  label?: string;
+}
+
+const { name, class: className = '', label } = Astro.props;
+
+const icons: Record<Props['name'], string> = {
+  'arrow-right': arrowRight,
+  'calendar-days': calendarDays,
+  'clipboard-list': clipboardList,
+  link,
+  'list-ordered': listOrdered,
+  megaphone,
+  network,
+  'sliders-horizontal': slidersHorizontal,
+  tags,
+  type,
+  users
+};
+---
+
+<span
+  class={`icon-lib ${className}`.trim()}
+  aria-hidden={label ? undefined : 'true'}
+  aria-label={label}
+  role={label ? 'img' : undefined}
+  set:html={icons[name]}
+></span>

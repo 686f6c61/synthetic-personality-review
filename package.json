@@ -1,0 +1,21 @@
+{
+  "name": "llm-synthetic-personality-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build:data": "node scripts/build-dataset.mjs",
+    "validate:data": "node scripts/validate-dataset.mjs",
+    "build:site": "astro build",
+    "build": "npm run build:data && npm run validate:data && astro build",
+    "preview": "astro preview",
+    "check": "npm run validate:data"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/space-grotesk": "^5.2.10",
+    "astro": "^5.2.4",
+    "lucide-static": "^0.563.0"
+  }
+}

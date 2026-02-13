@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: synthetic-personality-review
+    runtime: static
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build:site
+    staticPublishPath: ./dist

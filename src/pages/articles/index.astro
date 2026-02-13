@@ -1,0 +1,221 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadCanonicalArticles } from '../../lib/data';
+
+const articles = loadCanonicalArticles();
+const sortedArticles = [...articles].sort((a, b) => {
+  if (a.year !== b.year) {
+    return b.year - a.year;
+  }
+  return a.title_canonical.localeCompare(b.title_canonical, 'es');
+});
+const categories = [...new Set(sortedArticles.map((article) => article.category))].sort();
+const years = [...new Set(sortedArticles.map((article) => article.year))].sort((a, b) => b - a);
+const sourceTypes = [...new Set(sortedArticles.map((article) => article.source_type))].sort();
+const sourceTypeLabels: Record<string, string> = {
+  arxiv: 'arXiv',
+  proceedings: 'Actas de conferencia',
+  publisher: 'Editorial / revista',
+  preprint_other: 'Preprint / otro'
+};
+
+const compactText = (value: string) => value.replace(/\s+/g, ' ').trim();
+
+const buildAbstractPreview = (article: {
+  resumen_es_extendido?: string;
+  abstract_en_extended?: string;
+  abstract_en_original?: string;
+}) => {
+  const raw =
+    article.resumen_es_extendido?.trim() ||
+    article.abstract_en_extended?.trim() ||
+    article.abstract_en_original?.trim() ||
+    '';
+
+  if (!raw) {
+    return 'Sin abstract disponible.';
+  }
+
+  const firstParagraph = raw.split(/\n\s*\n/).find(Boolean) || raw;
+  const normalized = compactText(firstParagraph);
+  return normalized.length > 1200 ? `${normalized.slice(0, 1197).trimEnd()}...` : normalized;
+};
+---
+
+<BaseLayout title="Artículos | Synthetic Personality Review">
+  <section class="hero">
+    <h1>Artículos de la literatura de trabajo</h1>
+    <p class="muted">
+      Filtra por categoría, año, tipo de fuente y texto libre. La lista está ordenada por año (más reciente primero).
+    </p>
+  </section>
+
+  <section class="filters">
+    <label class="filter-control">
+      <span class="filter-label">
+        <svg class="filter-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        Buscar
+      </span>
+      <input id="search" type="search" placeholder="título, autor, keyword" />
+    </label>
+    <label class="filter-control">
+      <span class="filter-label">
+        <svg class="filter-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="8" height="7" rx="1"></rect>
+          <rect x="13" y="4" width="8" height="7" rx="1"></rect>
+          <rect x="3" y="13" width="8" height="7" rx="1"></rect>
+          <rect x="13" y="13" width="8" height="7" rx="1"></rect>
+        </svg>
+        Categoría
+      </span>
+      <select id="category">
+        <option value="">Todas</option>
+        {categories.map((category) => <option value={category}>{category}</option>)}
+      </select>
+    </label>
+    <label class="filter-control">
+      <span class="filter-label">
+        <svg class="filter-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+          <path d="M8 3v4M16 3v4M3 10h18"></path>
+        </svg>
+        Año
+      </span>
+      <select id="year">
+        <option value="">Todos</option>
+        {years.map((year) => <option value={String(year)}>{year}</option>)}
+      </select>
+    </label>
+    <label class="filter-control">
+      <span class="filter-label">
+        <svg class="filter-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+          <path d="M14 3v6h6M8 13h8M8 17h8"></path>
+        </svg>
+        Tipo de fuente
+      </span>
+      <select id="sourceType">
+        <option value="">Todos</option>
+        {sourceTypes.map((sourceType) => <option value={sourceType}>{sourceTypeLabels[sourceType] || sourceType}</option>)}
+      </select>
+    </label>
+  </section>
+
+  <p class="muted results-count" id="resultsCount">
+    <svg class="count-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 6h16M4 12h16M4 18h16"></path>
+      <circle cx="7" cy="6" r="1"></circle>
+      <circle cx="7" cy="12" r="1"></circle>
+      <circle cx="7" cy="18" r="1"></circle>
+    </svg>
+    <span id="resultsCountValue">Mostrando {sortedArticles.length} artículos</span>
+  </p>
+
+  <section id="results">
+    {sortedArticles.map((article, index) => {
+      const displayNumber = sortedArticles.length - index;
+      const abstractPreview = buildAbstractPreview(article);
+      return (
+        <article
+          class="article-card"
+          data-category={article.category}
+          data-year={String(article.year)}
+          data-source-type={article.source_type}
+          data-search={`${article.title_canonical} ${article.title_original} ${article.authors.join(' ')} ${article.keywords.join(' ')} ${abstractPreview}`.toLowerCase()}
+        >
+          <div class="article-card-head">
+            <p class="article-index">
+              <svg class="article-index-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 3 6 21M18 3l-2 18M4 9h17M3 15h17"></path>
+              </svg>
+              <span>N.{String(displayNumber).padStart(3, '0')}</span>
+            </p>
+            <h3>
+              <a href={`/articles/${article.id}`}>{article.title_canonical}</a>
+            </h3>
+          </div>
+          <div class="meta">
+            <span class="badge warn">{sourceTypeLabels[article.source_type] || article.source_type}</span>
+            <span class="badge warn">{article.year}</span>
+          </div>
+          <div class="article-details">
+            <p class="article-detail-row">
+              <svg class="article-detail-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7h16M4 12h16M4 17h16"></path>
+              </svg>
+              <span><strong>Línea:</strong> {article.category}</span>
+            </p>
+            <p class="article-detail-row">
+              <svg class="article-detail-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="9" cy="8" r="3"></circle>
+                <circle cx="17" cy="9" r="2"></circle>
+                <path d="M4 19c0-3 2.5-5 5-5s5 2 5 5M14 19c0-2 1.5-3.5 3-3.5s3 1.5 3 3.5"></path>
+              </svg>
+              <span><strong>Autores:</strong> {article.authors.join(', ')}</span>
+            </p>
+            <p class="article-detail-row">
+              <svg class="article-detail-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 3h8l4 4v14H7z"></path>
+                <path d="M15 3v4h4M10 12h6M10 16h6"></path>
+              </svg>
+              <span class="article-abstract-preview"><strong>Abstract:</strong> {abstractPreview}</span>
+            </p>
+          </div>
+        </article>
+      );
+    })}
+  </section>
+
+  <script>
+    const searchInput = document.getElementById('search');
+    const categorySelect = document.getElementById('category');
+    const yearSelect = document.getElementById('year');
+    const sourceTypeSelect = document.getElementById('sourceType');
+    const cards = Array.from(document.querySelectorAll('.article-card'));
+    const countNode = document.getElementById('resultsCountValue');
+
+    const params = new URLSearchParams(window.location.search);
+    const categoryParam = params.get('category');
+    if (categoryParam && categorySelect) {
+      const hasCategory = Array.from(categorySelect.options).some((option) => option.value === categoryParam);
+      if (hasCategory) {
+        categorySelect.value = categoryParam;
+      }
+    }
+
+    function applyFilters() {
+      const search = (searchInput?.value || '').toLowerCase().trim();
+      const category = categorySelect?.value || '';
+      const year = yearSelect?.value || '';
+      const sourceType = sourceTypeSelect?.value || '';
+
+      let visible = 0;
+      cards.forEach((card) => {
+        const matchesSearch = !search || card.dataset.search.includes(search);
+        const matchesCategory = !category || card.dataset.category === category;
+        const matchesYear = !year || card.dataset.year === year;
+        const matchesSource = !sourceType || card.dataset.sourceType === sourceType;
+
+        const show = matchesSearch && matchesCategory && matchesYear && matchesSource;
+        card.style.display = show ? '' : 'none';
+        if (show) {
+          visible += 1;
+        }
+      });
+
+      if (countNode) {
+        countNode.textContent = `Mostrando ${visible} artículos`;
+      }
+    }
+
+    [searchInput, categorySelect, yearSelect, sourceTypeSelect].forEach((node) => {
+      node?.addEventListener('input', applyFilters);
+      node?.addEventListener('change', applyFilters);
+    });
+
+    applyFilters();
+  </script>
+</BaseLayout>

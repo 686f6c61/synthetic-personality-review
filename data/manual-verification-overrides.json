@@ -1,0 +1,16 @@
+{
+  "25": {
+    "replacement_url": "https://arxiv.org/abs/2307.16180",
+    "note": "ResearchGate blocked (403). Canonical source switched to arXiv for verifiable duplicate handling."
+  },
+  "149": {
+    "replacement_url": "https://doi.org/10.1145/3725853",
+    "replacement_title": "CFaiRLLM: Consumer Fairness Evaluation in Large-Language Model Recommender System",
+    "replacement_authors": [
+      "Yashar Deldjoo",
+      "Tommaso Di Noia"
+    ],
+    "replacement_year": 2025,
+    "note": "Manual assisted verification via DOI metadata and high title agreement with source entry."
+  }
+}

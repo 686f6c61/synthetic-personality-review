@@ -1,0 +1,144 @@
+year,title,url,keyword_hit
+2026,"Attn-GS: Attention-Guided Context Compression for Efficient Personalized LLMs",http://arxiv.org/abs/2602.07778,persona
+2026,"Beyond Fixed Psychological Personas: State Beats Trait, but Language Models are State-Blind",http://arxiv.org/abs/2601.15395,persona
+2026,"Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents",http://arxiv.org/abs/2601.06490,persona
+2026,"Can LLMs Discern the Traits Influencing Your Preferences? Evaluating Personality-Driven Preference Alignment in LLMs",http://arxiv.org/abs/2602.07181,personality
+2026,"Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution",http://arxiv.org/abs/2602.07414,personality
+2026,"CASTLE: A Comprehensive Benchmark for Evaluating Student-Tailored Personalized Safety in Large Language Models",http://arxiv.org/abs/2602.05633,persona
+2026,"Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",http://arxiv.org/abs/2601.22396,persona
+2026,"CURP: Codebook-based Continuous User Representation for Personalized Generation with LLMs",http://arxiv.org/abs/2602.00742,persona
+2026,"Deaf and Hard of Hearing Access to Intelligent Personal Assistants: Comparison of Voice-Based Options with an LLM-Powered Touch Interface",http://arxiv.org/abs/2601.15209,persona
+2026,"Don't Start Over: A Cost-Effective Framework for Migrating Personalized Prompts Between LLMs",http://arxiv.org/abs/2601.12034,persona
+2026,"Effects of personality steering on cooperative behavior in Large Language Model agents",http://arxiv.org/abs/2601.05302,personality
+2026,"ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support",http://arxiv.org/abs/2602.01885,persona
+2026,"Evaluating LLM-persona Generated Distributions for Decision-making",http://arxiv.org/abs/2602.06357,persona
+2026,"FedMOA: Federated GRPO for Personalized Reasoning LLMs under Heterogeneous Rewards",http://arxiv.org/abs/2602.00453,persona
+2026,"From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized Local AI Agent",http://arxiv.org/abs/2602.08412,persona
+2026,"From Classification to Ranking: Enhancing LLM Reasoning Capabilities for MBTI Personality Detection",http://arxiv.org/abs/2601.18582,personality
+2026,"From Who They Are to How They Act: Behavioral Traits in Generative Agent-Based Models of Social Media",http://arxiv.org/abs/2601.15114,trait
+2026,"GazeSummary: Exploring Gaze as an Implicit Prompt for Personalization in Text-based LLM Tasks",http://arxiv.org/abs/2601.17676,persona
+2026,"HARMONI: Multimodal Personalization of Multi-User Human-Robot Interactions with LLMs",http://arxiv.org/abs/2601.19839,persona
+2026,"How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants",http://arxiv.org/abs/2601.16621,persona
+2026,"HumanLLM: Towards Personalized Understanding and Simulation of Human Nature",http://arxiv.org/abs/2601.15793,persona
+2026,"Judging with Personality and Confidence: A Study on Personality-Conditioned LLM Relevance Assessment",http://arxiv.org/abs/2601.01862,personality
+2026,"LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies",http://arxiv.org/abs/2601.10413,persona
+2026,"Large Language Models as Simulative Agents for Neurodivergent Adult Psychometric Profiles",http://arxiv.org/abs/2601.15319,psychometric
+2026,"Learning Context Matters: Measuring and Diagnosing Personalization Gaps in LLM-Based Instructional Design",http://arxiv.org/abs/2602.04972,persona
+2026,"Letting Tutor Personas ""Speak Up"" for LLMs: Learning Steering Vectors from Dialogue via Preference Optimization",http://arxiv.org/abs/2602.07639,persona
+2026,"LIBRA: Language Model Informed Bandit Recourse Algorithm for Personalized Treatment Planning",http://arxiv.org/abs/2601.11905,persona
+2026,"LifeAgentBench: A Multi-dimensional Benchmark and Agent for Personal Health Assistants in Digital Health",http://arxiv.org/abs/2601.13880,persona
+2026,"MENASpeechBank: A Reference Voice Bank with Persona-Conditioned Multi-Turn Conversations for AudioLLMs",http://arxiv.org/abs/2602.07036,persona
+2026,"Multi-Persona Thinking for Bias Mitigation in Large Language Models",http://arxiv.org/abs/2601.15488,persona
+2026,"One Adapts to Any: Meta Reward Modeling for Personalized LLM Alignment",http://arxiv.org/abs/2601.18731,persona
+2026,"One Persona, Many Cues, Different Results: How Sociodemographic Cues Impact LLM Personalization",http://arxiv.org/abs/2601.18572,persona
+2026,"OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",http://arxiv.org/abs/2601.13722,persona
+2026,"Optimizing the Landscape of LLM Embeddings with Dynamic Exploratory Graph Analysis for Generative Psychometrics: A Monte Carlo Study",http://arxiv.org/abs/2601.17010,psychometric
+2026,"Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization",http://arxiv.org/abs/2601.12078,persona
+2026,"PATS: Personality-Aware Teaching Strategies with Large Language Model Tutors",http://arxiv.org/abs/2601.08402,personality
+2026,"PersoDPO: Scalable Preference Optimization for Instruction-Adherent, Persona-Grounded Dialogue via Multi-LLM Evaluation",http://arxiv.org/abs/2602.04493,persona
+2026,"Persona Jailbreaking in Large Language Models",http://arxiv.org/abs/2601.16466,persona
+2026,"Persona Prompting as a Lens on LLM Social Reasoning",http://arxiv.org/abs/2601.20757,persona
+2026,"PersonaAct: Simulating Short-Video Users with Personalized Agents for Counterfactual Filter Bubble Auditing",http://arxiv.org/abs/2601.22547,persona
+2026,"PersonaCite: VoC-Grounded Interviewable Agentic Synthetic AI Personas for Verifiable User and Design Research",http://arxiv.org/abs/2601.22288,persona
+2026,"Personagram: Bridging Personas and Product Design for Creative Ideation with Multimodal LLMs",http://arxiv.org/abs/2602.06197,persona
+2026,"Personality as Relational Infrastructure: User Perceptions of Personality-Trait-Infused LLM Messaging",http://arxiv.org/abs/2602.06596,personality
+2026,"Personality Expression Across Contexts: Linguistic and Behavioral Variation in LLM Agents",http://arxiv.org/abs/2602.01063,personality
+2026,"Political Alignment in Large Language Models: A Multidimensional Audit of Psychometric Identity and Behavioral Bias",http://arxiv.org/abs/2601.06194,psychometric
+2026,"PTCBENCH: Benchmarking Contextual Stability of Personality Traits in LLM Systems",http://arxiv.org/abs/2602.00016,personality
+2026,"Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI",http://arxiv.org/abs/2602.08268,persona
+2026,"Sensing What Surveys Miss: Understanding and Personalizing Proactive LLM Support by User Modeling",http://arxiv.org/abs/2602.00880,persona
+2026,"SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation",http://arxiv.org/abs/2601.09974,persona
+2026,"Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations",http://arxiv.org/abs/2601.09833,personality
+2026,"Stable Personas: Dual-Assessment of Temporal Stability in LLM-Based Human Simulation",http://arxiv.org/abs/2601.22812,persona
+2026,"Structured Personality Control and Adaptation for LLM Agents",http://arxiv.org/abs/2601.10025,personality
+2026,"Styles + Persona-plug = Customized LLMs",http://arxiv.org/abs/2601.06362,persona
+2026,"The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models",http://arxiv.org/abs/2601.05376,persona
+2026,"The Personality Trap: How LLMs Embed Bias When Generating Human-Like Personas",http://arxiv.org/abs/2602.03334,personality
+2026,"When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications",http://arxiv.org/abs/2602.00044,persona
+2026,"When Personalization Legitimizes Risks: Uncovering Safety Vulnerabilities in Personalized Dialogue Agents",http://arxiv.org/abs/2601.17887,persona
+2026,"When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs",http://arxiv.org/abs/2601.11000,persona
+2026,"When Personas Override Payoffs: Role Identity Bias in Multi-Agent LLM Decision-Making",http://arxiv.org/abs/2601.10102,persona
+2026,"Your Language Model Secretly Contains Personality Subnetworks",http://arxiv.org/abs/2602.07164,personality
+2025,"A Comparative Study of Large Language Models and Human Personality Traits",http://arxiv.org/abs/2505.14845,personality
+2025,"Activation-Space Personality Steering: Hybrid Layer Selection for Stable Trait Control in LLMs",http://arxiv.org/abs/2511.03738,personality
+2025,"Adaptive Testing for LLM Evaluation: A Psychometric Alternative to Static Benchmarks",http://arxiv.org/abs/2511.04689,psychometric
+2025,"Agentic Multi-Persona Framework for Evidence-Aware Fake News Detection",http://arxiv.org/abs/2512.21039,persona
+2025,"Agentic Persona Control and Task State Tracking for Realistic User Simulation in Interactive Scenarios",http://arxiv.org/abs/2601.15290,persona
+2025,"AIPsychoBench: Understanding the Psychometric Differences between LLMs and Humans",http://arxiv.org/abs/2509.16530,psychometric
+2025,"Are LLMs effective psychological assessors? Leveraging adaptive RAG for interpretable mental health screening through psychometric practice",http://arxiv.org/abs/2501.00982,psychometric
+2025,"Ask, Answer, and Detect: Role-Playing LLMs for Personality Detection with Question-Conditioned Mixture-of-Experts",http://arxiv.org/abs/2512.08814,personality
+2025,"Augmenting Dialog with Think-Aloud Utterances for Modeling Individual Personality Traits by LLM",http://arxiv.org/abs/2510.09158,personality
+2025,"Beyond Overall Accuracy: A Psychometric Deep Dive into the Topic-Specific Medical Capabilities of 80 Large Language Models",http://arxiv.org/abs/2509.24186,psychometric
+2025,"Bullying the Machine: How Personas Increase LLM Vulnerability",http://arxiv.org/abs/2505.12692,persona
+2025,"Can LLM Agents Maintain a Persona in Discourse?",http://arxiv.org/abs/2502.11843,persona
+2025,"Can LLMs Infer Personality from Real World Conversations?",http://arxiv.org/abs/2507.14355,personality
+2025,"Can LLMs Understand What We Cannot Say? Measuring Multilevel Alignment Through Abortion Stigma Across Cognitive, Interpersonal, and Structural Levels",http://arxiv.org/abs/2512.13142,persona
+2025,"Comparing Human Expertise and Large Language Models Embeddings in Content Validity Assessment of Personality Tests",http://arxiv.org/abs/2503.12080,personality
+2025,"Decoding Emergent Big Five Traits in Large Language Models: Temperature-Dependent Expression and Architectural Clustering",http://arxiv.org/abs/2511.04499,big five
+2025,"Do LLMs Give Psychometrically Plausible Responses in Educational Assessments?",http://arxiv.org/abs/2506.09796,psychometric
+2025,"Do Persona-Infused LLMs Affect Performance in a Strategic Reasoning Game?",http://arxiv.org/abs/2512.06867,persona
+2025,"Do Psychometric Tests Work for Large Language Models? Evaluation of Tests on Sexism, Racism, and Morality",http://arxiv.org/abs/2510.11254,psychometric
+2025,"EduPersona: Benchmarking Subjective Ability Boundaries of Virtual Student Agents",http://arxiv.org/abs/2510.04648,persona
+2025,"Effectiveness of Large Language Models in Simulating Regional Psychological Structures: An Empirical Examination of Personality and Subjective Well-being",http://arxiv.org/abs/2509.25283,personality
+2025,"Established Psychometric vs. Ecologically Valid Questionnaires: Rethinking Psychological Assessments in Large Language Models",http://arxiv.org/abs/2509.10078,psychometric
+2025,"Evaluating Personality Traits in Large Language Models: Insights from Psychological Questionnaires",http://arxiv.org/abs/2502.05248,personality
+2025,"Evaluating the Simulation of Human Personality-Driven Susceptibility to Misinformation with LLMs",http://arxiv.org/abs/2506.23610,personality
+2025,"Exploring a Gamified Personality Assessment Method through Interaction with LLM Agents Embodying Different Personalities",http://arxiv.org/abs/2507.04005,personality
+2025,"Exploring Big Five Personality and AI Capability Effects in LLM-Simulated Negotiation Dialogues",http://arxiv.org/abs/2506.15928,personality
+2025,"Exploring the Impact of Personality Traits on Conversational Recommender Systems: A Simulation with Large Language Models",http://arxiv.org/abs/2504.12313,personality
+2025,"FairEval: Evaluating Fairness in LLM-Based Recommendations with Personality Awareness",http://arxiv.org/abs/2504.07801,personality
+2025,"Hateful Person or Hateful Model? Investigating the Role of Personas in Hate Speech Detection by Large Language Models",http://arxiv.org/abs/2506.08593,persona
+2025,"How Personality Traits Shape LLM Risk-Taking Behaviour",http://arxiv.org/abs/2503.04735,personality
+2025,"Improving Language Model Personas via Rationalization with Psychological Scaffolds",http://arxiv.org/abs/2504.17993,persona
+2025,"Improving LLM Leaderboards with Psychometrical Methodology",http://arxiv.org/abs/2501.17200,psychometric
+2025,"In Silico Development of Psychometric Scales: Feasibility of Representative Population Data Simulation with LLMs",http://arxiv.org/abs/2512.02910,psychometric
+2025,"Integrating Personality into Digital Humans: A Review of LLM-Driven Approaches for Virtual Reality",http://arxiv.org/abs/2503.16457,personality
+2025,"Interpolative Decoding: Exploring the Spectrum of Personality Traits in LLMs",http://arxiv.org/abs/2512.19937,personality
+2025,"Investigating Large Language Models in Inferring Personality Traits from User Conversations",http://arxiv.org/abs/2501.07532,personality
+2025,"Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model",http://arxiv.org/abs/2510.23875,personality
+2025,"LikeBench: Evaluating Subjective Likability in LLMs for Personalization",http://arxiv.org/abs/2512.13077,persona
+2025,"Linear Personality Probing and Steering in LLMs: A Big Five Study",http://arxiv.org/abs/2512.17639,personality
+2025,"LLM Personas as a Substitute for Field Experiments in Method Benchmarking",http://arxiv.org/abs/2512.21080,persona
+2025,"LLM-Generated Ads: From Personalization Parity to Persuasion Superiority",http://arxiv.org/abs/2512.03373,persona
+2025,"Love First, Know Later: Persona-Based Romantic Compatibility Through LLM Text World Engines",http://arxiv.org/abs/2512.11844,persona
+2025,"Mapping Patient-Perceived Physician Traits from Nationwide Online Reviews with LLMs",http://arxiv.org/abs/2510.03997,trait
+2025,"MAPS: Multi-Agent Personality Shaping for Collaborative Reasoning",http://arxiv.org/abs/2503.16905,personality
+2025,"MIMIC: Integrating Diverse Personality Traits for Better Game Testing Using Large Language Model",http://arxiv.org/abs/2510.01635,personality
+2025,"Mind Reading or Misreading? LLMs on the Big Five Personality Test",http://arxiv.org/abs/2511.23101,personality
+2025,"Misalignment of LLM-Generated Personas with Human Perceptions in Low-Resource Settings",http://arxiv.org/abs/2512.02058,persona
+2025,"Mitigating the Threshold Priming Effect in Large Language Model-Based Relevance Judgments via Personality Infusing",http://arxiv.org/abs/2512.00390,personality
+2025,"MTA: A Merge-then-Adapt Framework for Personalized Large Language Model",http://arxiv.org/abs/2511.20072,persona
+2025,"Multi-Personality Generation of LLMs at Decoding-time",http://arxiv.org/abs/2511.01891,personality
+2025,"Negotiating Comfort: Simulating Personality-Driven LLM Agents in Shared Residential Social Networks",http://arxiv.org/abs/2507.09657,personality
+2025,"NetworkGames: Simulating Cooperation in Network Games with Personality-driven LLM Agents",http://arxiv.org/abs/2511.21783,personality
+2025,"OmniCharacter: Towards Immersive Role-Playing Agents with Seamless Speech-Language Personality Interaction",http://arxiv.org/abs/2505.20277,personality
+2025,"Persona Vectors: Monitoring and Controlling Character Traits in Language Models",http://arxiv.org/abs/2507.21509,persona
+2025,"Persona-Based Synthetic Data Generation Using Multi-Stage Conditioning with Large Language Models for Emotion Recognition",http://arxiv.org/abs/2507.13380,persona
+2025,"PersonaFuse: A Personality Activation-Driven Framework for Enhancing Human-LLM Interactions",http://arxiv.org/abs/2509.07370,personality
+2025,"Personality Matters: User Traits Predict LLM Preferences in Multi-Turn Collaborative Tasks",http://arxiv.org/abs/2508.21628,personality
+2025,"Personality Prediction from Life Stories using Language Models",http://arxiv.org/abs/2506.19258,personality
+2025,"Personalized Attacks of Social Engineering in Multi-turn Conversations: LLM Agents for Simulation and Detection",http://arxiv.org/abs/2503.15552,persona
+2025,"PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",http://arxiv.org/abs/2512.06688,persona
+2025,"Polypersona: Persona-Grounded LLM for Synthetic Survey Responses",http://arxiv.org/abs/2512.14562,persona
+2025,"Probing then Editing Response Personality of Large Language Models",http://arxiv.org/abs/2504.10227,personality
+2025,"Profile-LLM: Dynamic Profile Optimization for Realistic Personality Expression in LLMs",http://arxiv.org/abs/2511.19852,personality
+2025,"Psychometric Comparability of LLM-Based Digital Twins",http://arxiv.org/abs/2601.14264,psychometric
+2025,"Psychometric-Based Evaluation for Theorem Proving with Large Language Models",http://arxiv.org/abs/2502.00855,psychometric
+2025,"PsyPlay: Personality-Infused Role-Playing Conversational Agents",http://arxiv.org/abs/2502.03821,personality
+2025,"Quantifying Data Contamination in Psychometric Evaluations of LLMs",http://arxiv.org/abs/2510.07175,psychometric
+2025,"Robots with Attitudes: Influence of LLM-Driven Robot Personalities on Motivation and Performance",http://arxiv.org/abs/2512.06910,persona
+2025,"Self-Transparency Failures in Expert-Persona LLMs: How Instruction-Following Overrides Disclosure",http://arxiv.org/abs/2511.21569,persona
+2025,"Simulated Self-Assessment in Large Language Models: A Psychometric Approach to AI Self-Efficacy",http://arxiv.org/abs/2511.19872,psychometric
+2025,"SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing",http://arxiv.org/abs/2512.24008,persona
+2025,"SUMFORU: An LLM-Based Review Summarization Framework for Personalized Purchase Decision Support",http://arxiv.org/abs/2512.11755,persona
+2025,"Supernova Event Dataset: Interpreting Large Language Models' Personality through Critical Event Analysis",http://arxiv.org/abs/2506.12189,personality
+2025,"The Ethics Engine: A Modular Pipeline for Accessible Psychometric Assessment of Large Language Models",http://arxiv.org/abs/2510.11742,psychometric
+2025,"The Geometry of Persona: Disentangling Personality from Reasoning in Large Language Models",http://arxiv.org/abs/2512.07092,personality
+2025,"The Personality Illusion: Revealing Dissociation Between Self-Reports &amp; Behavior in LLMs",http://arxiv.org/abs/2509.03730,personality
+2025,"The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation",http://arxiv.org/abs/2510.01295,psychometric
+2025,"Towards Effective Model Editing for LLM Personalization",http://arxiv.org/abs/2512.13676,persona
+2025,"TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona Simulation",http://arxiv.org/abs/2510.25536,persona
+2025,"Understanding Down Syndrome Stereotypes in LLM-Based Personas",http://arxiv.org/abs/2512.02275,persona
+2025,"Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items",http://arxiv.org/abs/2505.01015,psychometric
+2025,"Vibe Check: Understanding the Effects of LLM-Based Conversational Agents' Personality and Alignment on User Perceptions in Goal-Oriented Tasks",http://arxiv.org/abs/2509.09870,personality
+2025,"Whose Personae? Synthetic Persona Experiments in LLM Research and Pathways to Transparency",http://arxiv.org/abs/2512.00461,persona

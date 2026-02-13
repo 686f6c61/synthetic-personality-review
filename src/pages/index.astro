@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import { collectStats, loadCanonicalArticles } from '../lib/data';
+
+const canonical = loadCanonicalArticles();
+const stats = collectStats(canonical);
+
+const publishedOrder = [...canonical].sort((a, b) => {
+  if (a.year !== b.year) {
+    return b.year - a.year;
+  }
+  return a.title_canonical.localeCompare(b.title_canonical, 'es');
+});
+const publishedIds = new Set(publishedOrder.map((article) => article.id));
+const publishedNumberById = new Map(
+  publishedOrder.map((article, index) => [
+    article.id,
+    `N.${String(publishedOrder.length - index).padStart(3, '0')}`
+  ])
+);
+
+const latest2026 = canonical
+  .filter((article) => article.year === 2026 && publishedIds.has(article.id))
+  .sort((a, b) => b.legacy_article_number - a.legacy_article_number);
+const latest = latest2026.slice(0, 6);
+const latestSectionTitle = latest2026.length ? 'Artículos 2026 incorporados' : 'Últimos artículos incorporados';
+
+const spotlight = [...canonical]
+  .filter((article) => publishedIds.has(article.id))
+  .sort((a, b) => b.legacy_article_number - a.legacy_article_number)[0];
+const spotlightResumen =
+  spotlight?.resumen_es_extendido?.split(/\n\s*\n/).filter(Boolean)[0]?.slice(0, 420) || '';
+const byCategory = new Map(stats.byCategory);
+const tracks = [
+  {
+    name: 'Aplicaciones, sesgos y consecuencias sociales',
+    icon: 'megaphone',
+    description:
+      'Estudia impactos en usuarios y sociedad: sesgos culturales, riesgos de personalización y efectos de comportamiento en contextos reales.'
+  },
+  {
+    name: 'Evaluación y validación psicométrica',
+    icon: 'clipboard-list',
+    description:
+      'Analiza fiabilidad, validez y consistencia al medir rasgos en LLMs con instrumentos psicométricos y protocolos comparables.'
+  },
+  {
+    name: 'Inducción y control de personalidad',
+    icon: 'sliders-horizontal',
+    description:
+      'Examina técnicas para inducir, estabilizar y modular rasgos: prompting, memoria, roles y mecanismos de steering entre modelos.'
+  }
+].map((track) => ({ ...track, count: byCategory.get(track.name) || 0 }));
+---
+
+<BaseLayout
+  title="Synthetic Personality Review"
+  description="Portal editorial y literatura de trabajo sobre evaluación de «personalidad sintética» en modelos LLM."
+>
+  <section class="home-hero section">
+    <h1>Una referencia en actualización continua para evaluar rasgos de «personalidad sintética» en modelos de lenguaje (LLMs)</h1>
+    <p class="lede">
+      Esta bitácora convierte una revisión académica extensa en un recurso público, auditable y actualizable. El foco es
+      psicométrico: fiabilidad, validez, consistencia y límites metodológicos al medir «personalidad sintética» en LLMs.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/articles">
+        <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14"></path>
+          <path d="m13 6 6 6-6 6"></path>
+        </svg>
+        <span>Explorar artículos</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Líneas de investigación</h2>
+    <div class="grid cards">
+      {tracks.map((track) => (
+        <article class="card track-card">
+          <div class="track-head">
+            <span class="track-icon-wrap" aria-hidden="true">
+              <Icon name={track.icon} class="track-icon-lib" />
+            </span>
+            <div>
+              <p class="track-count">{track.count}</p>
+              <p class="track-count-label">artículos</p>
+            </div>
+          </div>
+          <h3>{track.name}</h3>
+          <p class="muted">{track.description}</p>
+          <a class="track-link" href={`/articles?category=${encodeURIComponent(track.name)}`}>
+            <span>Ver artículos</span>
+            <Icon name="arrow-right" class="track-link-icon-lib" />
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {spotlight && (
+    <section class="spotlight section">
+      <div class="spotlight-label">Último artículo añadido</div>
+      <h2>
+        <a href={`/articles/${spotlight.id}`}>{spotlight.title_canonical}</a>
+      </h2>
+      <p class="muted">{spotlight.year}</p>
+      <p><strong>Línea:</strong> {spotlight.category}</p>
+      <p>
+        {spotlightResumen}...
+      </p>
+      <p>
+        <a href={`/articles/${spotlight.id}`}>Leer ficha completa</a>
+      </p>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="section-head">
+      <h2>{latestSectionTitle}</h2>
+      <a class="section-link" href="/articles">
+        <svg class="section-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14"></path>
+          <path d="m13 6 6 6-6 6"></path>
+        </svg>
+        <span>Ver todos</span>
+      </a>
+    </div>
+    <div class="latest-editorial">
+      {latest.map((article, index) => (
+        <article class={`latest-item ${index === 0 ? 'is-featured' : ''}`}>
+          <div class="latest-rail">
+            <span class="latest-meta-item">
+              <Icon name="calendar-days" class="latest-meta-icon-lib" />
+              <span class="latest-year">{article.year}</span>
+            </span>
+            <span class="latest-meta-item">
+              <Icon name="list-ordered" class="latest-meta-icon-lib" />
+              <span class="latest-number">{publishedNumberById.get(article.id) || 'N.---'}</span>
+            </span>
+          </div>
+          <div class="latest-body">
+            <p class="latest-category">
+              <Icon name="network" class="latest-line-icon-lib" />
+              <span>Línea: {article.category}</span>
+            </p>
+            <h3>
+              <a href={`/articles/${article.id}`}>{article.title_canonical}</a>
+            </h3>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+</BaseLayout>

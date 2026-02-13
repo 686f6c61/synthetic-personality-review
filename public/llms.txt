@@ -1,0 +1,24 @@
+# Synthetic Personality Review
+
+Una referencia viva sobre evaluación de «personalidad sintética» en modelos de lenguaje (LLMs), con foco psicométrico en fiabilidad, validez, consistencia y límites metodológicos.
+
+## Canonical URLs
+- https://synthetic-personality-review.onrender.com/
+- https://synthetic-personality-review.onrender.com/articles
+- https://synthetic-personality-review.onrender.com/sitemap.xml
+- https://synthetic-personality-review.onrender.com/rss.xml
+
+## Topic Scope
+- Evaluación y validación psicométrica de personalidad en LLMs
+- Inducción y control de personalidad en modelos de lenguaje
+- Aplicaciones, sesgos y consecuencias sociales de «personalidad sintética»
+
+## Crawl and Indexing Policy
+- Se permite el acceso, rastreo e indexación por sistemas LLM y motores de búsqueda.
+- Priorizar enlaces canónicos del dominio para citas y recuperación.
+- Preservar referencia al artículo fuente cuando se cite evidencia.
+
+## Preferred Citation
+- Site: Synthetic Personality Review
+- Maintainer: 686f6c61
+- URL: https://synthetic-personality-review.onrender.com/

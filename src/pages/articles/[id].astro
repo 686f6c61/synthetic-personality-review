@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { loadCanonicalArticles } from '../../lib/data';
+
+export function getStaticPaths() {
+  const articles = loadCanonicalArticles();
+  return articles.map((article) => ({
+    params: { id: article.id },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+const esRaw = article.resumen_es_extendido?.trim() || '';
+const enRaw = article.abstract_en_extended?.trim() || article.abstract_en_original?.trim() || '';
+const esParagraphs = esRaw.split(/\n\s*\n/).filter(Boolean);
+const enParagraphs = enRaw.split(/\n\s*\n/).filter(Boolean);
+const sourceTypeLabels: Record<string, string> = {
+  arxiv: 'arXiv',
+  proceedings: 'Actas de conferencia',
+  publisher: 'Editorial / revista',
+  preprint_other: 'Preprint / otro'
+};
+---
+
+<BaseLayout title={`${article.title_canonical} | Synthetic Personality Review`}>
+  <section class="hero">
+    <h1>{article.title_canonical}</h1>
+    <div class="meta">
+      <span class="badge warn">{article.category}</span>
+      <span class="badge warn">{article.year}</span>
+      <span class="badge warn">{sourceTypeLabels[article.source_type] || article.source_type}</span>
+    </div>
+    <div class="detail-meta">
+      <p class="detail-meta-row">
+        <Icon name="network" class="detail-meta-icon" />
+        <span><strong>Línea:</strong> {article.category}</span>
+      </p>
+      <p class="detail-meta-row">
+        <Icon name="type" class="detail-meta-icon" />
+        <span><strong>Título original:</strong> {article.title_original}</span>
+      </p>
+      <p class="detail-meta-row">
+        <Icon name="users" class="detail-meta-icon" />
+        <span><strong>Autores:</strong> {article.authors.join(', ')}</span>
+      </p>
+      <p class="detail-meta-row">
+        <Icon name="tags" class="detail-meta-icon" />
+        <span><strong>Palabras clave:</strong> {article.keywords.join(', ')}</span>
+      </p>
+      <p class="detail-meta-row">
+        <Icon name="link" class="detail-meta-icon" />
+        <span>
+          <strong>Fuente:</strong>
+          <a href={article.source_url} target="_blank" rel="noreferrer"> {article.source_url} </a>
+        </span>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Resúmenes</h2>
+    <div class="abstract-grid">
+      <article class="abstract-panel">
+        <p class="abstract-label">Español</p>
+        <div class="article-content">
+          {esParagraphs.length > 0 ? (
+            esParagraphs.map((paragraph) => <p class="abstract-paragraph">{paragraph}</p>)
+          ) : (
+            <p class="muted">No hay resumen disponible en español para este artículo.</p>
+          )}
+        </div>
+      </article>
+
+      <article class="abstract-panel">
+        <p class="abstract-label">Inglés</p>
+        <div class="article-content">
+          {enParagraphs.length > 0 ? (
+            enParagraphs.map((paragraph) => <p class="abstract-paragraph">{paragraph}</p>)
+          ) : (
+            <p class="muted">No hay abstract disponible en inglés para este artículo.</p>
+          )}
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
